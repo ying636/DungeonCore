@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.DialogManagerDef>
+    <defName>DG_DialogManager_DungeonNews</defName>
+    <trees>
+      <li>
+        <tree>DG_Dialog_DungonNews</tree>
+        <conditions />
+      </li>
+    </trees>
+    <tags>
+      <li>CommonDialog</li>
+    </tags>
+  </QuestEditor_Library.DialogManagerDef>
+</Defs>

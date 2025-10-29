@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.DialogTreeDef>
+    <defName>DG_Dialog_Sanguophage</defName>
+    <title>DG_TalkWithSanguophage</title>
+    <requireNonHostile>true</requireNonHostile>
+    <dialogReportKey>DefaultDialogKey</dialogReportKey>
+    <curIndex>1</curIndex>
+    <nodeMoulds>
+      <li>
+        <key>0</key>
+        <value>
+          <text>DG_TalkWithSanguophage_Node_I</text>
+          <index>0</index>
+          <subNodeIndexs />
+          <options>
+            <li>
+              <text>New</text>
+              <hideWhenDisabled>false</hideWhenDisabled>
+              <results>
+                <li>
+                  <resultName>Undefined</resultName>
+                </li>
+              </results>
+            </li>
+          </options>
+        </value>
+      </li>
+    </nodeMoulds>
+  </QuestEditor_Library.DialogTreeDef>
+</Defs>

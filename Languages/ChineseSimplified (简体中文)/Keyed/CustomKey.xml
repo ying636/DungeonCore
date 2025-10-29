@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <!-- EN: Some insects have emerged from the surrounding corpses!!! -->
+  <DG_SomeCorpse_InsectsDrillingOut>一些虫族从周围的尸骸中钻了出来！！！</DG_SomeCorpse_InsectsDrillingOut>
+
+    <!-- EN: Read books -->
+  <DG_Readbooks>阅读书籍</DG_Readbooks>
+    <!-- EN: {Trigger} reads some interesting and enjoyable books -->
+  <DG_Readbooks_GoodMood>{Trigger}读到了一些有趣的、令人愉快的书</DG_Readbooks_GoodMood>
+    <!-- EN: {Trigger} reads some despairing and gloomy books -->
+  <DG_Readbooks_BadMood>{Trigger}读到了一些绝望的、阴暗的书</DG_Readbooks_BadMood>
+
+    <!-- EN: The tomb of an ancient emperor seems to contain good things -->
+  <DG_GoldenTomb>一位古代皇帝的墓穴，里面似乎有好东西</DG_GoldenTomb>
+
+    <!-- EN: When the powerful mechanoid died, a gap appeared in the distant golden wall. -->
+  <DG_WallDestory>当那只强大的机械族死去的时候，远处的黄金墙出现了个缺口。</DG_WallDestory>
+
+    <!-- EN: There is an ancient lying in the casket. After we opened it, {Interviewee_pronoun} woke up from a long sleep and promised to give us some rewards as a reward for awakening {Interviewee_objective}. -->
+  <DG_TalkWithAncient_Node_I>休眠舱内躺着一位古代人，在我们打开后{Interviewee_pronoun}从漫长的沉睡中苏醒过来了，并承诺给予我们一些报酬作为唤醒{Interviewee_pronoun}的奖励。</DG_TalkWithAncient_Node_I>
+    <!-- EN: Convince {Interviewee_pronoun} to join the colony -->
+  <DG_TalkWithAncient_Node_I_Option_I>说服其加入殖民地</DG_TalkWithAncient_Node_I_Option_I>
+    <!-- EN: We need some treasure -->
+  <DG_TalkWithAncient_Node_I_Option_II>我们需要一些财宝</DG_TalkWithAncient_Node_I_Option_II>
+
+    <!-- EN: {Interviewee_nameDef} has become a member of us -->
+  <DG_TalkWithAncient_JoinToColony>{Interviewee_nameDef}已经成为了我们的一员</DG_TalkWithAncient_JoinToColony>
+    <!-- EN: {Interviewee_nameDef} gave us some treasures to carry with {Interviewee_objective} -->
+  <DG_TalkWithAncient_GiveTreasure>{Interviewee_nameDef}给予了我们一些随身携带的宝物</DG_TalkWithAncient_GiveTreasure>
+
+    <!-- EN: A dungeon news -->
+  <DG_Dialog_DungonNews>一份地牢消息</DG_Dialog_DungonNews>
+    <!-- EN: "Hey, have you heard that a dungeon has recently appeared near here? I happen to know its exact location, and you only need to pay a little silver to get its location. It costs 5000 silver" -->
+  <DG_Dialog_DungonNews_Node_I>“嘿，你听说最近一座地牢在这附近出现了吗？我恰好知道它的具体位置，只需要支付一点点白银就可以拿到它的位置，一口价五千白银”</DG_Dialog_DungonNews_Node_I>
+    <!-- EN: Ok -->
+  <DG_Dialog_DungonNews_Node_I_Option_I>成交</DG_Dialog_DungonNews_Node_I_Option_I>
+    <!-- EN: Bargain -->
+  <DG_Dialog_DungonNews_Node_I_Option_II>砍价</DG_Dialog_DungonNews_Node_I_Option_II>
+    <!-- EN: No -->
+  <DG_Dialog_DungonNews_Node_I_Option_III>离开</DG_Dialog_DungonNews_Node_I_Option_III>
+
+    <!-- EN: After thinking about it for a while, {Interviewee_nameDef} accepted the proposal and said, 'Two thousand five,it can't lower it any further.' -->
+  <DG_Dialog_DungonNews_Node_II>{Interviewee_nameDef}思考一番后，接受了这个提议，“两千五，不能再低了”</DG_Dialog_DungonNews_Node_II>
+
+  <!-- UNUSED -->
+  <DG_TalkWithSanguophage_Node_I>休眠舱内躺着一位赫血种，在我们打开后{Interviewee_pronoun}从漫长的沉睡中苏醒过来了。</DG_TalkWithSanguophage_Node_I>
+  <DG_TalkWithSanguophage_Node_I_Option_I>威胁</DG_TalkWithSanguophage_Node_I_Option_I>
+  <DG_TalkWithSanguophage_Node_I_Option_II>交谈</DG_TalkWithSanguophage_Node_I_Option_II>
+  <DG_TalkWithSanguophage_Node_Threaten>"听着，如果不想死的话，就给我们点好处，或者我们把你变成好处"</DG_TalkWithSanguophage_Node_Threaten>
+  <DG_TalkWithSanguophage_Node_II>“我是位”。</DG_TalkWithSanguophage_Node_II>
+
+</LanguageData>

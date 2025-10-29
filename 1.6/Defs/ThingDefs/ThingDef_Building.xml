@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="CustomThing_Entrance">
+        <defName>DC_DungeonEntrance</defName>
+        <label>Dungeon entrance</label>
+        <description>An entrance to the dungeon.</description>
+        <thingClass>QuestEditor_Library.CustomMapEntrance_Chance</thingClass>
+        <category>Building</category>
+        <graphicData>
+            <drawSize>2</drawSize>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Building/DungeonEntrance</texPath>
+        </graphicData>
+        <size>(2,2)</size>
+        <rotatable>false</rotatable>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+    </ThingDef>
+
+    <ThingDef ParentName="CustomThing_Exit">
+        <defName>DC_DungeonExit</defName>
+        <label>Exit staircase</label>
+        <description>A staircase leading to the ground.</description>
+        <thingClass>QuestEditor_Library.CustomMapExit</thingClass>
+        <category>Building</category>
+        <graphicData>
+            <drawOffset>(0,1,1)</drawOffset>
+            <drawSize>(2.5,4)</drawSize>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Building/DungeonExit</texPath>
+        </graphicData>
+        <rotatable>false</rotatable>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+    </ThingDef>
+
+    <ThingDef>
+        <defName>DC_Light</defName>
+        <label>Light</label>
+        <description>Light.</description>
+        <thingClass>ThingWithComps</thingClass>
+        <drawerType>None</drawerType>
+        <category>Ethereal</category>
+        <rotatable>false</rotatable>
+        <comps>
+            <li Class="CompProperties_Glower">
+                <glowRadius>5</glowRadius>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

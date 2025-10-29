@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: I read some desperate stories -->
+  <DG_Thought_ReadBook_Bad.stages.I_read_some_desperate_stories.label>我读到了一些绝望的故事</DG_Thought_ReadBook_Bad.stages.I_read_some_desperate_stories.label>
+  <!-- EN: I have read a book full of despair and darkness, and I cannot see any hope in the future. -->
+  <DG_Thought_ReadBook_Bad.stages.I_read_some_desperate_stories.description>我阅读了一些绝望而黑暗的故事，未来一片黑暗.......</DG_Thought_ReadBook_Bad.stages.I_read_some_desperate_stories.description>
+  
+  <!-- EN: I read some interesting stories -->
+  <DG_Thought_ReadBook_Good.stages.I_read_some_interesting_stories.label>我读到了一些有趣的故事</DG_Thought_ReadBook_Good.stages.I_read_some_interesting_stories.label>
+  <!-- EN: I have read a book full of hope and light, which is truly enjoyable. -->
+  <DG_Thought_ReadBook_Good.stages.I_read_some_interesting_stories.description>我阅读了一些有趣而希望的故事，令人愉悦</DG_Thought_ReadBook_Good.stages.I_read_some_interesting_stories.description>
+  
+</LanguageData>

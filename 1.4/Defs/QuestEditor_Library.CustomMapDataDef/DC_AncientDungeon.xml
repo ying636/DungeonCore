@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.CustomMapDataDef>
+    <defName>DC_AncientDungeon</defName>
+    <label>Ancient dungeon</label>
+    <fogged>false</fogged>
+    <size>(25, 1, 25)</size>
+    <isPart>false</isPart>
+    <generationLimit>1</generationLimit>
+    <replaces>
+      <li>
+        <key>BlocksMarble</key>
+        <value>
+          <li>BlocksSandstone</li>
+          <li>BlocksGranite</li>
+          <li>BlocksLimestone</li>
+          <li>BlocksSlate</li>
+          <li>BlocksMarble</li>
+        </value>
+      </li>
+    </replaces>
+    <customThings>
+      <li Class="QuestEditor_Library.CustomThingData_CustomMapEntrance">
+        <def>DC_DungeonEntrance</def>
+        <position>(0,0,0)</position>
+        <data>DC_RuinsLevel</data>
+        <exitName>DungeonExit</exitName>
+        <tagWithChance>
+          <li>
+            <tag>Dungeon</tag>
+            <chance>1</chance>
+          </li>
+        </tagWithChance>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_LootBox">
+        <def>QE_LootBox_Corpses</def>
+        <position>(-7,0,8)</position>
+        <lootBoxName>Undefined</lootBoxName>
+        <tickToOpen>350</tickToOpen>
+        <openReport>CQF_Search</openReport>
+        <destroyAfterOpening>true</destroyAfterOpening>
+        <loots>
+          <li>
+            <dataName>Unnamed</dataName>
+            <chance>0.7</chance>
+            <message>CQF_SearchSucceed</message>
+            <categorys>
+              <li>
+                <count>10~25</count>
+                <category>ResourcesRaw</category>
+              </li>
+            </categorys>
+          </li>
+          <li>
+            <dataName>Unnamed</dataName>
+            <chance>0.05</chance>
+            <message>CQF_SearchSucceed</message>
+            <categorys>
+              <li>
+                <count>1~5</count>
+                <category>BodyPartsBionic</category>
+              </li>
+            </categorys>
+          </li>
+          <li>
+            <dataName>Unnamed</dataName>
+            <chance>0.1</chance>
+            <message>CQF_SearchFail</message>
+          </li>
+          <li>
+            <dataName>Unnamed</dataName>
+            <chance>0.1</chance>
+            <message>CQF_SearchInsect</message>
+            <pawnDatas>
+              <li>
+                <enableLord>true</enableLord>
+                <count>1~2</count>
+                <faction>Insect</faction>
+                <routeName></routeName>
+                <kind>Megascarab</kind>
+                <duty>Defend</duty>
+                <spawnType>MapGeneration</spawnType>
+                <rotation>South</rotation>
+                <extraKinds>
+                  <li>Spelopede</li>
+                  <li>Megascarab</li>
+                  <li>Megaspider</li>
+                </extraKinds>
+              </li>
+            </pawnDatas>
+          </li>
+        </loots>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_LootBox">
+        <def>QE_LootBox_Corpses</def>
+        <position>(7,0,5)</position>
+        <lootBoxName>Undefined</lootBoxName>
+        <tickToOpen>350</tickToOpen>
+        <openReport>CQF_Search</openReport>
+        <destroyAfterOpening>true</destroyAfterOpening>
+        <loots>
+          <li>
+            <dataName>Unnamed</dataName>
+            <chance>0.7</chance>
+            <message>CQF_SearchSucceed</message>
+            <categorys>
+              <li>
+                <count>10~25</count>
+                <category>ResourcesRaw</category>
+              </li>
+            </categorys>
+          </li>
+          <li>
+            <dataName>Unnamed</dataName>
+            <chance>0.05</chance>
+            <message>CQF_SearchSucceed</message>
+            <categorys>
+              <li>
+                <count>1~5</count>
+                <category>BodyPartsBionic</category>
+              </li>
+            </categorys>
+          </li>
+          <li>
+            <dataName>Unnamed</dataName>
+            <chance>0.1</chance>
+            <message>CQF_SearchFail</message>
+          </li>
+          <li>
+            <dataName>Unnamed</dataName>
+            <chance>0.1</chance>
+            <message>CQF_SearchInsect</message>
+            <pawnDatas>
+              <li>
+                <enableLord>true</enableLord>
+                <count>1~2</count>
+                <faction>Insect</faction>
+                <routeName></routeName>
+                <kind>Megascarab</kind>
+                <duty>Defend</duty>
+                <spawnType>MapGeneration</spawnType>
+                <rotation>South</rotation>
+                <extraKinds>
+                  <li>Spelopede</li>
+                  <li>Megascarab</li>
+                  <li>Megaspider</li>
+                </extraKinds>
+              </li>
+            </pawnDatas>
+          </li>
+        </loots>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_LootBox">
+        <def>QE_LootBox_Corpses</def>
+        <position>(8,0,-8)</position>
+        <lootBoxName>Undefined</lootBoxName>
+        <tickToOpen>350</tickToOpen>
+        <openReport>CQF_Search</openReport>
+        <destroyAfterOpening>true</destroyAfterOpening>
+        <loots>
+          <li>
+            <dataName>Unnamed</dataName>
+            <chance>0.7</chance>
+            <message>CQF_SearchSucceed</message>
+            <categorys>
+              <li>
+                <count>10~25</count>
+                <category>ResourcesRaw</category>
+              </li>
+            </categorys>
+          </li>
+          <li>
+            <dataName>Unnamed</dataName>
+            <chance>0.05</chance>
+            <message>CQF_SearchSucceed</message>
+            <categorys>
+              <li>
+                <count>1~5</count>
+                <category>BodyPartsBionic</category>
+              </li>
+            </categorys>
+          </li>
+          <li>
+            <dataName>Unnamed</dataName>
+            <chance>0.1</chance>
+            <message>CQF_SearchFail</message>
+          </li>
+          <li>
+            <dataName>Unnamed</dataName>
+            <chance>0.1</chance>
+            <message>CQF_SearchInsect</message>
+            <pawnDatas>
+              <li>
+                <enableLord>true</enableLord>
+                <count>1~2</count>
+                <faction>Insect</faction>
+                <routeName></routeName>
+                <kind>Megascarab</kind>
+                <duty>Defend</duty>
+                <spawnType>MapGeneration</spawnType>
+                <rotation>South</rotation>
+                <extraKinds>
+                  <li>Spelopede</li>
+                  <li>Megascarab</li>
+                  <li>Megaspider</li>
+                </extraKinds>
+              </li>
+            </pawnDatas>
+          </li>
+        </loots>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_LootBox">
+        <def>QE_LootBox_Corpses</def>
+        <position>(-9,0,-7)</position>
+        <lootBoxName>Undefined</lootBoxName>
+        <tickToOpen>350</tickToOpen>
+        <openReport>CQF_Search</openReport>
+        <destroyAfterOpening>true</destroyAfterOpening>
+        <loots>
+          <li>
+            <dataName>Unnamed</dataName>
+            <chance>0.7</chance>
+            <message>CQF_SearchSucceed</message>
+            <categorys>
+              <li>
+                <count>10~25</count>
+                <category>ResourcesRaw</category>
+              </li>
+            </categorys>
+          </li>
+          <li>
+            <dataName>Unnamed</dataName>
+            <chance>0.05</chance>
+            <message>CQF_SearchSucceed</message>
+            <categorys>
+              <li>
+                <count>1~5</count>
+                <category>BodyPartsBionic</category>
+              </li>
+            </categorys>
+          </li>
+          <li>
+            <dataName>Unnamed</dataName>
+            <chance>0.1</chance>
+            <message>CQF_SearchFail</message>
+          </li>
+          <li>
+            <dataName>Unnamed</dataName>
+            <chance>0.1</chance>
+            <message>CQF_SearchInsect</message>
+            <pawnDatas>
+              <li>
+                <enableLord>true</enableLord>
+                <count>1~2</count>
+                <faction>Insect</faction>
+                <routeName></routeName>
+                <kind>Megascarab</kind>
+                <duty>Defend</duty>
+                <spawnType>MapGeneration</spawnType>
+                <rotation>South</rotation>
+                <extraKinds>
+                  <li>Spelopede</li>
+                  <li>Megascarab</li>
+                  <li>Megaspider</li>
+                </extraKinds>
+              </li>
+            </pawnDatas>
+          </li>
+        </loots>
+      </li>
+    </customThings>
+    <terrains>
+      <li>
+        <key>TileMarble</key>
+        <value>
+          <li>(-4, 0, -9)</li>
+          <li>(-3, 0, -9)</li>
+          <li>(2, 0, -9)</li>
+          <li>(3, 0, -9)</li>
+          <li>(4, 0, -9)</li>
+          <li>(5, 0, -9)</li>
+          <li>(6, 0, -9)</li>
+          <li>(7, 0, -9)</li>
+          <li>(-8, 0, -8)</li>
+          <li>(-7, 0, -8)</li>
+          <li>(-6, 0, -8)</li>
+          <li>(-5, 0, -8)</li>
+          <li>(-4, 0, -8)</li>
+          <li>(-3, 0, -8)</li>
+          <li>(-2, 0, -8)</li>
+          <li>(2, 0, -8)</li>
+          <li>(3, 0, -8)</li>
+          <li>(4, 0, -8)</li>
+          <li>(5, 0, -8)</li>
+          <li>(6, 0, -8)</li>
+          <li>(7, 0, -8)</li>
+          <li>(-8, 0, -7)</li>
+          <li>(-7, 0, -7)</li>
+          <li>(-6, 0, -7)</li>
+          <li>(-5, 0, -7)</li>
+          <li>(-4, 0, -7)</li>
+          <li>(-3, 0, -7)</li>
+          <li>(-2, 0, -7)</li>
+          <li>(2, 0, -7)</li>
+          <li>(3, 0, -7)</li>
+          <li>(4, 0, -7)</li>
+          <li>(5, 0, -7)</li>
+          <li>(6, 0, -7)</li>
+          <li>(7, 0, -7)</li>
+          <li>(-8, 0, -6)</li>
+          <li>(-7, 0, -6)</li>
+          <li>(-6, 0, -6)</li>
+          <li>(-5, 0, -6)</li>
+          <li>(-4, 0, -6)</li>
+          <li>(2, 0, -6)</li>
+          <li>(3, 0, -6)</li>
+          <li>(4, 0, -6)</li>
+          <li>(5, 0, -6)</li>
+          <li>(6, 0, -6)</li>
+          <li>(7, 0, -6)</li>
+          <li>(8, 0, -6)</li>
+          <li>(9, 0, -6)</li>
+          <li>(10, 0, -6)</li>
+          <li>(-8, 0, -5)</li>
+          <li>(-7, 0, -5)</li>
+          <li>(-6, 0, -5)</li>
+          <li>(-5, 0, -5)</li>
+          <li>(-4, 0, -5)</li>
+          <li>(-3, 0, -5)</li>
+          <li>(-2, 0, -5)</li>
+          <li>(-1, 0, -5)</li>
+          <li>(0, 0, -5)</li>
+          <li>(1, 0, -5)</li>
+          <li>(2, 0, -5)</li>
+          <li>(3, 0, -5)</li>
+          <li>(4, 0, -5)</li>
+          <li>(5, 0, -5)</li>
+          <li>(6, 0, -5)</li>
+          <li>(7, 0, -5)</li>
+          <li>(8, 0, -5)</li>
+          <li>(-5, 0, -4)</li>
+          <li>(-4, 0, -4)</li>
+          <li>(-3, 0, -4)</li>
+          <li>(-2, 0, -4)</li>
+          <li>(-1, 0, -4)</li>
+          <li>(0, 0, -4)</li>
+          <li>(1, 0, -4)</li>
+          <li>(2, 0, -4)</li>
+          <li>(3, 0, -4)</li>
+          <li>(4, 0, -4)</li>
+          <li>(7, 0, -4)</li>
+          <li>(8, 0, -4)</li>
+          <li>(-5, 0, -3)</li>
+          <li>(-4, 0, -3)</li>
+          <li>(-3, 0, -3)</li>
+          <li>(-2, 0, -3)</li>
+          <li>(-1, 0, -3)</li>
+          <li>(0, 0, -3)</li>
+          <li>(1, 0, -3)</li>
+          <li>(2, 0, -3)</li>
+          <li>(3, 0, -3)</li>
+          <li>(4, 0, -3)</li>
+          <li>(-8, 0, -2)</li>
+          <li>(-7, 0, -2)</li>
+          <li>(-6, 0, -2)</li>
+          <li>(-5, 0, -2)</li>
+          <li>(-4, 0, -2)</li>
+          <li>(-3, 0, -2)</li>
+          <li>(-2, 0, -2)</li>
+          <li>(-1, 0, -2)</li>
+          <li>(0, 0, -2)</li>
+          <li>(1, 0, -2)</li>
+          <li>(2, 0, -2)</li>
+          <li>(3, 0, -2)</li>
+          <li>(4, 0, -2)</li>
+          <li>(5, 0, -2)</li>
+          <li>(6, 0, -2)</li>
+          <li>(7, 0, -2)</li>
+          <li>(8, 0, -2)</li>
+          <li>(-8, 0, -1)</li>
+          <li>(-7, 0, -1)</li>
+          <li>(-6, 0, -1)</li>
+          <li>(-5, 0, -1)</li>
+          <li>(-4, 0, -1)</li>
+          <li>(-3, 0, -1)</li>
+          <li>(-2, 0, -1)</li>
+          <li>(-1, 0, -1)</li>
+          <li>(0, 0, -1)</li>
+          <li>(1, 0, -1)</li>
+          <li>(2, 0, -1)</li>
+          <li>(3, 0, -1)</li>
+          <li>(4, 0, -1)</li>
+          <li>(5, 0, -1)</li>
+          <li>(6, 0, -1)</li>
+          <li>(7, 0, -1)</li>
+          <li>(8, 0, -1)</li>
+          <li>(-8, 0, 0)</li>
+          <li>(-7, 0, 0)</li>
+          <li>(-6, 0, 0)</li>
+          <li>(-5, 0, 0)</li>
+          <li>(-4, 0, 0)</li>
+          <li>(-3, 0, 0)</li>
+          <li>(-2, 0, 0)</li>
+          <li>(-1, 0, 0)</li>
+          <li>(0, 0, 0)</li>
+          <li>(1, 0, 0)</li>
+          <li>(2, 0, 0)</li>
+          <li>(3, 0, 0)</li>
+          <li>(4, 0, 0)</li>
+          <li>(-4, 0, 1)</li>
+          <li>(-3, 0, 1)</li>
+          <li>(-2, 0, 1)</li>
+          <li>(-1, 0, 1)</li>
+          <li>(0, 0, 1)</li>
+          <li>(1, 0, 1)</li>
+          <li>(2, 0, 1)</li>
+          <li>(3, 0, 1)</li>
+          <li>(4, 0, 1)</li>
+          <li>(-4, 0, 2)</li>
+          <li>(-3, 0, 2)</li>
+          <li>(-2, 0, 2)</li>
+          <li>(-1, 0, 2)</li>
+          <li>(0, 0, 2)</li>
+          <li>(1, 0, 2)</li>
+          <li>(2, 0, 2)</li>
+          <li>(3, 0, 2)</li>
+          <li>(4, 0, 2)</li>
+          <li>(8, 0, 2)</li>
+          <li>(-4, 0, 3)</li>
+          <li>(-3, 0, 3)</li>
+          <li>(-2, 0, 3)</li>
+          <li>(-1, 0, 3)</li>
+          <li>(0, 0, 3)</li>
+          <li>(1, 0, 3)</li>
+          <li>(2, 0, 3)</li>
+          <li>(3, 0, 3)</li>
+          <li>(4, 0, 3)</li>
+          <li>(5, 0, 3)</li>
+          <li>(6, 0, 3)</li>
+          <li>(7, 0, 3)</li>
+          <li>(8, 0, 3)</li>
+          <li>(-4, 0, 4)</li>
+          <li>(-3, 0, 4)</li>
+          <li>(-2, 0, 4)</li>
+          <li>(0, 0, 4)</li>
+          <li>(1, 0, 4)</li>
+          <li>(2, 0, 4)</li>
+          <li>(3, 0, 4)</li>
+          <li>(4, 0, 4)</li>
+          <li>(5, 0, 4)</li>
+          <li>(6, 0, 4)</li>
+          <li>(7, 0, 4)</li>
+          <li>(8, 0, 4)</li>
+          <li>(-5, 0, 5)</li>
+          <li>(-4, 0, 5)</li>
+          <li>(-3, 0, 5)</li>
+          <li>(-2, 0, 5)</li>
+          <li>(0, 0, 5)</li>
+          <li>(1, 0, 5)</li>
+          <li>(2, 0, 5)</li>
+          <li>(3, 0, 5)</li>
+          <li>(4, 0, 5)</li>
+          <li>(5, 0, 5)</li>
+          <li>(6, 0, 5)</li>
+          <li>(7, 0, 5)</li>
+          <li>(8, 0, 5)</li>
+          <li>(-8, 0, 6)</li>
+          <li>(-7, 0, 6)</li>
+          <li>(-6, 0, 6)</li>
+          <li>(-5, 0, 6)</li>
+          <li>(-4, 0, 6)</li>
+          <li>(-3, 0, 6)</li>
+          <li>(-2, 0, 6)</li>
+          <li>(0, 0, 6)</li>
+          <li>(1, 0, 6)</li>
+          <li>(2, 0, 6)</li>
+          <li>(3, 0, 6)</li>
+          <li>(-8, 0, 7)</li>
+          <li>(-7, 0, 7)</li>
+          <li>(-6, 0, 7)</li>
+          <li>(-5, 0, 7)</li>
+          <li>(-4, 0, 7)</li>
+          <li>(-3, 0, 7)</li>
+          <li>(-2, 0, 7)</li>
+          <li>(0, 0, 7)</li>
+          <li>(1, 0, 7)</li>
+          <li>(2, 0, 7)</li>
+          <li>(3, 0, 7)</li>
+        </value>
+      </li>
+    </terrains>
+    <thingDatas>
+      <li>
+        <def>Wall</def>
+        <stuff>BlocksMarble</stuff>
+        <count>1</count>
+        <faction>PlayerColony</faction>
+        <hitPoint>360</hitPoint>
+        <allPositions>
+          <li>(-3, 0, 1)</li>
+          <li>(-3, 0, 2)</li>
+          <li>(2, 0, 3)</li>
+          <li>(3, 0, -3)</li>
+          <li>(3, 0, -2)</li>
+          <li>(3, 0, 0)</li>
+          <li>(3, 0, 1)</li>
+          <li>(-3, 0, -1)</li>
+          <li>(-3, 0, 0)</li>
+        </allPositions>
+      </li>
+    </thingDatas>
+  </QuestEditor_Library.CustomMapDataDef>
+</Defs>

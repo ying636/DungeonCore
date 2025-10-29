@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Ancient dungeon -->
+  <DC_AncientDungeon.label>远古地牢</DC_AncientDungeon.label>
+
+  <DG_MechanoidLevel.label>机械层</DG_MechanoidLevel.label>
+  <DG_MineralLevel.label>矿物层</DG_MineralLevel.label>
+  <DG_FleshLevel.label>血肉层</DG_FleshLevel.label>
+
+
+</LanguageData>

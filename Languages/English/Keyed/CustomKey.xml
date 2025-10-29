@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <DG_SomeCorpse_InsectsDrillingOut>Some insects have emerged from the surrounding corpses!!!</DG_SomeCorpse_InsectsDrillingOut>
+
+    <DG_Readbooks>Read books</DG_Readbooks>
+    <DG_Readbooks_GoodMood>{Trigger} reads some interesting and enjoyable books</DG_Readbooks_GoodMood>
+    <DG_Readbooks_BadMood>{Trigger} reads some despairing and gloomy books</DG_Readbooks_BadMood>
+
+    <DG_GoldenTomb>The tomb of an ancient emperor seems to contain good things</DG_GoldenTomb>
+
+    <DG_WallDestory>When the powerful mechanoid died, a gap appeared in the distant golden wall.</DG_WallDestory>
+
+    <DG_TalkWithAncient_Node_I>There is an ancient lying in the casket. After we opened it, {Interviewee_pronoun} woke up from a long sleep and promised to give us some rewards as a reward for awakening {Interviewee_objective}.</DG_TalkWithAncient_Node_I>
+    <DG_TalkWithAncient_Node_I_Option_I>Convince {Interviewee_pronoun} to join the colony</DG_TalkWithAncient_Node_I_Option_I>
+    <DG_TalkWithAncient_Node_I_Option_II>We need some treasure</DG_TalkWithAncient_Node_I_Option_II>
+
+    <DG_TalkWithAncient_JoinToColony>{Interviewee_nameDef} has become a member of us</DG_TalkWithAncient_JoinToColony>
+    <DG_TalkWithAncient_GiveTreasure>{Interviewee_nameDef} gave us some treasures to carry with {Interviewee_objective}</DG_TalkWithAncient_GiveTreasure>
+
+    <DG_Dialog_DungonNews>A dungeon news</DG_Dialog_DungonNews>
+    <DG_Dialog_DungonNews_Node_I>"Hey, have you heard that a dungeon has recently appeared near here? I happen to know its exact location, and you only need to pay a little silver to get its location. It costs 5000 silver"</DG_Dialog_DungonNews_Node_I>
+    <DG_Dialog_DungonNews_Node_I_Option_I>Ok</DG_Dialog_DungonNews_Node_I_Option_I>
+    <DG_Dialog_DungonNews_Node_I_Option_II>Bargain</DG_Dialog_DungonNews_Node_I_Option_II>
+    <DG_Dialog_DungonNews_Node_I_Option_III>No</DG_Dialog_DungonNews_Node_I_Option_III>
+
+    <DG_Dialog_DungonNews_Node_II>After thinking about it for a while, {Interviewee_nameDef} accepted the proposal and said, 'Two thousand five,it can't lower it any further.'</DG_Dialog_DungonNews_Node_II>
+
+</LanguageData>

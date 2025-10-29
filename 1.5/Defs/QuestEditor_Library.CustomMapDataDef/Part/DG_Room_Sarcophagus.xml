@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.CustomMapDataDef>
+    <defName>DG_Room_Sarcophagus</defName>
+    <label>Sarcophagus</label>
+    <fogged>true</fogged>
+    <size>(10, 1, 7)</size>
+    <isPart>true</isPart>
+    <commonality>0.7</commonality>
+    <generationLimit>0</generationLimit>
+    <customThings>
+      <li Class="QuestEditor_Library.CustomThingData_ZoneCore">
+        <def>QE_ZoneCore</def>
+        <position>(0,0,3)</position>
+        <coreRotation>3</coreRotation>
+        <isCenter>false</isCenter>
+        <size>0,3,9,3</size>
+        <reserveThing>
+          <def>Wall</def>
+          <stuff>BlocksMarble</stuff>
+          <hitPoint>360</hitPoint>
+          <position>(0,0,0)</position>
+        </reserveThing>
+        <conditions>
+          <li Class="QuestEditor_Library.ZoneCondition_Tag">
+            <tags>
+              <li>DungeonCorrider</li>
+            </tags>
+          </li>
+        </conditions>
+        <coreTags>
+          <li>DungeonRoom</li>
+        </coreTags>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_LootBox">
+        <def>QE_Sarcophagus</def>
+        <rotation>1</rotation>
+        <stuff>BlocksMarble</stuff>
+        <position>(7,0,3)</position>
+        <lootBoxName>Undefined</lootBoxName>
+        <tickToOpen>200</tickToOpen>
+        <openReport>CQF_Open</openReport>
+        <destroyAfterOpening>false</destroyAfterOpening>
+        <loots>
+          <li>
+            <dataName>宝藏</dataName>
+            <chance>0.05</chance>
+            <message>CQF_OpenSarcophagus_Treasures</message>
+            <things>
+              <li Class="QuestEditor_Library.CQFThingDefCount">
+                <count>15~50</count>
+                <thing>Gold</thing>
+              </li>
+            </things>
+          </li>
+          <li>
+            <dataName>贫穷</dataName>
+            <chance>0.55</chance>
+            <message>CQF_OpenSarcophagus_Poor</message>
+            <categorys>
+              <li Class="QuestEditor_Library.CQFThingCategoryCount">
+                <count>1~1</count>
+                <category>Apparel</category>
+              </li>
+            </categorys>
+          </li>
+          <li>
+            <dataName>虫族</dataName>
+            <chance>0.15</chance>
+            <message>CQF_OpenSarcophagus_Insect</message>
+            <pawnDatas>
+              <li>
+                <kind>Megascarab</kind>
+                <enableLord>true</enableLord>
+                <count>1~3</count>
+                <faction>Insect</faction>
+                <duty>Defend</duty>
+                <spawnType>MapGeneration</spawnType>
+              </li>
+            </pawnDatas>
+          </li>
+          <li>
+            <dataName>机械族</dataName>
+            <chance>0.1</chance>
+            <message>CQF_OpenSarcophagus_Mechanoid</message>
+            <pawnDatas>
+              <li>
+                <kind>Mech_Scyther</kind>
+                <enableLord>true</enableLord>
+                <count>1~2</count>
+                <faction>Mechanoid</faction>
+                <duty>Defend</duty>
+                <spawnType>MapGeneration</spawnType>
+              </li>
+            </pawnDatas>
+          </li>
+          <li>
+            <dataName>等离子</dataName>
+            <chance>0.02</chance>
+            <message>CQF_OpenSarcophagus_PlasmaSword</message>
+            <things>
+              <li Class="QuestEditor_Library.CQFThingDefCount">
+                <count>1~1</count>
+                <thing>MeleeWeapon_PlasmaSword</thing>
+              </li>
+            </things>
+          </li>
+        </loots>
+      </li>
+    </customThings>
+    <roofs>
+      <li>
+        <key>RoofRockThick</key>
+        <value>
+          <li>(0, 0, 0)</li>
+          <li>(0, 0, 1)</li>
+          <li>(0, 0, 2)</li>
+          <li>(0, 0, 3)</li>
+          <li>(0, 0, 4)</li>
+          <li>(0, 0, 5)</li>
+          <li>(0, 0, 6)</li>
+          <li>(1, 0, 0)</li>
+          <li>(1, 0, 1)</li>
+          <li>(1, 0, 2)</li>
+          <li>(1, 0, 3)</li>
+          <li>(1, 0, 4)</li>
+          <li>(1, 0, 5)</li>
+          <li>(1, 0, 6)</li>
+          <li>(2, 0, 0)</li>
+          <li>(2, 0, 1)</li>
+          <li>(2, 0, 2)</li>
+          <li>(2, 0, 3)</li>
+          <li>(2, 0, 4)</li>
+          <li>(2, 0, 5)</li>
+          <li>(2, 0, 6)</li>
+          <li>(3, 0, 0)</li>
+          <li>(3, 0, 1)</li>
+          <li>(3, 0, 2)</li>
+          <li>(3, 0, 3)</li>
+          <li>(3, 0, 4)</li>
+          <li>(3, 0, 5)</li>
+          <li>(3, 0, 6)</li>
+          <li>(4, 0, 0)</li>
+          <li>(4, 0, 1)</li>
+          <li>(4, 0, 2)</li>
+          <li>(4, 0, 3)</li>
+          <li>(4, 0, 4)</li>
+          <li>(4, 0, 5)</li>
+          <li>(4, 0, 6)</li>
+          <li>(5, 0, 0)</li>
+          <li>(5, 0, 1)</li>
+          <li>(5, 0, 2)</li>
+          <li>(5, 0, 3)</li>
+          <li>(5, 0, 4)</li>
+          <li>(5, 0, 5)</li>
+          <li>(5, 0, 6)</li>
+          <li>(6, 0, 0)</li>
+          <li>(6, 0, 1)</li>
+          <li>(6, 0, 2)</li>
+          <li>(6, 0, 3)</li>
+          <li>(6, 0, 4)</li>
+          <li>(6, 0, 5)</li>
+          <li>(6, 0, 6)</li>
+          <li>(7, 0, 0)</li>
+          <li>(7, 0, 1)</li>
+          <li>(7, 0, 2)</li>
+          <li>(7, 0, 3)</li>
+          <li>(7, 0, 4)</li>
+          <li>(7, 0, 5)</li>
+          <li>(7, 0, 6)</li>
+          <li>(8, 0, 0)</li>
+          <li>(8, 0, 1)</li>
+          <li>(8, 0, 2)</li>
+          <li>(8, 0, 3)</li>
+          <li>(8, 0, 4)</li>
+          <li>(8, 0, 5)</li>
+          <li>(8, 0, 6)</li>
+          <li>(9, 0, 0)</li>
+          <li>(9, 0, 1)</li>
+          <li>(9, 0, 2)</li>
+          <li>(9, 0, 3)</li>
+          <li>(9, 0, 4)</li>
+          <li>(9, 0, 5)</li>
+          <li>(9, 0, 6)</li>
+        </value>
+      </li>
+    </roofs>
+    <terrains>
+      <li>
+        <key>TileMarble</key>
+        <value>
+          <li>(0, 0, 0)</li>
+          <li>(0, 0, 1)</li>
+          <li>(0, 0, 2)</li>
+          <li>(0, 0, 3)</li>
+          <li>(0, 0, 4)</li>
+          <li>(0, 0, 5)</li>
+          <li>(0, 0, 6)</li>
+          <li>(1, 0, 0)</li>
+          <li>(1, 0, 1)</li>
+          <li>(1, 0, 2)</li>
+          <li>(1, 0, 3)</li>
+          <li>(1, 0, 4)</li>
+          <li>(1, 0, 5)</li>
+          <li>(1, 0, 6)</li>
+          <li>(2, 0, 0)</li>
+          <li>(2, 0, 1)</li>
+          <li>(2, 0, 2)</li>
+          <li>(2, 0, 3)</li>
+          <li>(2, 0, 4)</li>
+          <li>(2, 0, 5)</li>
+          <li>(2, 0, 6)</li>
+          <li>(3, 0, 0)</li>
+          <li>(3, 0, 1)</li>
+          <li>(3, 0, 2)</li>
+          <li>(3, 0, 3)</li>
+          <li>(3, 0, 4)</li>
+          <li>(3, 0, 5)</li>
+          <li>(3, 0, 6)</li>
+          <li>(4, 0, 0)</li>
+          <li>(4, 0, 1)</li>
+          <li>(4, 0, 2)</li>
+          <li>(4, 0, 3)</li>
+          <li>(4, 0, 4)</li>
+          <li>(4, 0, 5)</li>
+          <li>(4, 0, 6)</li>
+          <li>(5, 0, 0)</li>
+          <li>(5, 0, 1)</li>
+          <li>(5, 0, 2)</li>
+          <li>(5, 0, 3)</li>
+          <li>(5, 0, 4)</li>
+          <li>(5, 0, 5)</li>
+          <li>(5, 0, 6)</li>
+          <li>(6, 0, 0)</li>
+          <li>(6, 0, 1)</li>
+          <li>(6, 0, 2)</li>
+          <li>(6, 0, 3)</li>
+          <li>(6, 0, 4)</li>
+          <li>(6, 0, 5)</li>
+          <li>(6, 0, 6)</li>
+          <li>(7, 0, 0)</li>
+          <li>(7, 0, 1)</li>
+          <li>(7, 0, 2)</li>
+          <li>(7, 0, 3)</li>
+          <li>(7, 0, 4)</li>
+          <li>(7, 0, 5)</li>
+          <li>(7, 0, 6)</li>
+          <li>(8, 0, 0)</li>
+          <li>(8, 0, 1)</li>
+          <li>(8, 0, 2)</li>
+          <li>(8, 0, 3)</li>
+          <li>(8, 0, 4)</li>
+          <li>(8, 0, 5)</li>
+          <li>(8, 0, 6)</li>
+          <li>(9, 0, 0)</li>
+          <li>(9, 0, 1)</li>
+          <li>(9, 0, 2)</li>
+          <li>(9, 0, 3)</li>
+          <li>(9, 0, 4)</li>
+          <li>(9, 0, 5)</li>
+          <li>(9, 0, 6)</li>
+        </value>
+      </li>
+    </terrains>
+    <thingDatas>
+      <li>
+        <def>Wall</def>
+        <stuff>BlocksMarble</stuff>
+        <faction>PlayerColony</faction>
+        <hitPoint>360</hitPoint>
+        <allPositions>
+          <li>(0, 0, 1)</li>
+          <li>(0, 0, 2)</li>
+          <li>(0, 0, 4)</li>
+          <li>(0, 0, 5)</li>
+          <li>(0, 0, 6)</li>
+          <li>(1, 0, 0)</li>
+          <li>(1, 0, 6)</li>
+          <li>(2, 0, 0)</li>
+          <li>(2, 0, 6)</li>
+          <li>(3, 0, 0)</li>
+          <li>(3, 0, 6)</li>
+          <li>(4, 0, 0)</li>
+          <li>(4, 0, 6)</li>
+          <li>(5, 0, 0)</li>
+          <li>(5, 0, 6)</li>
+          <li>(6, 0, 0)</li>
+          <li>(6, 0, 6)</li>
+          <li>(7, 0, 0)</li>
+          <li>(7, 0, 6)</li>
+          <li>(8, 0, 0)</li>
+          <li>(8, 0, 6)</li>
+          <li>(9, 0, 0)</li>
+          <li>(9, 0, 1)</li>
+          <li>(9, 0, 2)</li>
+          <li>(9, 0, 3)</li>
+          <li>(9, 0, 4)</li>
+          <li>(9, 0, 5)</li>
+          <li>(9, 0, 6)</li>
+          <li>(0, 0, 0)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Filth_RubbleRock</def>
+        <position>(0,0,3)</position>
+      </li>
+      <li>
+        <def>Door</def>
+        <stuff>BlocksMarble</stuff>
+        <rotation>1</rotation>
+        <faction>PlayerColony</faction>
+        <hitPoint>192</hitPoint>
+        <position>(0,0,3)</position>
+      </li>
+      <li>
+        <def>Darktorch</def>
+        <faction>PlayerColony</faction>
+        <hitPoint>75</hitPoint>
+        <allPositions>
+          <li>(1, 0, 4)</li>
+          <li>(8, 0, 2)</li>
+          <li>(8, 0, 4)</li>
+          <li>(1, 0, 2)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>PlantPot</def>
+        <stuff>BlocksMarble</stuff>
+        <faction>PlayerColony</faction>
+        <hitPoint>90</hitPoint>
+        <allPositions>
+          <li>(7, 0, 5)</li>
+          <li>(7, 0, 1)</li>
+        </allPositions>
+      </li>
+    </thingDatas>
+    <tags>
+      <li>DungeonRoom</li>
+    </tags>
+  </QuestEditor_Library.CustomMapDataDef>
+</Defs>

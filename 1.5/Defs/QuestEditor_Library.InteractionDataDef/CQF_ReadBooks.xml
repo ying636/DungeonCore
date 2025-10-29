@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.InteractionDataDef>
+    <defName>DG_ReadBooks</defName>
+    <label>DG_Readbooks</label>
+    <interactions>
+      <li>
+        <interactionText>DG_Readbooks</interactionText>
+        <tickToOperate>300</tickToOperate>
+        <results>
+          <li>
+            <resultName>DefaultName</resultName>
+            <actions>
+              <li Class="QuestEditor_Library.CQFAction_Sequence">
+                <actions>
+                  <li Class="QuestEditor_Library.CQFAction_Random">
+                    <actions>
+                      <li Class="QuestEditor_Library.CQFAction_Sequence">
+                        <actions>
+                          <li Class="QuestEditor_Library.CQFAction_GainMood">
+                            <targetsText>
+                              <li>Trigger</li>
+                            </targetsText>
+                            <thought>DG_Thought_ReadBook_Bad</thought>
+                            <stage>0</stage>
+                          </li>
+                          <li Class="QuestEditor_Library.CQFAction_Message">
+                            <type>NegativeEvent</type>
+                            <message>DG_Readbooks_BadMood</message>
+                          </li>
+                        </actions>
+                      </li>
+                      <li Class="QuestEditor_Library.CQFAction_Sequence">
+                        <actions>
+                          <li Class="QuestEditor_Library.CQFAction_GainMood">
+                            <targetsText>
+                              <li>Trigger</li>
+                            </targetsText>
+                            <thought>DG_Thought_ReadBook_Good</thought>
+                            <stage>0</stage>
+                          </li>
+                          <li Class="QuestEditor_Library.CQFAction_Message">
+                            <type>PositiveEvent</type>
+                            <message>DG_Readbooks_GoodMood</message>
+                          </li>
+                        </actions>
+                      </li>
+                      <li Class="QuestEditor_Library.CQFAction_GainExperience">
+                        <targetsText>
+                          <li>Trigger</li>
+                        </targetsText>
+                        <experienceRange>250~5000</experienceRange>
+                      </li>
+                    </actions>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Replace">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                    <data>
+                      <def>QE_EmplyBookshelf</def>
+                      <stuff>Silver</stuff>
+                      <hitPoint>69</hitPoint>
+                      <position>(0,0,0)</position>
+                    </data>
+                    <useSameStuff>true</useSameStuff>
+                  </li>
+                </actions>
+              </li>
+            </actions>
+            <conditions />
+          </li>
+        </results>
+      </li>
+    </interactions>
+  </QuestEditor_Library.InteractionDataDef>
+</Defs>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.LootDataDef>
+    <defName>DG_TreasureBox</defName>
+    <loots>
+      <li>
+        <dataName>宝藏</dataName>
+        <chance>0.5</chance>
+        <message>CQF_GorgeousTreasures</message>
+        <things>
+          <li>
+            <count>50~100</count>
+            <thing>Gold</thing>
+          </li>
+        </things>
+      </li>
+      <li>
+        <dataName>神器</dataName>
+        <chance>0.4</chance>
+        <message>CQF_ArtifactsTreasures</message>
+        <categorys>
+          <li>
+            <count>1~5</count>
+            <category>Artifacts</category>
+          </li>
+        </categorys>
+      </li>
+    </loots>
+  </QuestEditor_Library.LootDataDef>
+</Defs>

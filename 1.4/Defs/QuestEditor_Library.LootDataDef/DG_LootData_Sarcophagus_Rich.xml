@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.LootDataDef>
+    <defName>DG_LootData_Sarcophagus_Rich</defName>
+    <loots>
+      <li>
+        <dataName>宝藏</dataName>
+        <chance>0.45</chance>
+        <message>CQF_OpenSarcophagus_Treasures</message>
+        <things>
+          <li>
+            <count>15~50</count>
+            <thing>Gold</thing>
+          </li>
+        </things>
+      </li>
+      <li>
+        <dataName>贫穷</dataName>
+        <chance>0.25</chance>
+        <message>CQF_OpenSarcophagus_Poor</message>
+        <categorys>
+          <li>
+            <count>1~1</count>
+            <category>Apparel</category>
+          </li>
+        </categorys>
+      </li>
+      <li>
+        <dataName>等离子</dataName>
+        <chance>0.02</chance>
+        <message>CQF_OpenSarcophagus_PlasmaSword</message>
+        <things>
+          <li>
+            <count>1~1</count>
+            <thing>MeleeWeapon_PlasmaSword</thing>
+          </li>
+        </things>
+      </li>
+    </loots>
+  </QuestEditor_Library.LootDataDef>
+</Defs>

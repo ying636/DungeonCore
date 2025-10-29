@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.LootDataDef>
+    <defName>DC_SearchCorpse</defName>
+    <loots>
+      <li>
+        <dataName>Unnamed</dataName>
+        <chance>0.7</chance>
+        <message>CQF_SearchSucceed</message>
+        <pawnDatas />
+        <things />
+        <categorys>
+          <li>
+            <count>10~25</count>
+            <category>ResourcesRaw</category>
+          </li>
+        </categorys>
+      </li>
+      <li>
+        <dataName>Unnamed</dataName>
+        <chance>0.05</chance>
+        <message>CQF_SearchSucceed</message>
+        <pawnDatas />
+        <things />
+        <categorys>
+          <li>
+            <count>1~5</count>
+            <category>BodyPartsBionic</category>
+          </li>
+        </categorys>
+      </li>
+      <li>
+        <dataName>Unnamed</dataName>
+        <chance>0.1</chance>
+        <message>CQF_SearchFail</message>
+        <pawnDatas />
+        <things />
+        <categorys />
+      </li>
+      <li>
+        <dataName>Unnamed</dataName>
+        <chance>0.1</chance>
+        <message>CQF_SearchInsect</message>
+        <pawnDatas>
+          <li>
+            <enableLord>true</enableLord>
+            <count>1~2</count>
+            <timeToSpawn>0</timeToSpawn>
+            <faction>Insect</faction>
+            <routeName />
+            <kind>Megascarab</kind>
+            <duty>Defend</duty>
+            <spawnType>MapGeneration</spawnType>
+            <rotation>South</rotation>
+            <spawnMessage></spawnMessage>
+            <extraKinds>
+              <li>Spelopede</li>
+              <li>Megascarab</li>
+              <li>Megaspider</li>
+            </extraKinds>
+          </li>
+        </pawnDatas>
+      </li>
+    </loots>
+  </QuestEditor_Library.LootDataDef>
+</Defs>

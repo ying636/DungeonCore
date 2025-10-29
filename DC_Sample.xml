@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.CustomMapDataDef>
+    <defName>DC_Sample</defName>
+    <label>Sample</label>
+    <fogged>true</fogged>
+    <size>(5, 1, 5)</size>
+    <isPart>false</isPart>
+    <customThings>
+      <li Class="QuestEditor_Library.CustomThingData_CustomMapEntrance">
+        <def>DC_DungeonEntrance</def>
+        <faction>PlayerColony</faction>
+        <position>(-1,0,0)</position>
+        <data />
+        <exitName>DungeonExit</exitName>
+        <tagWithChance>
+          <li>
+            <tag>Dungeon</tag>
+            <chance>0.5</chance>
+          </li>
+        </tagWithChance>
+        <mapDefWithChance>
+          <li>
+            <def>DG_EndLevel</def>
+            <chance>0.5</chance>
+          </li>
+        </mapDefWithChance>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_CustomMapExit">
+        <def>DC_DungeonExit</def>
+        <faction>PlayerColony</faction>
+        <position>(1,0,-1)</position>
+        <exitName>DungeonExit</exitName>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>QE_Sign</def>
+        <stuff>Gold</stuff>
+        <faction>PlayerColony</faction>
+        <v>Aƞ èẋìṭ ìș ƞèçèșșàṟý, þùṭ àƞ èƞṭṟàƞçè ìș ƞòṭ</v>
+        <customDescription>An exit is necessary, but an entrance is not</customDescription>
+        <position>(-1,0,-1)</position>
+      </li>
+    </customThings>
+    <roofs>
+      <li>
+        <key>RoofConstructed</key>
+        <value>
+          <li>(-2, 0, -2)</li>
+          <li>(-1, 0, -2)</li>
+          <li>(0, 0, -2)</li>
+          <li>(1, 0, -2)</li>
+          <li>(2, 0, -2)</li>
+          <li>(-2, 0, -1)</li>
+          <li>(-1, 0, -1)</li>
+          <li>(0, 0, -1)</li>
+          <li>(1, 0, -1)</li>
+          <li>(2, 0, -1)</li>
+          <li>(-2, 0, 0)</li>
+          <li>(-1, 0, 0)</li>
+          <li>(0, 0, 0)</li>
+          <li>(1, 0, 0)</li>
+          <li>(2, 0, 0)</li>
+          <li>(-2, 0, 1)</li>
+          <li>(-1, 0, 1)</li>
+          <li>(0, 0, 1)</li>
+          <li>(1, 0, 1)</li>
+          <li>(2, 0, 1)</li>
+          <li>(-2, 0, 2)</li>
+          <li>(-1, 0, 2)</li>
+          <li>(0, 0, 2)</li>
+          <li>(1, 0, 2)</li>
+          <li>(2, 0, 2)</li>
+        </value>
+      </li>
+    </roofs>
+    <terrains>
+      <li>
+        <key>TileMarble</key>
+        <value>
+          <li>(-2, 0, -2)</li>
+          <li>(-1, 0, -2)</li>
+          <li>(0, 0, -2)</li>
+          <li>(1, 0, -2)</li>
+          <li>(2, 0, -2)</li>
+          <li>(-2, 0, -1)</li>
+          <li>(-1, 0, -1)</li>
+          <li>(0, 0, -1)</li>
+          <li>(1, 0, -1)</li>
+          <li>(2, 0, -1)</li>
+          <li>(-2, 0, 0)</li>
+          <li>(-1, 0, 0)</li>
+          <li>(0, 0, 0)</li>
+          <li>(1, 0, 0)</li>
+          <li>(2, 0, 0)</li>
+          <li>(-2, 0, 1)</li>
+          <li>(-1, 0, 1)</li>
+          <li>(0, 0, 1)</li>
+          <li>(1, 0, 1)</li>
+          <li>(2, 0, 1)</li>
+          <li>(-2, 0, 2)</li>
+          <li>(-1, 0, 2)</li>
+          <li>(0, 0, 2)</li>
+          <li>(1, 0, 2)</li>
+          <li>(2, 0, 2)</li>
+        </value>
+      </li>
+    </terrains>
+    <thingDatas>
+      <li>
+        <def>Wall</def>
+        <stuff>BlocksMarble</stuff>
+        <faction>PlayerColony</faction>
+        <hitPoint>360</hitPoint>
+        <allPositions>
+          <li>(-1, 0, 2)</li>
+          <li>(0, 0, 2)</li>
+          <li>(1, 0, 2)</li>
+          <li>(2, 0, 2)</li>
+          <li>(2, 0, -2)</li>
+          <li>(2, 0, -1)</li>
+          <li>(2, 0, 0)</li>
+          <li>(2, 0, 1)</li>
+          <li>(-2, 0, -2)</li>
+          <li>(-1, 0, -2)</li>
+          <li>(0, 0, -2)</li>
+          <li>(1, 0, -2)</li>
+          <li>(-2, 0, -1)</li>
+          <li>(-2, 0, 0)</li>
+          <li>(-2, 0, 1)</li>
+          <li>(-2, 0, 2)</li>
+        </allPositions>
+      </li>
+    </thingDatas>
+    <tags>
+      <li>Dungeon</li>
+    </tags>
+  </QuestEditor_Library.CustomMapDataDef>
+</Defs>

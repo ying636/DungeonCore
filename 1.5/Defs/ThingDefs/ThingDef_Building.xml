@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="CustomToolBase">
+        <defName>DC_DungeonEntrance</defName>
+        <label>Dungeon entrance</label>
+        <description>An entrance to the dungeon.</description>
+        <thingClass>QuestEditor_Library.CustomMapEntrance_Chance</thingClass>
+        <category>Building</category>
+        <graphicData>
+            <drawSize>2</drawSize>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Building/DungeonEntrance</texPath>
+        </graphicData>
+        <size>(2,2)</size>
+        <rotatable>false</rotatable>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+    </ThingDef>
+
+    <ThingDef ParentName="CustomToolBase">
+        <defName>DC_DungeonExit</defName>
+        <label>Exit staircase</label>
+        <description>A staircase leading to the ground.</description>
+        <thingClass>QuestEditor_Library.CustomMapExit</thingClass>
+        <category>Building</category>
+        <graphicData>
+            <drawOffset>(0,1,1)</drawOffset>
+            <drawSize>(2.5,4)</drawSize>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Building/DungeonExit</texPath>
+        </graphicData>
+        <rotatable>false</rotatable>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+    </ThingDef>
+
+</Defs>

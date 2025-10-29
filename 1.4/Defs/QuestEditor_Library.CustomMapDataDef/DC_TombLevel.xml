@@ -1,0 +1,4783 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.CustomMapDataDef>
+    <defName>DC_TombLevel</defName>
+    <label>Tomb level</label>
+    <fogged>true</fogged>
+    <size>(40, 1, 40)</size>
+    <isPart>false</isPart>    <generationLimit>1</generationLimit>
+    <customThings>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>QF_StrangeWall</def>
+        <stuff>BlocksGranite</stuff>
+        <faction>AncientsHostile</faction>
+        <position>(11,0,-18)</position>
+        <operations>
+          <li>
+            <interactionText>DefaultInteractionText</interactionText>
+            <tickToOperate>100</tickToOperate>
+          </li>
+        </operations>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>QF_StrangeWall</def>
+        <stuff>BlocksGranite</stuff>
+        <faction>AncientsHostile</faction>
+        <position>(12,0,-18)</position>
+        <operations>
+          <li>
+            <interactionText>DefaultInteractionText</interactionText>
+            <tickToOperate>100</tickToOperate>
+          </li>
+        </operations>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>QF_StrangeWall</def>
+        <stuff>BlocksGranite</stuff>
+        <faction>AncientsHostile</faction>
+        <position>(13,0,-18)</position>
+        <operations>
+          <li>
+            <interactionText>DefaultInteractionText</interactionText>
+            <tickToOperate>100</tickToOperate>
+          </li>
+        </operations>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>QF_StrangeWall</def>
+        <stuff>BlocksGranite</stuff>
+        <faction>AncientsHostile</faction>
+        <position>(14,0,-18)</position>
+        <operations>
+          <li>
+            <interactionText>DefaultInteractionText</interactionText>
+            <tickToOperate>100</tickToOperate>
+          </li>
+        </operations>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_LootBox">
+        <def>QE_LootBox_Corpses</def>
+        <faction>AncientsHostile</faction>
+        <position>(-3,0,-18)</position>
+        <lootDef>DC_SearchCorpse</lootDef>
+        <lootBoxName>Undefined</lootBoxName>
+        <tickToOpen>150</tickToOpen>
+        <openReport>CQF_Search</openReport>
+        <destroyAfterOpening>false</destroyAfterOpening>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_LootBox">
+        <def>QE_LootBox_Corpses</def>
+        <faction>AncientsHostile</faction>
+        <position>(3,0,-17)</position>
+        <lootDef>DC_SearchCorpse</lootDef>
+        <lootBoxName>Undefined</lootBoxName>
+        <tickToOpen>150</tickToOpen>
+        <openReport>CQF_Search</openReport>
+        <destroyAfterOpening>false</destroyAfterOpening>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_LootBox">
+        <def>QE_LootBox_Corpses</def>
+        <faction>AncientsHostile</faction>
+        <position>(5,0,-18)</position>
+        <lootDef>DC_SearchCorpse</lootDef>
+        <lootBoxName>Undefined</lootBoxName>
+        <tickToOpen>150</tickToOpen>
+        <openReport>CQF_Search</openReport>
+        <destroyAfterOpening>false</destroyAfterOpening>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_LootBox">
+        <def>QE_LootBox_Corpses</def>
+        <faction>AncientsHostile</faction>
+        <position>(7,0,-18)</position>
+        <lootDef>DC_SearchCorpse</lootDef>
+        <lootBoxName>Undefined</lootBoxName>
+        <tickToOpen>150</tickToOpen>
+        <openReport>CQF_Search</openReport>
+        <destroyAfterOpening>false</destroyAfterOpening>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_CustomMapExit">
+        <def>DC_DungeonExit</def>
+        <faction>AncientsHostile</faction>
+        <position>(-17,0,14)</position>
+        <exitName>DungeonExit</exitName>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_LootBox">
+        <def>QE_LootBox_Corpses</def>
+        <faction>AncientsHostile</faction>
+        <position>(13,0,1)</position>
+        <lootDef>DC_SearchCorpse</lootDef>
+        <lootBoxName>Undefined</lootBoxName>
+        <tickToOpen>150</tickToOpen>
+        <openReport>CQF_Search</openReport>
+        <destroyAfterOpening>false</destroyAfterOpening>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_LootBox">
+        <def>QE_LootBox_Corpses</def>
+        <faction>AncientsHostile</faction>
+        <position>(14,0,6)</position>
+        <lootDef>DC_SearchCorpse</lootDef>
+        <lootBoxName>Undefined</lootBoxName>
+        <tickToOpen>150</tickToOpen>
+        <openReport>CQF_Search</openReport>
+        <destroyAfterOpening>false</destroyAfterOpening>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_LootBox">
+        <def>QE_LootBox_Corpses</def>
+        <faction>AncientsHostile</faction>
+        <position>(8,0,13)</position>
+        <lootDef>DC_SearchCorpse</lootDef>
+        <lootBoxName>Undefined</lootBoxName>
+        <tickToOpen>150</tickToOpen>
+        <openReport>CQF_Search</openReport>
+        <destroyAfterOpening>false</destroyAfterOpening>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_LootBox">
+        <def>QE_LootBox_Corpses</def>
+        <faction>AncientsHostile</faction>
+        <position>(-12,0,15)</position>
+        <lootDef>DC_SearchCorpse</lootDef>
+        <lootBoxName>Undefined</lootBoxName>
+        <tickToOpen>150</tickToOpen>
+        <openReport>CQF_Search</openReport>
+        <destroyAfterOpening>false</destroyAfterOpening>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_LootBox">
+        <def>QE_LootBox_Corpses</def>
+        <faction>AncientsHostile</faction>
+        <position>(-5,0,-2)</position>
+        <lootDef>DC_SearchCorpse</lootDef>
+        <lootBoxName>Undefined</lootBoxName>
+        <tickToOpen>150</tickToOpen>
+        <openReport>CQF_Search</openReport>
+        <destroyAfterOpening>false</destroyAfterOpening>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_LootBox">
+        <def>QE_Sarcophagus</def>
+        <stuff>Gold</stuff>
+        <faction>AncientsHostile</faction>
+        <position>(9,0,-10)</position>
+        <lootBoxName>Undefined</lootBoxName>
+        <tickToOpen>250</tickToOpen>
+        <openReport>CQF_Open</openReport>
+        <destroyAfterOpening>false</destroyAfterOpening>
+        <loots>
+          <li>
+            <dataName>古墓</dataName>
+            <chance>1</chance>
+            <message>一位古代皇帝的墓穴，里面似乎有好东西</message>
+            <pawnDatas>
+              <li>
+                <kind>Megaspider</kind>
+                <enableLord>true</enableLord>
+                <count>5~10</count>
+                <faction>Insect</faction>
+                <duty>Defend</duty>
+                <spawnType>MapGeneration</spawnType>
+                <rotation>South</rotation>
+              </li>
+            </pawnDatas>
+            <things>
+              <li>
+                <stuff>Gold</stuff>
+                <count>1~1</count>
+                <thing>Apparel_ArmorHelmetReconPrestige</thing>
+              </li>
+              <li>
+                <stuff>Gold</stuff>
+                <count>1~1</count>
+                <thing>Apparel_ArmorReconPrestige</thing>
+              </li>
+              <li>
+                <count>1~1</count>
+                <thing>Skull</thing>
+              </li>
+              <li>
+                <stuff>Plasteel</stuff>
+                <count>1~1</count>
+                <thing>MeleeWeapon_ZeusHammerBladelink</thing>
+              </li>
+            </things>
+          </li>
+        </loots>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_LootBox">
+        <def>QE_Sarcophagus</def>
+        <stuff>BlocksSandstone</stuff>
+        <faction>PlayerColony</faction>
+        <position>(-10,0,14)</position>
+        <lootDef>DG_LootData_Sarcophagus</lootDef>
+        <lootBoxName>Undefined</lootBoxName>
+        <tickToOpen>250</tickToOpen>
+        <openReport>CQF_Open</openReport>
+        <destroyAfterOpening>false</destroyAfterOpening>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_LootBox">
+        <def>QE_Sarcophagus</def>
+        <stuff>BlocksSandstone</stuff>
+        <faction>PlayerColony</faction>
+        <position>(-1,0,14)</position>
+        <lootDef>DG_LootData_Sarcophagus</lootDef>
+        <lootBoxName>Undefined</lootBoxName>
+        <tickToOpen>250</tickToOpen>
+        <openReport>CQF_Open</openReport>
+        <destroyAfterOpening>false</destroyAfterOpening>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_CustomMapEntrance">
+        <def>DC_DungeonEntrance</def>
+        <faction>AncientsHostile</faction>
+        <position>(16,0,-18)</position>
+        <data />
+        <exitName>DungeonExit</exitName>
+        <tagWithChance>
+          <li>
+            <tag>Dungeon</tag>
+            <chance>0.5</chance>
+          </li>
+        </tagWithChance>
+        <mapDefWithChance>
+          <li>
+            <def>DG_EndLevel</def>
+            <chance>0.5</chance>
+          </li>
+        </mapDefWithChance>
+      </li>
+    </customThings>
+    <pawns>
+      <li>
+        <key>(-2, 0, -10)</key>
+        <value>
+          <li>
+            <kind>Spelopede</kind>
+            <enableLord>true</enableLord>
+            <count>1~2</count>
+            <faction>Insect</faction>
+            <duty>Defend</duty>
+            <spawnType>MapGeneration</spawnType>
+            <rotation>South</rotation>
+            <extraKinds>
+              <li>Megaspider</li>
+              <li>Megascarab</li>
+            </extraKinds>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(1, 0, -17)</key>
+        <value>
+          <li>
+            <kind>Spelopede</kind>
+            <enableLord>true</enableLord>
+            <count>1~2</count>
+            <faction>Insect</faction>
+            <duty>Defend</duty>
+            <spawnType>MapGeneration</spawnType>
+            <rotation>South</rotation>
+            <extraKinds>
+              <li>Megaspider</li>
+              <li>Megascarab</li>
+            </extraKinds>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(15, 0, 14)</key>
+        <value>
+          <li>
+            <kind>Spelopede</kind>
+            <enableLord>true</enableLord>
+            <count>1~2</count>
+            <faction>Insect</faction>
+            <duty>Defend</duty>
+            <spawnType>MapGeneration</spawnType>
+            <rotation>South</rotation>
+            <extraKinds>
+              <li>Megaspider</li>
+              <li>Megascarab</li>
+            </extraKinds>
+          </li>
+        </value>
+      </li>
+    </pawns>
+    <roofs>
+      <li>
+        <key>RoofConstructed</key>
+        <value>
+          <li>(-20, 0, -20)</li>
+          <li>(-19, 0, -20)</li>
+          <li>(-18, 0, -20)</li>
+          <li>(-17, 0, -20)</li>
+          <li>(-16, 0, -20)</li>
+          <li>(-15, 0, -20)</li>
+          <li>(-14, 0, -20)</li>
+          <li>(-13, 0, -20)</li>
+          <li>(-12, 0, -20)</li>
+          <li>(-11, 0, -20)</li>
+          <li>(-10, 0, -20)</li>
+          <li>(-9, 0, -20)</li>
+          <li>(-8, 0, -20)</li>
+          <li>(-7, 0, -20)</li>
+          <li>(-6, 0, -20)</li>
+          <li>(-5, 0, -20)</li>
+          <li>(-4, 0, -20)</li>
+          <li>(-3, 0, -20)</li>
+          <li>(-2, 0, -20)</li>
+          <li>(-1, 0, -20)</li>
+          <li>(0, 0, -20)</li>
+          <li>(1, 0, -20)</li>
+          <li>(2, 0, -20)</li>
+          <li>(3, 0, -20)</li>
+          <li>(4, 0, -20)</li>
+          <li>(5, 0, -20)</li>
+          <li>(6, 0, -20)</li>
+          <li>(7, 0, -20)</li>
+          <li>(8, 0, -20)</li>
+          <li>(9, 0, -20)</li>
+          <li>(10, 0, -20)</li>
+          <li>(11, 0, -20)</li>
+          <li>(12, 0, -20)</li>
+          <li>(13, 0, -20)</li>
+          <li>(14, 0, -20)</li>
+          <li>(15, 0, -20)</li>
+          <li>(16, 0, -20)</li>
+          <li>(17, 0, -20)</li>
+          <li>(18, 0, -20)</li>
+          <li>(19, 0, -20)</li>
+          <li>(-20, 0, -19)</li>
+          <li>(-19, 0, -19)</li>
+          <li>(-18, 0, -19)</li>
+          <li>(-17, 0, -19)</li>
+          <li>(-16, 0, -19)</li>
+          <li>(-15, 0, -19)</li>
+          <li>(-14, 0, -19)</li>
+          <li>(-13, 0, -19)</li>
+          <li>(-12, 0, -19)</li>
+          <li>(-11, 0, -19)</li>
+          <li>(-10, 0, -19)</li>
+          <li>(-9, 0, -19)</li>
+          <li>(-8, 0, -19)</li>
+          <li>(-7, 0, -19)</li>
+          <li>(-6, 0, -19)</li>
+          <li>(-5, 0, -19)</li>
+          <li>(-4, 0, -19)</li>
+          <li>(-3, 0, -19)</li>
+          <li>(-2, 0, -19)</li>
+          <li>(-1, 0, -19)</li>
+          <li>(0, 0, -19)</li>
+          <li>(1, 0, -19)</li>
+          <li>(2, 0, -19)</li>
+          <li>(3, 0, -19)</li>
+          <li>(4, 0, -19)</li>
+          <li>(5, 0, -19)</li>
+          <li>(6, 0, -19)</li>
+          <li>(7, 0, -19)</li>
+          <li>(8, 0, -19)</li>
+          <li>(9, 0, -19)</li>
+          <li>(10, 0, -19)</li>
+          <li>(11, 0, -19)</li>
+          <li>(12, 0, -19)</li>
+          <li>(13, 0, -19)</li>
+          <li>(14, 0, -19)</li>
+          <li>(15, 0, -19)</li>
+          <li>(16, 0, -19)</li>
+          <li>(17, 0, -19)</li>
+          <li>(18, 0, -19)</li>
+          <li>(19, 0, -19)</li>
+          <li>(-20, 0, -18)</li>
+          <li>(-19, 0, -18)</li>
+          <li>(-18, 0, -18)</li>
+          <li>(-17, 0, -18)</li>
+          <li>(-16, 0, -18)</li>
+          <li>(-15, 0, -18)</li>
+          <li>(-14, 0, -18)</li>
+          <li>(-13, 0, -18)</li>
+          <li>(-12, 0, -18)</li>
+          <li>(-11, 0, -18)</li>
+          <li>(-10, 0, -18)</li>
+          <li>(-9, 0, -18)</li>
+          <li>(-8, 0, -18)</li>
+          <li>(-7, 0, -18)</li>
+          <li>(-6, 0, -18)</li>
+          <li>(-5, 0, -18)</li>
+          <li>(-4, 0, -18)</li>
+          <li>(-3, 0, -18)</li>
+          <li>(-2, 0, -18)</li>
+          <li>(-1, 0, -18)</li>
+          <li>(0, 0, -18)</li>
+          <li>(1, 0, -18)</li>
+          <li>(2, 0, -18)</li>
+          <li>(3, 0, -18)</li>
+          <li>(4, 0, -18)</li>
+          <li>(5, 0, -18)</li>
+          <li>(6, 0, -18)</li>
+          <li>(7, 0, -18)</li>
+          <li>(8, 0, -18)</li>
+          <li>(9, 0, -18)</li>
+          <li>(10, 0, -18)</li>
+          <li>(11, 0, -18)</li>
+          <li>(12, 0, -18)</li>
+          <li>(13, 0, -18)</li>
+          <li>(14, 0, -18)</li>
+          <li>(15, 0, -18)</li>
+          <li>(16, 0, -18)</li>
+          <li>(17, 0, -18)</li>
+          <li>(18, 0, -18)</li>
+          <li>(19, 0, -18)</li>
+          <li>(-20, 0, -17)</li>
+          <li>(-19, 0, -17)</li>
+          <li>(-18, 0, -17)</li>
+          <li>(-17, 0, -17)</li>
+          <li>(-16, 0, -17)</li>
+          <li>(-15, 0, -17)</li>
+          <li>(-14, 0, -17)</li>
+          <li>(-13, 0, -17)</li>
+          <li>(-12, 0, -17)</li>
+          <li>(-11, 0, -17)</li>
+          <li>(-10, 0, -17)</li>
+          <li>(-9, 0, -17)</li>
+          <li>(-8, 0, -17)</li>
+          <li>(-7, 0, -17)</li>
+          <li>(-6, 0, -17)</li>
+          <li>(-5, 0, -17)</li>
+          <li>(-4, 0, -17)</li>
+          <li>(-3, 0, -17)</li>
+          <li>(-2, 0, -17)</li>
+          <li>(-1, 0, -17)</li>
+          <li>(0, 0, -17)</li>
+          <li>(1, 0, -17)</li>
+          <li>(2, 0, -17)</li>
+          <li>(3, 0, -17)</li>
+          <li>(4, 0, -17)</li>
+          <li>(5, 0, -17)</li>
+          <li>(6, 0, -17)</li>
+          <li>(7, 0, -17)</li>
+          <li>(8, 0, -17)</li>
+          <li>(9, 0, -17)</li>
+          <li>(10, 0, -17)</li>
+          <li>(11, 0, -17)</li>
+          <li>(12, 0, -17)</li>
+          <li>(13, 0, -17)</li>
+          <li>(14, 0, -17)</li>
+          <li>(15, 0, -17)</li>
+          <li>(16, 0, -17)</li>
+          <li>(17, 0, -17)</li>
+          <li>(18, 0, -17)</li>
+          <li>(19, 0, -17)</li>
+          <li>(-20, 0, -16)</li>
+          <li>(-19, 0, -16)</li>
+          <li>(-18, 0, -16)</li>
+          <li>(-17, 0, -16)</li>
+          <li>(-16, 0, -16)</li>
+          <li>(-15, 0, -16)</li>
+          <li>(-14, 0, -16)</li>
+          <li>(-13, 0, -16)</li>
+          <li>(-12, 0, -16)</li>
+          <li>(-11, 0, -16)</li>
+          <li>(-10, 0, -16)</li>
+          <li>(-9, 0, -16)</li>
+          <li>(-8, 0, -16)</li>
+          <li>(-7, 0, -16)</li>
+          <li>(-6, 0, -16)</li>
+          <li>(-5, 0, -16)</li>
+          <li>(-4, 0, -16)</li>
+          <li>(-3, 0, -16)</li>
+          <li>(-2, 0, -16)</li>
+          <li>(-1, 0, -16)</li>
+          <li>(0, 0, -16)</li>
+          <li>(1, 0, -16)</li>
+          <li>(2, 0, -16)</li>
+          <li>(3, 0, -16)</li>
+          <li>(4, 0, -16)</li>
+          <li>(5, 0, -16)</li>
+          <li>(6, 0, -16)</li>
+          <li>(7, 0, -16)</li>
+          <li>(8, 0, -16)</li>
+          <li>(9, 0, -16)</li>
+          <li>(10, 0, -16)</li>
+          <li>(11, 0, -16)</li>
+          <li>(12, 0, -16)</li>
+          <li>(13, 0, -16)</li>
+          <li>(14, 0, -16)</li>
+          <li>(15, 0, -16)</li>
+          <li>(16, 0, -16)</li>
+          <li>(17, 0, -16)</li>
+          <li>(18, 0, -16)</li>
+          <li>(19, 0, -16)</li>
+          <li>(-20, 0, -15)</li>
+          <li>(-19, 0, -15)</li>
+          <li>(-18, 0, -15)</li>
+          <li>(-17, 0, -15)</li>
+          <li>(-16, 0, -15)</li>
+          <li>(-15, 0, -15)</li>
+          <li>(-14, 0, -15)</li>
+          <li>(-13, 0, -15)</li>
+          <li>(-12, 0, -15)</li>
+          <li>(-11, 0, -15)</li>
+          <li>(-10, 0, -15)</li>
+          <li>(-9, 0, -15)</li>
+          <li>(-8, 0, -15)</li>
+          <li>(-7, 0, -15)</li>
+          <li>(-6, 0, -15)</li>
+          <li>(-5, 0, -15)</li>
+          <li>(-4, 0, -15)</li>
+          <li>(-3, 0, -15)</li>
+          <li>(-2, 0, -15)</li>
+          <li>(-1, 0, -15)</li>
+          <li>(0, 0, -15)</li>
+          <li>(1, 0, -15)</li>
+          <li>(2, 0, -15)</li>
+          <li>(3, 0, -15)</li>
+          <li>(4, 0, -15)</li>
+          <li>(5, 0, -15)</li>
+          <li>(6, 0, -15)</li>
+          <li>(7, 0, -15)</li>
+          <li>(8, 0, -15)</li>
+          <li>(9, 0, -15)</li>
+          <li>(10, 0, -15)</li>
+          <li>(11, 0, -15)</li>
+          <li>(12, 0, -15)</li>
+          <li>(13, 0, -15)</li>
+          <li>(14, 0, -15)</li>
+          <li>(15, 0, -15)</li>
+          <li>(16, 0, -15)</li>
+          <li>(17, 0, -15)</li>
+          <li>(18, 0, -15)</li>
+          <li>(19, 0, -15)</li>
+          <li>(-20, 0, -14)</li>
+          <li>(-19, 0, -14)</li>
+          <li>(-18, 0, -14)</li>
+          <li>(-17, 0, -14)</li>
+          <li>(-16, 0, -14)</li>
+          <li>(-15, 0, -14)</li>
+          <li>(-14, 0, -14)</li>
+          <li>(-13, 0, -14)</li>
+          <li>(-12, 0, -14)</li>
+          <li>(-11, 0, -14)</li>
+          <li>(-10, 0, -14)</li>
+          <li>(-9, 0, -14)</li>
+          <li>(-8, 0, -14)</li>
+          <li>(-7, 0, -14)</li>
+          <li>(-6, 0, -14)</li>
+          <li>(-5, 0, -14)</li>
+          <li>(-4, 0, -14)</li>
+          <li>(-3, 0, -14)</li>
+          <li>(-2, 0, -14)</li>
+          <li>(-1, 0, -14)</li>
+          <li>(0, 0, -14)</li>
+          <li>(1, 0, -14)</li>
+          <li>(2, 0, -14)</li>
+          <li>(3, 0, -14)</li>
+          <li>(4, 0, -14)</li>
+          <li>(5, 0, -14)</li>
+          <li>(6, 0, -14)</li>
+          <li>(7, 0, -14)</li>
+          <li>(8, 0, -14)</li>
+          <li>(9, 0, -14)</li>
+          <li>(10, 0, -14)</li>
+          <li>(11, 0, -14)</li>
+          <li>(12, 0, -14)</li>
+          <li>(13, 0, -14)</li>
+          <li>(14, 0, -14)</li>
+          <li>(15, 0, -14)</li>
+          <li>(16, 0, -14)</li>
+          <li>(17, 0, -14)</li>
+          <li>(18, 0, -14)</li>
+          <li>(19, 0, -14)</li>
+          <li>(-20, 0, -13)</li>
+          <li>(-19, 0, -13)</li>
+          <li>(-18, 0, -13)</li>
+          <li>(-17, 0, -13)</li>
+          <li>(-16, 0, -13)</li>
+          <li>(-15, 0, -13)</li>
+          <li>(-14, 0, -13)</li>
+          <li>(-13, 0, -13)</li>
+          <li>(-12, 0, -13)</li>
+          <li>(-11, 0, -13)</li>
+          <li>(-10, 0, -13)</li>
+          <li>(-9, 0, -13)</li>
+          <li>(-8, 0, -13)</li>
+          <li>(-7, 0, -13)</li>
+          <li>(-6, 0, -13)</li>
+          <li>(-5, 0, -13)</li>
+          <li>(-4, 0, -13)</li>
+          <li>(-3, 0, -13)</li>
+          <li>(-2, 0, -13)</li>
+          <li>(-1, 0, -13)</li>
+          <li>(0, 0, -13)</li>
+          <li>(1, 0, -13)</li>
+          <li>(2, 0, -13)</li>
+          <li>(3, 0, -13)</li>
+          <li>(4, 0, -13)</li>
+          <li>(5, 0, -13)</li>
+          <li>(6, 0, -13)</li>
+          <li>(7, 0, -13)</li>
+          <li>(8, 0, -13)</li>
+          <li>(9, 0, -13)</li>
+          <li>(10, 0, -13)</li>
+          <li>(11, 0, -13)</li>
+          <li>(12, 0, -13)</li>
+          <li>(13, 0, -13)</li>
+          <li>(14, 0, -13)</li>
+          <li>(15, 0, -13)</li>
+          <li>(16, 0, -13)</li>
+          <li>(17, 0, -13)</li>
+          <li>(18, 0, -13)</li>
+          <li>(19, 0, -13)</li>
+          <li>(-20, 0, -12)</li>
+          <li>(-19, 0, -12)</li>
+          <li>(-18, 0, -12)</li>
+          <li>(-17, 0, -12)</li>
+          <li>(-16, 0, -12)</li>
+          <li>(-15, 0, -12)</li>
+          <li>(-14, 0, -12)</li>
+          <li>(-13, 0, -12)</li>
+          <li>(-12, 0, -12)</li>
+          <li>(-11, 0, -12)</li>
+          <li>(-10, 0, -12)</li>
+          <li>(-9, 0, -12)</li>
+          <li>(-8, 0, -12)</li>
+          <li>(-7, 0, -12)</li>
+          <li>(-6, 0, -12)</li>
+          <li>(-5, 0, -12)</li>
+          <li>(-4, 0, -12)</li>
+          <li>(-3, 0, -12)</li>
+          <li>(-2, 0, -12)</li>
+          <li>(-1, 0, -12)</li>
+          <li>(0, 0, -12)</li>
+          <li>(1, 0, -12)</li>
+          <li>(2, 0, -12)</li>
+          <li>(3, 0, -12)</li>
+          <li>(4, 0, -12)</li>
+          <li>(5, 0, -12)</li>
+          <li>(6, 0, -12)</li>
+          <li>(7, 0, -12)</li>
+          <li>(8, 0, -12)</li>
+          <li>(9, 0, -12)</li>
+          <li>(10, 0, -12)</li>
+          <li>(11, 0, -12)</li>
+          <li>(12, 0, -12)</li>
+          <li>(13, 0, -12)</li>
+          <li>(14, 0, -12)</li>
+          <li>(15, 0, -12)</li>
+          <li>(16, 0, -12)</li>
+          <li>(17, 0, -12)</li>
+          <li>(18, 0, -12)</li>
+          <li>(19, 0, -12)</li>
+          <li>(-20, 0, -11)</li>
+          <li>(-19, 0, -11)</li>
+          <li>(-18, 0, -11)</li>
+          <li>(-17, 0, -11)</li>
+          <li>(-16, 0, -11)</li>
+          <li>(-15, 0, -11)</li>
+          <li>(-14, 0, -11)</li>
+          <li>(-13, 0, -11)</li>
+          <li>(-12, 0, -11)</li>
+          <li>(-11, 0, -11)</li>
+          <li>(-10, 0, -11)</li>
+          <li>(-9, 0, -11)</li>
+          <li>(-8, 0, -11)</li>
+          <li>(-7, 0, -11)</li>
+          <li>(-6, 0, -11)</li>
+          <li>(-5, 0, -11)</li>
+          <li>(-4, 0, -11)</li>
+          <li>(-3, 0, -11)</li>
+          <li>(-2, 0, -11)</li>
+          <li>(-1, 0, -11)</li>
+          <li>(0, 0, -11)</li>
+          <li>(1, 0, -11)</li>
+          <li>(2, 0, -11)</li>
+          <li>(3, 0, -11)</li>
+          <li>(4, 0, -11)</li>
+          <li>(5, 0, -11)</li>
+          <li>(6, 0, -11)</li>
+          <li>(7, 0, -11)</li>
+          <li>(8, 0, -11)</li>
+          <li>(9, 0, -11)</li>
+          <li>(10, 0, -11)</li>
+          <li>(11, 0, -11)</li>
+          <li>(12, 0, -11)</li>
+          <li>(13, 0, -11)</li>
+          <li>(14, 0, -11)</li>
+          <li>(15, 0, -11)</li>
+          <li>(16, 0, -11)</li>
+          <li>(17, 0, -11)</li>
+          <li>(18, 0, -11)</li>
+          <li>(19, 0, -11)</li>
+          <li>(-20, 0, -10)</li>
+          <li>(-19, 0, -10)</li>
+          <li>(-18, 0, -10)</li>
+          <li>(-17, 0, -10)</li>
+          <li>(-16, 0, -10)</li>
+          <li>(-15, 0, -10)</li>
+          <li>(-14, 0, -10)</li>
+          <li>(-13, 0, -10)</li>
+          <li>(-12, 0, -10)</li>
+          <li>(-11, 0, -10)</li>
+          <li>(-10, 0, -10)</li>
+          <li>(-9, 0, -10)</li>
+          <li>(-8, 0, -10)</li>
+          <li>(-7, 0, -10)</li>
+          <li>(-6, 0, -10)</li>
+          <li>(-5, 0, -10)</li>
+          <li>(-4, 0, -10)</li>
+          <li>(-3, 0, -10)</li>
+          <li>(-2, 0, -10)</li>
+          <li>(-1, 0, -10)</li>
+          <li>(0, 0, -10)</li>
+          <li>(1, 0, -10)</li>
+          <li>(2, 0, -10)</li>
+          <li>(3, 0, -10)</li>
+          <li>(4, 0, -10)</li>
+          <li>(5, 0, -10)</li>
+          <li>(6, 0, -10)</li>
+          <li>(7, 0, -10)</li>
+          <li>(8, 0, -10)</li>
+          <li>(9, 0, -10)</li>
+          <li>(10, 0, -10)</li>
+          <li>(11, 0, -10)</li>
+          <li>(12, 0, -10)</li>
+          <li>(13, 0, -10)</li>
+          <li>(14, 0, -10)</li>
+          <li>(15, 0, -10)</li>
+          <li>(16, 0, -10)</li>
+          <li>(17, 0, -10)</li>
+          <li>(18, 0, -10)</li>
+          <li>(19, 0, -10)</li>
+          <li>(-20, 0, -9)</li>
+          <li>(-19, 0, -9)</li>
+          <li>(-18, 0, -9)</li>
+          <li>(-17, 0, -9)</li>
+          <li>(-16, 0, -9)</li>
+          <li>(-15, 0, -9)</li>
+          <li>(-14, 0, -9)</li>
+          <li>(-13, 0, -9)</li>
+          <li>(-12, 0, -9)</li>
+          <li>(-11, 0, -9)</li>
+          <li>(-10, 0, -9)</li>
+          <li>(-9, 0, -9)</li>
+          <li>(-8, 0, -9)</li>
+          <li>(-7, 0, -9)</li>
+          <li>(-6, 0, -9)</li>
+          <li>(-5, 0, -9)</li>
+          <li>(-4, 0, -9)</li>
+          <li>(-3, 0, -9)</li>
+          <li>(-2, 0, -9)</li>
+          <li>(-1, 0, -9)</li>
+          <li>(0, 0, -9)</li>
+          <li>(1, 0, -9)</li>
+          <li>(2, 0, -9)</li>
+          <li>(3, 0, -9)</li>
+          <li>(4, 0, -9)</li>
+          <li>(5, 0, -9)</li>
+          <li>(6, 0, -9)</li>
+          <li>(7, 0, -9)</li>
+          <li>(8, 0, -9)</li>
+          <li>(9, 0, -9)</li>
+          <li>(10, 0, -9)</li>
+          <li>(11, 0, -9)</li>
+          <li>(12, 0, -9)</li>
+          <li>(13, 0, -9)</li>
+          <li>(14, 0, -9)</li>
+          <li>(15, 0, -9)</li>
+          <li>(16, 0, -9)</li>
+          <li>(17, 0, -9)</li>
+          <li>(18, 0, -9)</li>
+          <li>(19, 0, -9)</li>
+          <li>(-20, 0, -8)</li>
+          <li>(-19, 0, -8)</li>
+          <li>(-18, 0, -8)</li>
+          <li>(-17, 0, -8)</li>
+          <li>(-16, 0, -8)</li>
+          <li>(-15, 0, -8)</li>
+          <li>(-14, 0, -8)</li>
+          <li>(-13, 0, -8)</li>
+          <li>(-12, 0, -8)</li>
+          <li>(-11, 0, -8)</li>
+          <li>(-10, 0, -8)</li>
+          <li>(-9, 0, -8)</li>
+          <li>(-8, 0, -8)</li>
+          <li>(-7, 0, -8)</li>
+          <li>(-6, 0, -8)</li>
+          <li>(-5, 0, -8)</li>
+          <li>(-4, 0, -8)</li>
+          <li>(-3, 0, -8)</li>
+          <li>(-2, 0, -8)</li>
+          <li>(-1, 0, -8)</li>
+          <li>(0, 0, -8)</li>
+          <li>(1, 0, -8)</li>
+          <li>(2, 0, -8)</li>
+          <li>(3, 0, -8)</li>
+          <li>(4, 0, -8)</li>
+          <li>(5, 0, -8)</li>
+          <li>(6, 0, -8)</li>
+          <li>(7, 0, -8)</li>
+          <li>(8, 0, -8)</li>
+          <li>(9, 0, -8)</li>
+          <li>(10, 0, -8)</li>
+          <li>(11, 0, -8)</li>
+          <li>(12, 0, -8)</li>
+          <li>(13, 0, -8)</li>
+          <li>(14, 0, -8)</li>
+          <li>(15, 0, -8)</li>
+          <li>(16, 0, -8)</li>
+          <li>(17, 0, -8)</li>
+          <li>(18, 0, -8)</li>
+          <li>(19, 0, -8)</li>
+          <li>(-20, 0, -7)</li>
+          <li>(-19, 0, -7)</li>
+          <li>(-18, 0, -7)</li>
+          <li>(-17, 0, -7)</li>
+          <li>(-16, 0, -7)</li>
+          <li>(-15, 0, -7)</li>
+          <li>(-14, 0, -7)</li>
+          <li>(-13, 0, -7)</li>
+          <li>(-12, 0, -7)</li>
+          <li>(-11, 0, -7)</li>
+          <li>(-10, 0, -7)</li>
+          <li>(-9, 0, -7)</li>
+          <li>(-8, 0, -7)</li>
+          <li>(-7, 0, -7)</li>
+          <li>(-6, 0, -7)</li>
+          <li>(-5, 0, -7)</li>
+          <li>(-4, 0, -7)</li>
+          <li>(-3, 0, -7)</li>
+          <li>(-2, 0, -7)</li>
+          <li>(-1, 0, -7)</li>
+          <li>(0, 0, -7)</li>
+          <li>(1, 0, -7)</li>
+          <li>(2, 0, -7)</li>
+          <li>(3, 0, -7)</li>
+          <li>(4, 0, -7)</li>
+          <li>(5, 0, -7)</li>
+          <li>(6, 0, -7)</li>
+          <li>(7, 0, -7)</li>
+          <li>(8, 0, -7)</li>
+          <li>(9, 0, -7)</li>
+          <li>(10, 0, -7)</li>
+          <li>(11, 0, -7)</li>
+          <li>(12, 0, -7)</li>
+          <li>(13, 0, -7)</li>
+          <li>(14, 0, -7)</li>
+          <li>(15, 0, -7)</li>
+          <li>(16, 0, -7)</li>
+          <li>(17, 0, -7)</li>
+          <li>(18, 0, -7)</li>
+          <li>(19, 0, -7)</li>
+          <li>(-20, 0, -6)</li>
+          <li>(-19, 0, -6)</li>
+          <li>(-18, 0, -6)</li>
+          <li>(-17, 0, -6)</li>
+          <li>(-16, 0, -6)</li>
+          <li>(-15, 0, -6)</li>
+          <li>(-14, 0, -6)</li>
+          <li>(-13, 0, -6)</li>
+          <li>(-12, 0, -6)</li>
+          <li>(-11, 0, -6)</li>
+          <li>(-10, 0, -6)</li>
+          <li>(-9, 0, -6)</li>
+          <li>(-8, 0, -6)</li>
+          <li>(-7, 0, -6)</li>
+          <li>(-6, 0, -6)</li>
+          <li>(-5, 0, -6)</li>
+          <li>(-4, 0, -6)</li>
+          <li>(-3, 0, -6)</li>
+          <li>(-2, 0, -6)</li>
+          <li>(-1, 0, -6)</li>
+          <li>(0, 0, -6)</li>
+          <li>(1, 0, -6)</li>
+          <li>(2, 0, -6)</li>
+          <li>(3, 0, -6)</li>
+          <li>(4, 0, -6)</li>
+          <li>(5, 0, -6)</li>
+          <li>(6, 0, -6)</li>
+          <li>(7, 0, -6)</li>
+          <li>(8, 0, -6)</li>
+          <li>(9, 0, -6)</li>
+          <li>(10, 0, -6)</li>
+          <li>(11, 0, -6)</li>
+          <li>(12, 0, -6)</li>
+          <li>(13, 0, -6)</li>
+          <li>(14, 0, -6)</li>
+          <li>(15, 0, -6)</li>
+          <li>(16, 0, -6)</li>
+          <li>(17, 0, -6)</li>
+          <li>(18, 0, -6)</li>
+          <li>(19, 0, -6)</li>
+          <li>(-20, 0, -5)</li>
+          <li>(-19, 0, -5)</li>
+          <li>(-18, 0, -5)</li>
+          <li>(-17, 0, -5)</li>
+          <li>(-16, 0, -5)</li>
+          <li>(-15, 0, -5)</li>
+          <li>(-14, 0, -5)</li>
+          <li>(-13, 0, -5)</li>
+          <li>(-12, 0, -5)</li>
+          <li>(-11, 0, -5)</li>
+          <li>(-10, 0, -5)</li>
+          <li>(-9, 0, -5)</li>
+          <li>(-8, 0, -5)</li>
+          <li>(-7, 0, -5)</li>
+          <li>(-6, 0, -5)</li>
+          <li>(-5, 0, -5)</li>
+          <li>(-4, 0, -5)</li>
+          <li>(-3, 0, -5)</li>
+          <li>(-2, 0, -5)</li>
+          <li>(-1, 0, -5)</li>
+          <li>(0, 0, -5)</li>
+          <li>(1, 0, -5)</li>
+          <li>(2, 0, -5)</li>
+          <li>(3, 0, -5)</li>
+          <li>(4, 0, -5)</li>
+          <li>(5, 0, -5)</li>
+          <li>(6, 0, -5)</li>
+          <li>(7, 0, -5)</li>
+          <li>(8, 0, -5)</li>
+          <li>(9, 0, -5)</li>
+          <li>(10, 0, -5)</li>
+          <li>(11, 0, -5)</li>
+          <li>(12, 0, -5)</li>
+          <li>(13, 0, -5)</li>
+          <li>(14, 0, -5)</li>
+          <li>(15, 0, -5)</li>
+          <li>(16, 0, -5)</li>
+          <li>(17, 0, -5)</li>
+          <li>(18, 0, -5)</li>
+          <li>(19, 0, -5)</li>
+          <li>(-20, 0, -4)</li>
+          <li>(-19, 0, -4)</li>
+          <li>(-18, 0, -4)</li>
+          <li>(-17, 0, -4)</li>
+          <li>(-16, 0, -4)</li>
+          <li>(-15, 0, -4)</li>
+          <li>(-14, 0, -4)</li>
+          <li>(-13, 0, -4)</li>
+          <li>(-12, 0, -4)</li>
+          <li>(-11, 0, -4)</li>
+          <li>(-10, 0, -4)</li>
+          <li>(-9, 0, -4)</li>
+          <li>(-8, 0, -4)</li>
+          <li>(-7, 0, -4)</li>
+          <li>(-6, 0, -4)</li>
+          <li>(-5, 0, -4)</li>
+          <li>(-4, 0, -4)</li>
+          <li>(-3, 0, -4)</li>
+          <li>(-2, 0, -4)</li>
+          <li>(-1, 0, -4)</li>
+          <li>(0, 0, -4)</li>
+          <li>(1, 0, -4)</li>
+          <li>(2, 0, -4)</li>
+          <li>(3, 0, -4)</li>
+          <li>(4, 0, -4)</li>
+          <li>(5, 0, -4)</li>
+          <li>(6, 0, -4)</li>
+          <li>(7, 0, -4)</li>
+          <li>(8, 0, -4)</li>
+          <li>(9, 0, -4)</li>
+          <li>(10, 0, -4)</li>
+          <li>(11, 0, -4)</li>
+          <li>(12, 0, -4)</li>
+          <li>(13, 0, -4)</li>
+          <li>(14, 0, -4)</li>
+          <li>(15, 0, -4)</li>
+          <li>(16, 0, -4)</li>
+          <li>(17, 0, -4)</li>
+          <li>(18, 0, -4)</li>
+          <li>(19, 0, -4)</li>
+          <li>(-20, 0, -3)</li>
+          <li>(-19, 0, -3)</li>
+          <li>(-18, 0, -3)</li>
+          <li>(-17, 0, -3)</li>
+          <li>(-16, 0, -3)</li>
+          <li>(-15, 0, -3)</li>
+          <li>(-14, 0, -3)</li>
+          <li>(-13, 0, -3)</li>
+          <li>(-12, 0, -3)</li>
+          <li>(-11, 0, -3)</li>
+          <li>(-10, 0, -3)</li>
+          <li>(-9, 0, -3)</li>
+          <li>(-8, 0, -3)</li>
+          <li>(-7, 0, -3)</li>
+          <li>(-6, 0, -3)</li>
+          <li>(-5, 0, -3)</li>
+          <li>(-4, 0, -3)</li>
+          <li>(-3, 0, -3)</li>
+          <li>(-2, 0, -3)</li>
+          <li>(-1, 0, -3)</li>
+          <li>(0, 0, -3)</li>
+          <li>(1, 0, -3)</li>
+          <li>(2, 0, -3)</li>
+          <li>(3, 0, -3)</li>
+          <li>(4, 0, -3)</li>
+          <li>(5, 0, -3)</li>
+          <li>(6, 0, -3)</li>
+          <li>(7, 0, -3)</li>
+          <li>(8, 0, -3)</li>
+          <li>(9, 0, -3)</li>
+          <li>(10, 0, -3)</li>
+          <li>(11, 0, -3)</li>
+          <li>(12, 0, -3)</li>
+          <li>(13, 0, -3)</li>
+          <li>(14, 0, -3)</li>
+          <li>(15, 0, -3)</li>
+          <li>(16, 0, -3)</li>
+          <li>(17, 0, -3)</li>
+          <li>(18, 0, -3)</li>
+          <li>(19, 0, -3)</li>
+          <li>(-20, 0, -2)</li>
+          <li>(-19, 0, -2)</li>
+          <li>(-18, 0, -2)</li>
+          <li>(-17, 0, -2)</li>
+          <li>(-16, 0, -2)</li>
+          <li>(-15, 0, -2)</li>
+          <li>(-14, 0, -2)</li>
+          <li>(-13, 0, -2)</li>
+          <li>(-12, 0, -2)</li>
+          <li>(-11, 0, -2)</li>
+          <li>(-10, 0, -2)</li>
+          <li>(-9, 0, -2)</li>
+          <li>(-8, 0, -2)</li>
+          <li>(-7, 0, -2)</li>
+          <li>(-6, 0, -2)</li>
+          <li>(-5, 0, -2)</li>
+          <li>(-4, 0, -2)</li>
+          <li>(-3, 0, -2)</li>
+          <li>(-2, 0, -2)</li>
+          <li>(-1, 0, -2)</li>
+          <li>(0, 0, -2)</li>
+          <li>(1, 0, -2)</li>
+          <li>(2, 0, -2)</li>
+          <li>(3, 0, -2)</li>
+          <li>(4, 0, -2)</li>
+          <li>(5, 0, -2)</li>
+          <li>(6, 0, -2)</li>
+          <li>(7, 0, -2)</li>
+          <li>(8, 0, -2)</li>
+          <li>(9, 0, -2)</li>
+          <li>(10, 0, -2)</li>
+          <li>(11, 0, -2)</li>
+          <li>(12, 0, -2)</li>
+          <li>(13, 0, -2)</li>
+          <li>(14, 0, -2)</li>
+          <li>(15, 0, -2)</li>
+          <li>(16, 0, -2)</li>
+          <li>(17, 0, -2)</li>
+          <li>(18, 0, -2)</li>
+          <li>(19, 0, -2)</li>
+          <li>(-20, 0, -1)</li>
+          <li>(-19, 0, -1)</li>
+          <li>(-18, 0, -1)</li>
+          <li>(-17, 0, -1)</li>
+          <li>(-16, 0, -1)</li>
+          <li>(-15, 0, -1)</li>
+          <li>(-14, 0, -1)</li>
+          <li>(-13, 0, -1)</li>
+          <li>(-12, 0, -1)</li>
+          <li>(-11, 0, -1)</li>
+          <li>(-10, 0, -1)</li>
+          <li>(-9, 0, -1)</li>
+          <li>(-8, 0, -1)</li>
+          <li>(-7, 0, -1)</li>
+          <li>(-6, 0, -1)</li>
+          <li>(-5, 0, -1)</li>
+          <li>(-4, 0, -1)</li>
+          <li>(-3, 0, -1)</li>
+          <li>(-2, 0, -1)</li>
+          <li>(-1, 0, -1)</li>
+          <li>(0, 0, -1)</li>
+          <li>(1, 0, -1)</li>
+          <li>(2, 0, -1)</li>
+          <li>(3, 0, -1)</li>
+          <li>(4, 0, -1)</li>
+          <li>(5, 0, -1)</li>
+          <li>(6, 0, -1)</li>
+          <li>(7, 0, -1)</li>
+          <li>(8, 0, -1)</li>
+          <li>(9, 0, -1)</li>
+          <li>(10, 0, -1)</li>
+          <li>(11, 0, -1)</li>
+          <li>(12, 0, -1)</li>
+          <li>(13, 0, -1)</li>
+          <li>(14, 0, -1)</li>
+          <li>(15, 0, -1)</li>
+          <li>(16, 0, -1)</li>
+          <li>(17, 0, -1)</li>
+          <li>(18, 0, -1)</li>
+          <li>(19, 0, -1)</li>
+          <li>(-20, 0, 0)</li>
+          <li>(-19, 0, 0)</li>
+          <li>(-18, 0, 0)</li>
+          <li>(-17, 0, 0)</li>
+          <li>(-16, 0, 0)</li>
+          <li>(-15, 0, 0)</li>
+          <li>(-14, 0, 0)</li>
+          <li>(-13, 0, 0)</li>
+          <li>(-12, 0, 0)</li>
+          <li>(-11, 0, 0)</li>
+          <li>(-10, 0, 0)</li>
+          <li>(-9, 0, 0)</li>
+          <li>(-8, 0, 0)</li>
+          <li>(-7, 0, 0)</li>
+          <li>(-6, 0, 0)</li>
+          <li>(-5, 0, 0)</li>
+          <li>(-4, 0, 0)</li>
+          <li>(-3, 0, 0)</li>
+          <li>(-2, 0, 0)</li>
+          <li>(-1, 0, 0)</li>
+          <li>(0, 0, 0)</li>
+          <li>(1, 0, 0)</li>
+          <li>(2, 0, 0)</li>
+          <li>(3, 0, 0)</li>
+          <li>(4, 0, 0)</li>
+          <li>(5, 0, 0)</li>
+          <li>(6, 0, 0)</li>
+          <li>(7, 0, 0)</li>
+          <li>(8, 0, 0)</li>
+          <li>(9, 0, 0)</li>
+          <li>(10, 0, 0)</li>
+          <li>(11, 0, 0)</li>
+          <li>(12, 0, 0)</li>
+          <li>(13, 0, 0)</li>
+          <li>(14, 0, 0)</li>
+          <li>(15, 0, 0)</li>
+          <li>(16, 0, 0)</li>
+          <li>(17, 0, 0)</li>
+          <li>(18, 0, 0)</li>
+          <li>(19, 0, 0)</li>
+          <li>(-20, 0, 1)</li>
+          <li>(-19, 0, 1)</li>
+          <li>(-18, 0, 1)</li>
+          <li>(-17, 0, 1)</li>
+          <li>(-16, 0, 1)</li>
+          <li>(-15, 0, 1)</li>
+          <li>(-14, 0, 1)</li>
+          <li>(-13, 0, 1)</li>
+          <li>(-12, 0, 1)</li>
+          <li>(-11, 0, 1)</li>
+          <li>(-10, 0, 1)</li>
+          <li>(-9, 0, 1)</li>
+          <li>(-8, 0, 1)</li>
+          <li>(-7, 0, 1)</li>
+          <li>(-6, 0, 1)</li>
+          <li>(-5, 0, 1)</li>
+          <li>(-4, 0, 1)</li>
+          <li>(-3, 0, 1)</li>
+          <li>(-2, 0, 1)</li>
+          <li>(-1, 0, 1)</li>
+          <li>(0, 0, 1)</li>
+          <li>(1, 0, 1)</li>
+          <li>(2, 0, 1)</li>
+          <li>(3, 0, 1)</li>
+          <li>(4, 0, 1)</li>
+          <li>(5, 0, 1)</li>
+          <li>(6, 0, 1)</li>
+          <li>(7, 0, 1)</li>
+          <li>(8, 0, 1)</li>
+          <li>(9, 0, 1)</li>
+          <li>(10, 0, 1)</li>
+          <li>(11, 0, 1)</li>
+          <li>(12, 0, 1)</li>
+          <li>(13, 0, 1)</li>
+          <li>(14, 0, 1)</li>
+          <li>(15, 0, 1)</li>
+          <li>(16, 0, 1)</li>
+          <li>(17, 0, 1)</li>
+          <li>(18, 0, 1)</li>
+          <li>(19, 0, 1)</li>
+          <li>(-20, 0, 2)</li>
+          <li>(-19, 0, 2)</li>
+          <li>(-18, 0, 2)</li>
+          <li>(-17, 0, 2)</li>
+          <li>(-16, 0, 2)</li>
+          <li>(-15, 0, 2)</li>
+          <li>(-14, 0, 2)</li>
+          <li>(-13, 0, 2)</li>
+          <li>(-12, 0, 2)</li>
+          <li>(-11, 0, 2)</li>
+          <li>(-10, 0, 2)</li>
+          <li>(-9, 0, 2)</li>
+          <li>(-8, 0, 2)</li>
+          <li>(-7, 0, 2)</li>
+          <li>(-6, 0, 2)</li>
+          <li>(-5, 0, 2)</li>
+          <li>(-4, 0, 2)</li>
+          <li>(-3, 0, 2)</li>
+          <li>(-2, 0, 2)</li>
+          <li>(-1, 0, 2)</li>
+          <li>(0, 0, 2)</li>
+          <li>(1, 0, 2)</li>
+          <li>(2, 0, 2)</li>
+          <li>(3, 0, 2)</li>
+          <li>(4, 0, 2)</li>
+          <li>(5, 0, 2)</li>
+          <li>(6, 0, 2)</li>
+          <li>(7, 0, 2)</li>
+          <li>(8, 0, 2)</li>
+          <li>(9, 0, 2)</li>
+          <li>(10, 0, 2)</li>
+          <li>(11, 0, 2)</li>
+          <li>(12, 0, 2)</li>
+          <li>(13, 0, 2)</li>
+          <li>(14, 0, 2)</li>
+          <li>(15, 0, 2)</li>
+          <li>(16, 0, 2)</li>
+          <li>(17, 0, 2)</li>
+          <li>(18, 0, 2)</li>
+          <li>(19, 0, 2)</li>
+          <li>(-20, 0, 3)</li>
+          <li>(-19, 0, 3)</li>
+          <li>(-18, 0, 3)</li>
+          <li>(-17, 0, 3)</li>
+          <li>(-16, 0, 3)</li>
+          <li>(-15, 0, 3)</li>
+          <li>(-14, 0, 3)</li>
+          <li>(-13, 0, 3)</li>
+          <li>(-12, 0, 3)</li>
+          <li>(-11, 0, 3)</li>
+          <li>(-10, 0, 3)</li>
+          <li>(-9, 0, 3)</li>
+          <li>(-8, 0, 3)</li>
+          <li>(-7, 0, 3)</li>
+          <li>(-6, 0, 3)</li>
+          <li>(-5, 0, 3)</li>
+          <li>(-4, 0, 3)</li>
+          <li>(-3, 0, 3)</li>
+          <li>(-2, 0, 3)</li>
+          <li>(-1, 0, 3)</li>
+          <li>(0, 0, 3)</li>
+          <li>(1, 0, 3)</li>
+          <li>(2, 0, 3)</li>
+          <li>(3, 0, 3)</li>
+          <li>(4, 0, 3)</li>
+          <li>(5, 0, 3)</li>
+          <li>(6, 0, 3)</li>
+          <li>(7, 0, 3)</li>
+          <li>(8, 0, 3)</li>
+          <li>(9, 0, 3)</li>
+          <li>(10, 0, 3)</li>
+          <li>(11, 0, 3)</li>
+          <li>(12, 0, 3)</li>
+          <li>(13, 0, 3)</li>
+          <li>(14, 0, 3)</li>
+          <li>(15, 0, 3)</li>
+          <li>(16, 0, 3)</li>
+          <li>(17, 0, 3)</li>
+          <li>(18, 0, 3)</li>
+          <li>(19, 0, 3)</li>
+          <li>(-20, 0, 4)</li>
+          <li>(-19, 0, 4)</li>
+          <li>(-18, 0, 4)</li>
+          <li>(-17, 0, 4)</li>
+          <li>(-16, 0, 4)</li>
+          <li>(-15, 0, 4)</li>
+          <li>(-14, 0, 4)</li>
+          <li>(-13, 0, 4)</li>
+          <li>(-12, 0, 4)</li>
+          <li>(-11, 0, 4)</li>
+          <li>(-10, 0, 4)</li>
+          <li>(-9, 0, 4)</li>
+          <li>(-8, 0, 4)</li>
+          <li>(-7, 0, 4)</li>
+          <li>(-6, 0, 4)</li>
+          <li>(-5, 0, 4)</li>
+          <li>(-4, 0, 4)</li>
+          <li>(-3, 0, 4)</li>
+          <li>(-2, 0, 4)</li>
+          <li>(-1, 0, 4)</li>
+          <li>(0, 0, 4)</li>
+          <li>(1, 0, 4)</li>
+          <li>(2, 0, 4)</li>
+          <li>(3, 0, 4)</li>
+          <li>(4, 0, 4)</li>
+          <li>(5, 0, 4)</li>
+          <li>(6, 0, 4)</li>
+          <li>(7, 0, 4)</li>
+          <li>(8, 0, 4)</li>
+          <li>(9, 0, 4)</li>
+          <li>(10, 0, 4)</li>
+          <li>(11, 0, 4)</li>
+          <li>(12, 0, 4)</li>
+          <li>(13, 0, 4)</li>
+          <li>(14, 0, 4)</li>
+          <li>(15, 0, 4)</li>
+          <li>(16, 0, 4)</li>
+          <li>(17, 0, 4)</li>
+          <li>(18, 0, 4)</li>
+          <li>(19, 0, 4)</li>
+          <li>(-20, 0, 5)</li>
+          <li>(-19, 0, 5)</li>
+          <li>(-18, 0, 5)</li>
+          <li>(-17, 0, 5)</li>
+          <li>(-16, 0, 5)</li>
+          <li>(-15, 0, 5)</li>
+          <li>(-14, 0, 5)</li>
+          <li>(-13, 0, 5)</li>
+          <li>(-12, 0, 5)</li>
+          <li>(-11, 0, 5)</li>
+          <li>(-10, 0, 5)</li>
+          <li>(-9, 0, 5)</li>
+          <li>(-8, 0, 5)</li>
+          <li>(-7, 0, 5)</li>
+          <li>(-6, 0, 5)</li>
+          <li>(-5, 0, 5)</li>
+          <li>(-4, 0, 5)</li>
+          <li>(-3, 0, 5)</li>
+          <li>(-2, 0, 5)</li>
+          <li>(-1, 0, 5)</li>
+          <li>(0, 0, 5)</li>
+          <li>(1, 0, 5)</li>
+          <li>(2, 0, 5)</li>
+          <li>(3, 0, 5)</li>
+          <li>(4, 0, 5)</li>
+          <li>(5, 0, 5)</li>
+          <li>(6, 0, 5)</li>
+          <li>(7, 0, 5)</li>
+          <li>(8, 0, 5)</li>
+          <li>(9, 0, 5)</li>
+          <li>(10, 0, 5)</li>
+          <li>(11, 0, 5)</li>
+          <li>(12, 0, 5)</li>
+          <li>(13, 0, 5)</li>
+          <li>(14, 0, 5)</li>
+          <li>(15, 0, 5)</li>
+          <li>(16, 0, 5)</li>
+          <li>(17, 0, 5)</li>
+          <li>(18, 0, 5)</li>
+          <li>(19, 0, 5)</li>
+          <li>(-20, 0, 6)</li>
+          <li>(-19, 0, 6)</li>
+          <li>(-18, 0, 6)</li>
+          <li>(-17, 0, 6)</li>
+          <li>(-16, 0, 6)</li>
+          <li>(-15, 0, 6)</li>
+          <li>(-14, 0, 6)</li>
+          <li>(-13, 0, 6)</li>
+          <li>(-12, 0, 6)</li>
+          <li>(-11, 0, 6)</li>
+          <li>(-10, 0, 6)</li>
+          <li>(-9, 0, 6)</li>
+          <li>(-8, 0, 6)</li>
+          <li>(-7, 0, 6)</li>
+          <li>(-6, 0, 6)</li>
+          <li>(-5, 0, 6)</li>
+          <li>(-4, 0, 6)</li>
+          <li>(-3, 0, 6)</li>
+          <li>(-2, 0, 6)</li>
+          <li>(-1, 0, 6)</li>
+          <li>(0, 0, 6)</li>
+          <li>(1, 0, 6)</li>
+          <li>(2, 0, 6)</li>
+          <li>(3, 0, 6)</li>
+          <li>(4, 0, 6)</li>
+          <li>(5, 0, 6)</li>
+          <li>(6, 0, 6)</li>
+          <li>(7, 0, 6)</li>
+          <li>(8, 0, 6)</li>
+          <li>(9, 0, 6)</li>
+          <li>(10, 0, 6)</li>
+          <li>(11, 0, 6)</li>
+          <li>(12, 0, 6)</li>
+          <li>(13, 0, 6)</li>
+          <li>(14, 0, 6)</li>
+          <li>(15, 0, 6)</li>
+          <li>(16, 0, 6)</li>
+          <li>(17, 0, 6)</li>
+          <li>(18, 0, 6)</li>
+          <li>(19, 0, 6)</li>
+          <li>(-20, 0, 7)</li>
+          <li>(-19, 0, 7)</li>
+          <li>(-18, 0, 7)</li>
+          <li>(-17, 0, 7)</li>
+          <li>(-16, 0, 7)</li>
+          <li>(-15, 0, 7)</li>
+          <li>(-14, 0, 7)</li>
+          <li>(-13, 0, 7)</li>
+          <li>(-12, 0, 7)</li>
+          <li>(-11, 0, 7)</li>
+          <li>(-10, 0, 7)</li>
+          <li>(-9, 0, 7)</li>
+          <li>(-8, 0, 7)</li>
+          <li>(-7, 0, 7)</li>
+          <li>(-6, 0, 7)</li>
+          <li>(-5, 0, 7)</li>
+          <li>(-4, 0, 7)</li>
+          <li>(-3, 0, 7)</li>
+          <li>(-2, 0, 7)</li>
+          <li>(-1, 0, 7)</li>
+          <li>(0, 0, 7)</li>
+          <li>(1, 0, 7)</li>
+          <li>(2, 0, 7)</li>
+          <li>(3, 0, 7)</li>
+          <li>(4, 0, 7)</li>
+          <li>(5, 0, 7)</li>
+          <li>(6, 0, 7)</li>
+          <li>(7, 0, 7)</li>
+          <li>(8, 0, 7)</li>
+          <li>(9, 0, 7)</li>
+          <li>(10, 0, 7)</li>
+          <li>(11, 0, 7)</li>
+          <li>(12, 0, 7)</li>
+          <li>(13, 0, 7)</li>
+          <li>(14, 0, 7)</li>
+          <li>(15, 0, 7)</li>
+          <li>(16, 0, 7)</li>
+          <li>(17, 0, 7)</li>
+          <li>(18, 0, 7)</li>
+          <li>(19, 0, 7)</li>
+          <li>(-20, 0, 8)</li>
+          <li>(-19, 0, 8)</li>
+          <li>(-18, 0, 8)</li>
+          <li>(-17, 0, 8)</li>
+          <li>(-16, 0, 8)</li>
+          <li>(-15, 0, 8)</li>
+          <li>(-14, 0, 8)</li>
+          <li>(-13, 0, 8)</li>
+          <li>(-12, 0, 8)</li>
+          <li>(-11, 0, 8)</li>
+          <li>(-10, 0, 8)</li>
+          <li>(-9, 0, 8)</li>
+          <li>(-8, 0, 8)</li>
+          <li>(-7, 0, 8)</li>
+          <li>(-6, 0, 8)</li>
+          <li>(-5, 0, 8)</li>
+          <li>(-4, 0, 8)</li>
+          <li>(-3, 0, 8)</li>
+          <li>(-2, 0, 8)</li>
+          <li>(-1, 0, 8)</li>
+          <li>(0, 0, 8)</li>
+          <li>(1, 0, 8)</li>
+          <li>(2, 0, 8)</li>
+          <li>(3, 0, 8)</li>
+          <li>(4, 0, 8)</li>
+          <li>(5, 0, 8)</li>
+          <li>(6, 0, 8)</li>
+          <li>(7, 0, 8)</li>
+          <li>(8, 0, 8)</li>
+          <li>(9, 0, 8)</li>
+          <li>(10, 0, 8)</li>
+          <li>(11, 0, 8)</li>
+          <li>(12, 0, 8)</li>
+          <li>(13, 0, 8)</li>
+          <li>(14, 0, 8)</li>
+          <li>(15, 0, 8)</li>
+          <li>(16, 0, 8)</li>
+          <li>(17, 0, 8)</li>
+          <li>(18, 0, 8)</li>
+          <li>(19, 0, 8)</li>
+          <li>(-20, 0, 9)</li>
+          <li>(-19, 0, 9)</li>
+          <li>(-18, 0, 9)</li>
+          <li>(-17, 0, 9)</li>
+          <li>(-16, 0, 9)</li>
+          <li>(-15, 0, 9)</li>
+          <li>(-14, 0, 9)</li>
+          <li>(-13, 0, 9)</li>
+          <li>(-12, 0, 9)</li>
+          <li>(-11, 0, 9)</li>
+          <li>(-10, 0, 9)</li>
+          <li>(-9, 0, 9)</li>
+          <li>(-8, 0, 9)</li>
+          <li>(-7, 0, 9)</li>
+          <li>(-6, 0, 9)</li>
+          <li>(-5, 0, 9)</li>
+          <li>(-4, 0, 9)</li>
+          <li>(-3, 0, 9)</li>
+          <li>(-2, 0, 9)</li>
+          <li>(-1, 0, 9)</li>
+          <li>(0, 0, 9)</li>
+          <li>(1, 0, 9)</li>
+          <li>(2, 0, 9)</li>
+          <li>(3, 0, 9)</li>
+          <li>(4, 0, 9)</li>
+          <li>(5, 0, 9)</li>
+          <li>(6, 0, 9)</li>
+          <li>(7, 0, 9)</li>
+          <li>(8, 0, 9)</li>
+          <li>(9, 0, 9)</li>
+          <li>(10, 0, 9)</li>
+          <li>(11, 0, 9)</li>
+          <li>(12, 0, 9)</li>
+          <li>(13, 0, 9)</li>
+          <li>(14, 0, 9)</li>
+          <li>(15, 0, 9)</li>
+          <li>(16, 0, 9)</li>
+          <li>(17, 0, 9)</li>
+          <li>(18, 0, 9)</li>
+          <li>(19, 0, 9)</li>
+          <li>(-20, 0, 10)</li>
+          <li>(-19, 0, 10)</li>
+          <li>(-18, 0, 10)</li>
+          <li>(-17, 0, 10)</li>
+          <li>(-16, 0, 10)</li>
+          <li>(-15, 0, 10)</li>
+          <li>(-14, 0, 10)</li>
+          <li>(-13, 0, 10)</li>
+          <li>(-12, 0, 10)</li>
+          <li>(-11, 0, 10)</li>
+          <li>(-10, 0, 10)</li>
+          <li>(-9, 0, 10)</li>
+          <li>(-8, 0, 10)</li>
+          <li>(-7, 0, 10)</li>
+          <li>(-6, 0, 10)</li>
+          <li>(-5, 0, 10)</li>
+          <li>(-4, 0, 10)</li>
+          <li>(-3, 0, 10)</li>
+          <li>(-2, 0, 10)</li>
+          <li>(-1, 0, 10)</li>
+          <li>(0, 0, 10)</li>
+          <li>(1, 0, 10)</li>
+          <li>(2, 0, 10)</li>
+          <li>(3, 0, 10)</li>
+          <li>(4, 0, 10)</li>
+          <li>(5, 0, 10)</li>
+          <li>(6, 0, 10)</li>
+          <li>(7, 0, 10)</li>
+          <li>(8, 0, 10)</li>
+          <li>(9, 0, 10)</li>
+          <li>(10, 0, 10)</li>
+          <li>(11, 0, 10)</li>
+          <li>(12, 0, 10)</li>
+          <li>(13, 0, 10)</li>
+          <li>(14, 0, 10)</li>
+          <li>(15, 0, 10)</li>
+          <li>(16, 0, 10)</li>
+          <li>(17, 0, 10)</li>
+          <li>(18, 0, 10)</li>
+          <li>(19, 0, 10)</li>
+          <li>(-20, 0, 11)</li>
+          <li>(-19, 0, 11)</li>
+          <li>(-18, 0, 11)</li>
+          <li>(-17, 0, 11)</li>
+          <li>(-16, 0, 11)</li>
+          <li>(-15, 0, 11)</li>
+          <li>(-14, 0, 11)</li>
+          <li>(-13, 0, 11)</li>
+          <li>(-12, 0, 11)</li>
+          <li>(-11, 0, 11)</li>
+          <li>(-10, 0, 11)</li>
+          <li>(-9, 0, 11)</li>
+          <li>(-8, 0, 11)</li>
+          <li>(-7, 0, 11)</li>
+          <li>(-6, 0, 11)</li>
+          <li>(-5, 0, 11)</li>
+          <li>(-4, 0, 11)</li>
+          <li>(-3, 0, 11)</li>
+          <li>(-2, 0, 11)</li>
+          <li>(-1, 0, 11)</li>
+          <li>(0, 0, 11)</li>
+          <li>(1, 0, 11)</li>
+          <li>(2, 0, 11)</li>
+          <li>(3, 0, 11)</li>
+          <li>(4, 0, 11)</li>
+          <li>(5, 0, 11)</li>
+          <li>(6, 0, 11)</li>
+          <li>(7, 0, 11)</li>
+          <li>(8, 0, 11)</li>
+          <li>(9, 0, 11)</li>
+          <li>(10, 0, 11)</li>
+          <li>(11, 0, 11)</li>
+          <li>(12, 0, 11)</li>
+          <li>(13, 0, 11)</li>
+          <li>(14, 0, 11)</li>
+          <li>(15, 0, 11)</li>
+          <li>(16, 0, 11)</li>
+          <li>(17, 0, 11)</li>
+          <li>(18, 0, 11)</li>
+          <li>(19, 0, 11)</li>
+          <li>(-20, 0, 12)</li>
+          <li>(-19, 0, 12)</li>
+          <li>(-18, 0, 12)</li>
+          <li>(-17, 0, 12)</li>
+          <li>(-16, 0, 12)</li>
+          <li>(-15, 0, 12)</li>
+          <li>(-14, 0, 12)</li>
+          <li>(-13, 0, 12)</li>
+          <li>(-12, 0, 12)</li>
+          <li>(-11, 0, 12)</li>
+          <li>(-10, 0, 12)</li>
+          <li>(-9, 0, 12)</li>
+          <li>(-8, 0, 12)</li>
+          <li>(-7, 0, 12)</li>
+          <li>(-6, 0, 12)</li>
+          <li>(-5, 0, 12)</li>
+          <li>(-4, 0, 12)</li>
+          <li>(-3, 0, 12)</li>
+          <li>(-2, 0, 12)</li>
+          <li>(-1, 0, 12)</li>
+          <li>(0, 0, 12)</li>
+          <li>(1, 0, 12)</li>
+          <li>(2, 0, 12)</li>
+          <li>(3, 0, 12)</li>
+          <li>(4, 0, 12)</li>
+          <li>(5, 0, 12)</li>
+          <li>(6, 0, 12)</li>
+          <li>(7, 0, 12)</li>
+          <li>(8, 0, 12)</li>
+          <li>(9, 0, 12)</li>
+          <li>(10, 0, 12)</li>
+          <li>(11, 0, 12)</li>
+          <li>(12, 0, 12)</li>
+          <li>(13, 0, 12)</li>
+          <li>(14, 0, 12)</li>
+          <li>(15, 0, 12)</li>
+          <li>(16, 0, 12)</li>
+          <li>(17, 0, 12)</li>
+          <li>(18, 0, 12)</li>
+          <li>(19, 0, 12)</li>
+          <li>(-20, 0, 13)</li>
+          <li>(-19, 0, 13)</li>
+          <li>(-18, 0, 13)</li>
+          <li>(-17, 0, 13)</li>
+          <li>(-16, 0, 13)</li>
+          <li>(-15, 0, 13)</li>
+          <li>(-14, 0, 13)</li>
+          <li>(-13, 0, 13)</li>
+          <li>(-12, 0, 13)</li>
+          <li>(-11, 0, 13)</li>
+          <li>(-10, 0, 13)</li>
+          <li>(-9, 0, 13)</li>
+          <li>(-8, 0, 13)</li>
+          <li>(-7, 0, 13)</li>
+          <li>(-6, 0, 13)</li>
+          <li>(-5, 0, 13)</li>
+          <li>(-4, 0, 13)</li>
+          <li>(-3, 0, 13)</li>
+          <li>(-2, 0, 13)</li>
+          <li>(-1, 0, 13)</li>
+          <li>(0, 0, 13)</li>
+          <li>(1, 0, 13)</li>
+          <li>(2, 0, 13)</li>
+          <li>(3, 0, 13)</li>
+          <li>(4, 0, 13)</li>
+          <li>(5, 0, 13)</li>
+          <li>(6, 0, 13)</li>
+          <li>(7, 0, 13)</li>
+          <li>(8, 0, 13)</li>
+          <li>(9, 0, 13)</li>
+          <li>(10, 0, 13)</li>
+          <li>(11, 0, 13)</li>
+          <li>(12, 0, 13)</li>
+          <li>(13, 0, 13)</li>
+          <li>(14, 0, 13)</li>
+          <li>(15, 0, 13)</li>
+          <li>(16, 0, 13)</li>
+          <li>(17, 0, 13)</li>
+          <li>(18, 0, 13)</li>
+          <li>(19, 0, 13)</li>
+          <li>(-20, 0, 14)</li>
+          <li>(-19, 0, 14)</li>
+          <li>(-18, 0, 14)</li>
+          <li>(-17, 0, 14)</li>
+          <li>(-16, 0, 14)</li>
+          <li>(-15, 0, 14)</li>
+          <li>(-14, 0, 14)</li>
+          <li>(-13, 0, 14)</li>
+          <li>(-12, 0, 14)</li>
+          <li>(-11, 0, 14)</li>
+          <li>(-10, 0, 14)</li>
+          <li>(-9, 0, 14)</li>
+          <li>(-8, 0, 14)</li>
+          <li>(-7, 0, 14)</li>
+          <li>(-6, 0, 14)</li>
+          <li>(-5, 0, 14)</li>
+          <li>(-4, 0, 14)</li>
+          <li>(-3, 0, 14)</li>
+          <li>(-2, 0, 14)</li>
+          <li>(-1, 0, 14)</li>
+          <li>(0, 0, 14)</li>
+          <li>(1, 0, 14)</li>
+          <li>(2, 0, 14)</li>
+          <li>(3, 0, 14)</li>
+          <li>(4, 0, 14)</li>
+          <li>(5, 0, 14)</li>
+          <li>(6, 0, 14)</li>
+          <li>(7, 0, 14)</li>
+          <li>(8, 0, 14)</li>
+          <li>(9, 0, 14)</li>
+          <li>(10, 0, 14)</li>
+          <li>(11, 0, 14)</li>
+          <li>(12, 0, 14)</li>
+          <li>(13, 0, 14)</li>
+          <li>(14, 0, 14)</li>
+          <li>(15, 0, 14)</li>
+          <li>(16, 0, 14)</li>
+          <li>(17, 0, 14)</li>
+          <li>(18, 0, 14)</li>
+          <li>(19, 0, 14)</li>
+          <li>(-20, 0, 15)</li>
+          <li>(-19, 0, 15)</li>
+          <li>(-18, 0, 15)</li>
+          <li>(-17, 0, 15)</li>
+          <li>(-16, 0, 15)</li>
+          <li>(-15, 0, 15)</li>
+          <li>(-14, 0, 15)</li>
+          <li>(-13, 0, 15)</li>
+          <li>(-12, 0, 15)</li>
+          <li>(-11, 0, 15)</li>
+          <li>(-10, 0, 15)</li>
+          <li>(-9, 0, 15)</li>
+          <li>(-8, 0, 15)</li>
+          <li>(-7, 0, 15)</li>
+          <li>(-6, 0, 15)</li>
+          <li>(-5, 0, 15)</li>
+          <li>(-4, 0, 15)</li>
+          <li>(-3, 0, 15)</li>
+          <li>(-2, 0, 15)</li>
+          <li>(-1, 0, 15)</li>
+          <li>(0, 0, 15)</li>
+          <li>(1, 0, 15)</li>
+          <li>(2, 0, 15)</li>
+          <li>(3, 0, 15)</li>
+          <li>(4, 0, 15)</li>
+          <li>(5, 0, 15)</li>
+          <li>(6, 0, 15)</li>
+          <li>(7, 0, 15)</li>
+          <li>(8, 0, 15)</li>
+          <li>(9, 0, 15)</li>
+          <li>(10, 0, 15)</li>
+          <li>(11, 0, 15)</li>
+          <li>(12, 0, 15)</li>
+          <li>(13, 0, 15)</li>
+          <li>(14, 0, 15)</li>
+          <li>(15, 0, 15)</li>
+          <li>(16, 0, 15)</li>
+          <li>(17, 0, 15)</li>
+          <li>(18, 0, 15)</li>
+          <li>(19, 0, 15)</li>
+          <li>(-20, 0, 16)</li>
+          <li>(-19, 0, 16)</li>
+          <li>(-18, 0, 16)</li>
+          <li>(-17, 0, 16)</li>
+          <li>(-16, 0, 16)</li>
+          <li>(-15, 0, 16)</li>
+          <li>(-14, 0, 16)</li>
+          <li>(-13, 0, 16)</li>
+          <li>(-12, 0, 16)</li>
+          <li>(-11, 0, 16)</li>
+          <li>(-10, 0, 16)</li>
+          <li>(-9, 0, 16)</li>
+          <li>(-8, 0, 16)</li>
+          <li>(-7, 0, 16)</li>
+          <li>(-6, 0, 16)</li>
+          <li>(-5, 0, 16)</li>
+          <li>(-4, 0, 16)</li>
+          <li>(-3, 0, 16)</li>
+          <li>(-2, 0, 16)</li>
+          <li>(-1, 0, 16)</li>
+          <li>(0, 0, 16)</li>
+          <li>(1, 0, 16)</li>
+          <li>(2, 0, 16)</li>
+          <li>(3, 0, 16)</li>
+          <li>(4, 0, 16)</li>
+          <li>(5, 0, 16)</li>
+          <li>(6, 0, 16)</li>
+          <li>(7, 0, 16)</li>
+          <li>(8, 0, 16)</li>
+          <li>(9, 0, 16)</li>
+          <li>(10, 0, 16)</li>
+          <li>(11, 0, 16)</li>
+          <li>(12, 0, 16)</li>
+          <li>(13, 0, 16)</li>
+          <li>(14, 0, 16)</li>
+          <li>(15, 0, 16)</li>
+          <li>(16, 0, 16)</li>
+          <li>(17, 0, 16)</li>
+          <li>(18, 0, 16)</li>
+          <li>(19, 0, 16)</li>
+          <li>(-20, 0, 17)</li>
+          <li>(-19, 0, 17)</li>
+          <li>(-18, 0, 17)</li>
+          <li>(-17, 0, 17)</li>
+          <li>(-16, 0, 17)</li>
+          <li>(-15, 0, 17)</li>
+          <li>(-14, 0, 17)</li>
+          <li>(-13, 0, 17)</li>
+          <li>(-12, 0, 17)</li>
+          <li>(-11, 0, 17)</li>
+          <li>(-10, 0, 17)</li>
+          <li>(-9, 0, 17)</li>
+          <li>(-8, 0, 17)</li>
+          <li>(-7, 0, 17)</li>
+          <li>(-6, 0, 17)</li>
+          <li>(-5, 0, 17)</li>
+          <li>(-4, 0, 17)</li>
+          <li>(-3, 0, 17)</li>
+          <li>(-2, 0, 17)</li>
+          <li>(-1, 0, 17)</li>
+          <li>(0, 0, 17)</li>
+          <li>(1, 0, 17)</li>
+          <li>(2, 0, 17)</li>
+          <li>(3, 0, 17)</li>
+          <li>(4, 0, 17)</li>
+          <li>(5, 0, 17)</li>
+          <li>(6, 0, 17)</li>
+          <li>(7, 0, 17)</li>
+          <li>(8, 0, 17)</li>
+          <li>(9, 0, 17)</li>
+          <li>(10, 0, 17)</li>
+          <li>(11, 0, 17)</li>
+          <li>(12, 0, 17)</li>
+          <li>(13, 0, 17)</li>
+          <li>(14, 0, 17)</li>
+          <li>(15, 0, 17)</li>
+          <li>(16, 0, 17)</li>
+          <li>(17, 0, 17)</li>
+          <li>(18, 0, 17)</li>
+          <li>(19, 0, 17)</li>
+          <li>(-20, 0, 18)</li>
+          <li>(-19, 0, 18)</li>
+          <li>(-18, 0, 18)</li>
+          <li>(-17, 0, 18)</li>
+          <li>(-16, 0, 18)</li>
+          <li>(-15, 0, 18)</li>
+          <li>(-14, 0, 18)</li>
+          <li>(-13, 0, 18)</li>
+          <li>(-12, 0, 18)</li>
+          <li>(-11, 0, 18)</li>
+          <li>(-10, 0, 18)</li>
+          <li>(-9, 0, 18)</li>
+          <li>(-8, 0, 18)</li>
+          <li>(-7, 0, 18)</li>
+          <li>(-6, 0, 18)</li>
+          <li>(-5, 0, 18)</li>
+          <li>(-4, 0, 18)</li>
+          <li>(-3, 0, 18)</li>
+          <li>(-2, 0, 18)</li>
+          <li>(-1, 0, 18)</li>
+          <li>(0, 0, 18)</li>
+          <li>(1, 0, 18)</li>
+          <li>(2, 0, 18)</li>
+          <li>(3, 0, 18)</li>
+          <li>(4, 0, 18)</li>
+          <li>(5, 0, 18)</li>
+          <li>(6, 0, 18)</li>
+          <li>(7, 0, 18)</li>
+          <li>(8, 0, 18)</li>
+          <li>(9, 0, 18)</li>
+          <li>(10, 0, 18)</li>
+          <li>(11, 0, 18)</li>
+          <li>(12, 0, 18)</li>
+          <li>(13, 0, 18)</li>
+          <li>(14, 0, 18)</li>
+          <li>(15, 0, 18)</li>
+          <li>(16, 0, 18)</li>
+          <li>(17, 0, 18)</li>
+          <li>(18, 0, 18)</li>
+          <li>(19, 0, 18)</li>
+          <li>(-20, 0, 19)</li>
+          <li>(-19, 0, 19)</li>
+          <li>(-18, 0, 19)</li>
+          <li>(-17, 0, 19)</li>
+          <li>(-16, 0, 19)</li>
+          <li>(-15, 0, 19)</li>
+          <li>(-14, 0, 19)</li>
+          <li>(-13, 0, 19)</li>
+          <li>(-12, 0, 19)</li>
+          <li>(-11, 0, 19)</li>
+          <li>(-10, 0, 19)</li>
+          <li>(-9, 0, 19)</li>
+          <li>(-8, 0, 19)</li>
+          <li>(-7, 0, 19)</li>
+          <li>(-6, 0, 19)</li>
+          <li>(-5, 0, 19)</li>
+          <li>(-4, 0, 19)</li>
+          <li>(-3, 0, 19)</li>
+          <li>(-2, 0, 19)</li>
+          <li>(-1, 0, 19)</li>
+          <li>(0, 0, 19)</li>
+          <li>(1, 0, 19)</li>
+          <li>(2, 0, 19)</li>
+          <li>(3, 0, 19)</li>
+          <li>(4, 0, 19)</li>
+          <li>(5, 0, 19)</li>
+          <li>(6, 0, 19)</li>
+          <li>(7, 0, 19)</li>
+          <li>(8, 0, 19)</li>
+          <li>(9, 0, 19)</li>
+          <li>(10, 0, 19)</li>
+          <li>(11, 0, 19)</li>
+          <li>(12, 0, 19)</li>
+          <li>(13, 0, 19)</li>
+          <li>(14, 0, 19)</li>
+          <li>(15, 0, 19)</li>
+          <li>(16, 0, 19)</li>
+          <li>(17, 0, 19)</li>
+          <li>(18, 0, 19)</li>
+          <li>(19, 0, 19)</li>
+        </value>
+      </li>
+    </roofs>
+    <terrains>
+      <li>
+        <key>TileMarble</key>
+        <value>
+          <li>(-20, 0, -20)</li>
+          <li>(-19, 0, -20)</li>
+          <li>(-18, 0, -20)</li>
+          <li>(-17, 0, -20)</li>
+          <li>(-16, 0, -20)</li>
+          <li>(-15, 0, -20)</li>
+          <li>(-14, 0, -20)</li>
+          <li>(-13, 0, -20)</li>
+          <li>(-12, 0, -20)</li>
+          <li>(-11, 0, -20)</li>
+          <li>(-10, 0, -20)</li>
+          <li>(-9, 0, -20)</li>
+          <li>(-8, 0, -20)</li>
+          <li>(-7, 0, -20)</li>
+          <li>(-6, 0, -20)</li>
+          <li>(-5, 0, -20)</li>
+          <li>(-4, 0, -20)</li>
+          <li>(-3, 0, -20)</li>
+          <li>(-2, 0, -20)</li>
+          <li>(-1, 0, -20)</li>
+          <li>(0, 0, -20)</li>
+          <li>(1, 0, -20)</li>
+          <li>(2, 0, -20)</li>
+          <li>(3, 0, -20)</li>
+          <li>(4, 0, -20)</li>
+          <li>(5, 0, -20)</li>
+          <li>(6, 0, -20)</li>
+          <li>(7, 0, -20)</li>
+          <li>(8, 0, -20)</li>
+          <li>(9, 0, -20)</li>
+          <li>(10, 0, -20)</li>
+          <li>(11, 0, -20)</li>
+          <li>(12, 0, -20)</li>
+          <li>(13, 0, -20)</li>
+          <li>(14, 0, -20)</li>
+          <li>(15, 0, -20)</li>
+          <li>(16, 0, -20)</li>
+          <li>(17, 0, -20)</li>
+          <li>(18, 0, -20)</li>
+          <li>(19, 0, -20)</li>
+          <li>(-20, 0, -19)</li>
+          <li>(-19, 0, -19)</li>
+          <li>(-18, 0, -19)</li>
+          <li>(-17, 0, -19)</li>
+          <li>(-16, 0, -19)</li>
+          <li>(-15, 0, -19)</li>
+          <li>(-14, 0, -19)</li>
+          <li>(-13, 0, -19)</li>
+          <li>(-12, 0, -19)</li>
+          <li>(-11, 0, -19)</li>
+          <li>(-10, 0, -19)</li>
+          <li>(-9, 0, -19)</li>
+          <li>(-8, 0, -19)</li>
+          <li>(-7, 0, -19)</li>
+          <li>(-6, 0, -19)</li>
+          <li>(-5, 0, -19)</li>
+          <li>(-4, 0, -19)</li>
+          <li>(-3, 0, -19)</li>
+          <li>(-2, 0, -19)</li>
+          <li>(-1, 0, -19)</li>
+          <li>(0, 0, -19)</li>
+          <li>(1, 0, -19)</li>
+          <li>(2, 0, -19)</li>
+          <li>(3, 0, -19)</li>
+          <li>(4, 0, -19)</li>
+          <li>(5, 0, -19)</li>
+          <li>(6, 0, -19)</li>
+          <li>(7, 0, -19)</li>
+          <li>(8, 0, -19)</li>
+          <li>(9, 0, -19)</li>
+          <li>(10, 0, -19)</li>
+          <li>(11, 0, -19)</li>
+          <li>(12, 0, -19)</li>
+          <li>(13, 0, -19)</li>
+          <li>(14, 0, -19)</li>
+          <li>(15, 0, -19)</li>
+          <li>(16, 0, -19)</li>
+          <li>(17, 0, -19)</li>
+          <li>(18, 0, -19)</li>
+          <li>(19, 0, -19)</li>
+          <li>(-20, 0, -18)</li>
+          <li>(-19, 0, -18)</li>
+          <li>(-18, 0, -18)</li>
+          <li>(-17, 0, -18)</li>
+          <li>(-16, 0, -18)</li>
+          <li>(-15, 0, -18)</li>
+          <li>(-14, 0, -18)</li>
+          <li>(-13, 0, -18)</li>
+          <li>(-12, 0, -18)</li>
+          <li>(-11, 0, -18)</li>
+          <li>(-10, 0, -18)</li>
+          <li>(-9, 0, -18)</li>
+          <li>(-8, 0, -18)</li>
+          <li>(-7, 0, -18)</li>
+          <li>(-6, 0, -18)</li>
+          <li>(-5, 0, -18)</li>
+          <li>(-4, 0, -18)</li>
+          <li>(-3, 0, -18)</li>
+          <li>(-2, 0, -18)</li>
+          <li>(-1, 0, -18)</li>
+          <li>(0, 0, -18)</li>
+          <li>(1, 0, -18)</li>
+          <li>(2, 0, -18)</li>
+          <li>(3, 0, -18)</li>
+          <li>(4, 0, -18)</li>
+          <li>(5, 0, -18)</li>
+          <li>(6, 0, -18)</li>
+          <li>(7, 0, -18)</li>
+          <li>(8, 0, -18)</li>
+          <li>(9, 0, -18)</li>
+          <li>(10, 0, -18)</li>
+          <li>(11, 0, -18)</li>
+          <li>(12, 0, -18)</li>
+          <li>(13, 0, -18)</li>
+          <li>(14, 0, -18)</li>
+          <li>(15, 0, -18)</li>
+          <li>(16, 0, -18)</li>
+          <li>(17, 0, -18)</li>
+          <li>(18, 0, -18)</li>
+          <li>(19, 0, -18)</li>
+          <li>(-20, 0, -17)</li>
+          <li>(-19, 0, -17)</li>
+          <li>(-18, 0, -17)</li>
+          <li>(-17, 0, -17)</li>
+          <li>(-16, 0, -17)</li>
+          <li>(-15, 0, -17)</li>
+          <li>(-14, 0, -17)</li>
+          <li>(-13, 0, -17)</li>
+          <li>(-12, 0, -17)</li>
+          <li>(-11, 0, -17)</li>
+          <li>(-10, 0, -17)</li>
+          <li>(-9, 0, -17)</li>
+          <li>(-8, 0, -17)</li>
+          <li>(-7, 0, -17)</li>
+          <li>(-6, 0, -17)</li>
+          <li>(-5, 0, -17)</li>
+          <li>(-4, 0, -17)</li>
+          <li>(-3, 0, -17)</li>
+          <li>(-2, 0, -17)</li>
+          <li>(-1, 0, -17)</li>
+          <li>(0, 0, -17)</li>
+          <li>(1, 0, -17)</li>
+          <li>(2, 0, -17)</li>
+          <li>(3, 0, -17)</li>
+          <li>(4, 0, -17)</li>
+          <li>(5, 0, -17)</li>
+          <li>(6, 0, -17)</li>
+          <li>(7, 0, -17)</li>
+          <li>(8, 0, -17)</li>
+          <li>(9, 0, -17)</li>
+          <li>(10, 0, -17)</li>
+          <li>(11, 0, -17)</li>
+          <li>(12, 0, -17)</li>
+          <li>(13, 0, -17)</li>
+          <li>(14, 0, -17)</li>
+          <li>(15, 0, -17)</li>
+          <li>(16, 0, -17)</li>
+          <li>(17, 0, -17)</li>
+          <li>(18, 0, -17)</li>
+          <li>(19, 0, -17)</li>
+          <li>(-20, 0, -16)</li>
+          <li>(-19, 0, -16)</li>
+          <li>(-18, 0, -16)</li>
+          <li>(-17, 0, -16)</li>
+          <li>(-16, 0, -16)</li>
+          <li>(-15, 0, -16)</li>
+          <li>(-14, 0, -16)</li>
+          <li>(-13, 0, -16)</li>
+          <li>(-12, 0, -16)</li>
+          <li>(-11, 0, -16)</li>
+          <li>(-10, 0, -16)</li>
+          <li>(-9, 0, -16)</li>
+          <li>(-8, 0, -16)</li>
+          <li>(-7, 0, -16)</li>
+          <li>(-6, 0, -16)</li>
+          <li>(-5, 0, -16)</li>
+          <li>(-4, 0, -16)</li>
+          <li>(-3, 0, -16)</li>
+          <li>(-2, 0, -16)</li>
+          <li>(-1, 0, -16)</li>
+          <li>(0, 0, -16)</li>
+          <li>(1, 0, -16)</li>
+          <li>(2, 0, -16)</li>
+          <li>(3, 0, -16)</li>
+          <li>(4, 0, -16)</li>
+          <li>(5, 0, -16)</li>
+          <li>(6, 0, -16)</li>
+          <li>(7, 0, -16)</li>
+          <li>(8, 0, -16)</li>
+          <li>(9, 0, -16)</li>
+          <li>(10, 0, -16)</li>
+          <li>(11, 0, -16)</li>
+          <li>(12, 0, -16)</li>
+          <li>(13, 0, -16)</li>
+          <li>(14, 0, -16)</li>
+          <li>(15, 0, -16)</li>
+          <li>(16, 0, -16)</li>
+          <li>(17, 0, -16)</li>
+          <li>(18, 0, -16)</li>
+          <li>(19, 0, -16)</li>
+          <li>(-20, 0, -15)</li>
+          <li>(-19, 0, -15)</li>
+          <li>(-18, 0, -15)</li>
+          <li>(-17, 0, -15)</li>
+          <li>(-16, 0, -15)</li>
+          <li>(-15, 0, -15)</li>
+          <li>(-14, 0, -15)</li>
+          <li>(-13, 0, -15)</li>
+          <li>(-12, 0, -15)</li>
+          <li>(-11, 0, -15)</li>
+          <li>(-10, 0, -15)</li>
+          <li>(-9, 0, -15)</li>
+          <li>(-8, 0, -15)</li>
+          <li>(-7, 0, -15)</li>
+          <li>(-6, 0, -15)</li>
+          <li>(-5, 0, -15)</li>
+          <li>(-4, 0, -15)</li>
+          <li>(-3, 0, -15)</li>
+          <li>(-2, 0, -15)</li>
+          <li>(-1, 0, -15)</li>
+          <li>(0, 0, -15)</li>
+          <li>(1, 0, -15)</li>
+          <li>(2, 0, -15)</li>
+          <li>(3, 0, -15)</li>
+          <li>(4, 0, -15)</li>
+          <li>(5, 0, -15)</li>
+          <li>(6, 0, -15)</li>
+          <li>(7, 0, -15)</li>
+          <li>(8, 0, -15)</li>
+          <li>(9, 0, -15)</li>
+          <li>(10, 0, -15)</li>
+          <li>(11, 0, -15)</li>
+          <li>(12, 0, -15)</li>
+          <li>(13, 0, -15)</li>
+          <li>(14, 0, -15)</li>
+          <li>(15, 0, -15)</li>
+          <li>(16, 0, -15)</li>
+          <li>(17, 0, -15)</li>
+          <li>(18, 0, -15)</li>
+          <li>(19, 0, -15)</li>
+          <li>(-20, 0, -14)</li>
+          <li>(-19, 0, -14)</li>
+          <li>(-18, 0, -14)</li>
+          <li>(-17, 0, -14)</li>
+          <li>(-16, 0, -14)</li>
+          <li>(-15, 0, -14)</li>
+          <li>(-14, 0, -14)</li>
+          <li>(-13, 0, -14)</li>
+          <li>(-12, 0, -14)</li>
+          <li>(-11, 0, -14)</li>
+          <li>(-10, 0, -14)</li>
+          <li>(-9, 0, -14)</li>
+          <li>(-8, 0, -14)</li>
+          <li>(-7, 0, -14)</li>
+          <li>(-6, 0, -14)</li>
+          <li>(-5, 0, -14)</li>
+          <li>(-4, 0, -14)</li>
+          <li>(-3, 0, -14)</li>
+          <li>(-2, 0, -14)</li>
+          <li>(-1, 0, -14)</li>
+          <li>(0, 0, -14)</li>
+          <li>(1, 0, -14)</li>
+          <li>(2, 0, -14)</li>
+          <li>(3, 0, -14)</li>
+          <li>(4, 0, -14)</li>
+          <li>(5, 0, -14)</li>
+          <li>(6, 0, -14)</li>
+          <li>(7, 0, -14)</li>
+          <li>(8, 0, -14)</li>
+          <li>(9, 0, -14)</li>
+          <li>(10, 0, -14)</li>
+          <li>(11, 0, -14)</li>
+          <li>(12, 0, -14)</li>
+          <li>(13, 0, -14)</li>
+          <li>(14, 0, -14)</li>
+          <li>(15, 0, -14)</li>
+          <li>(16, 0, -14)</li>
+          <li>(17, 0, -14)</li>
+          <li>(18, 0, -14)</li>
+          <li>(19, 0, -14)</li>
+          <li>(-20, 0, -13)</li>
+          <li>(-19, 0, -13)</li>
+          <li>(-18, 0, -13)</li>
+          <li>(-17, 0, -13)</li>
+          <li>(-16, 0, -13)</li>
+          <li>(-15, 0, -13)</li>
+          <li>(-14, 0, -13)</li>
+          <li>(-13, 0, -13)</li>
+          <li>(-12, 0, -13)</li>
+          <li>(-11, 0, -13)</li>
+          <li>(-10, 0, -13)</li>
+          <li>(-9, 0, -13)</li>
+          <li>(-8, 0, -13)</li>
+          <li>(-7, 0, -13)</li>
+          <li>(-6, 0, -13)</li>
+          <li>(-5, 0, -13)</li>
+          <li>(-4, 0, -13)</li>
+          <li>(-3, 0, -13)</li>
+          <li>(-2, 0, -13)</li>
+          <li>(-1, 0, -13)</li>
+          <li>(0, 0, -13)</li>
+          <li>(1, 0, -13)</li>
+          <li>(2, 0, -13)</li>
+          <li>(3, 0, -13)</li>
+          <li>(4, 0, -13)</li>
+          <li>(5, 0, -13)</li>
+          <li>(6, 0, -13)</li>
+          <li>(7, 0, -13)</li>
+          <li>(8, 0, -13)</li>
+          <li>(9, 0, -13)</li>
+          <li>(10, 0, -13)</li>
+          <li>(11, 0, -13)</li>
+          <li>(12, 0, -13)</li>
+          <li>(13, 0, -13)</li>
+          <li>(14, 0, -13)</li>
+          <li>(15, 0, -13)</li>
+          <li>(16, 0, -13)</li>
+          <li>(17, 0, -13)</li>
+          <li>(18, 0, -13)</li>
+          <li>(19, 0, -13)</li>
+          <li>(-20, 0, -12)</li>
+          <li>(-19, 0, -12)</li>
+          <li>(-18, 0, -12)</li>
+          <li>(-17, 0, -12)</li>
+          <li>(-16, 0, -12)</li>
+          <li>(-15, 0, -12)</li>
+          <li>(-14, 0, -12)</li>
+          <li>(-13, 0, -12)</li>
+          <li>(-12, 0, -12)</li>
+          <li>(-11, 0, -12)</li>
+          <li>(-10, 0, -12)</li>
+          <li>(-9, 0, -12)</li>
+          <li>(-8, 0, -12)</li>
+          <li>(-7, 0, -12)</li>
+          <li>(-6, 0, -12)</li>
+          <li>(-5, 0, -12)</li>
+          <li>(-4, 0, -12)</li>
+          <li>(-3, 0, -12)</li>
+          <li>(-2, 0, -12)</li>
+          <li>(-1, 0, -12)</li>
+          <li>(0, 0, -12)</li>
+          <li>(1, 0, -12)</li>
+          <li>(2, 0, -12)</li>
+          <li>(3, 0, -12)</li>
+          <li>(4, 0, -12)</li>
+          <li>(5, 0, -12)</li>
+          <li>(6, 0, -12)</li>
+          <li>(7, 0, -12)</li>
+          <li>(8, 0, -12)</li>
+          <li>(9, 0, -12)</li>
+          <li>(10, 0, -12)</li>
+          <li>(11, 0, -12)</li>
+          <li>(12, 0, -12)</li>
+          <li>(13, 0, -12)</li>
+          <li>(14, 0, -12)</li>
+          <li>(15, 0, -12)</li>
+          <li>(16, 0, -12)</li>
+          <li>(17, 0, -12)</li>
+          <li>(18, 0, -12)</li>
+          <li>(19, 0, -12)</li>
+          <li>(-20, 0, -11)</li>
+          <li>(-19, 0, -11)</li>
+          <li>(-18, 0, -11)</li>
+          <li>(-17, 0, -11)</li>
+          <li>(-16, 0, -11)</li>
+          <li>(-15, 0, -11)</li>
+          <li>(-14, 0, -11)</li>
+          <li>(-13, 0, -11)</li>
+          <li>(-12, 0, -11)</li>
+          <li>(-11, 0, -11)</li>
+          <li>(-10, 0, -11)</li>
+          <li>(-9, 0, -11)</li>
+          <li>(-8, 0, -11)</li>
+          <li>(-7, 0, -11)</li>
+          <li>(-6, 0, -11)</li>
+          <li>(-5, 0, -11)</li>
+          <li>(-4, 0, -11)</li>
+          <li>(-3, 0, -11)</li>
+          <li>(-2, 0, -11)</li>
+          <li>(-1, 0, -11)</li>
+          <li>(0, 0, -11)</li>
+          <li>(1, 0, -11)</li>
+          <li>(2, 0, -11)</li>
+          <li>(3, 0, -11)</li>
+          <li>(4, 0, -11)</li>
+          <li>(5, 0, -11)</li>
+          <li>(6, 0, -11)</li>
+          <li>(7, 0, -11)</li>
+          <li>(8, 0, -11)</li>
+          <li>(9, 0, -11)</li>
+          <li>(10, 0, -11)</li>
+          <li>(11, 0, -11)</li>
+          <li>(12, 0, -11)</li>
+          <li>(13, 0, -11)</li>
+          <li>(14, 0, -11)</li>
+          <li>(15, 0, -11)</li>
+          <li>(16, 0, -11)</li>
+          <li>(17, 0, -11)</li>
+          <li>(18, 0, -11)</li>
+          <li>(19, 0, -11)</li>
+          <li>(-20, 0, -10)</li>
+          <li>(-19, 0, -10)</li>
+          <li>(-18, 0, -10)</li>
+          <li>(-17, 0, -10)</li>
+          <li>(-16, 0, -10)</li>
+          <li>(-15, 0, -10)</li>
+          <li>(-14, 0, -10)</li>
+          <li>(-13, 0, -10)</li>
+          <li>(-12, 0, -10)</li>
+          <li>(-11, 0, -10)</li>
+          <li>(-10, 0, -10)</li>
+          <li>(-9, 0, -10)</li>
+          <li>(-8, 0, -10)</li>
+          <li>(-7, 0, -10)</li>
+          <li>(-6, 0, -10)</li>
+          <li>(-5, 0, -10)</li>
+          <li>(-4, 0, -10)</li>
+          <li>(-3, 0, -10)</li>
+          <li>(-2, 0, -10)</li>
+          <li>(-1, 0, -10)</li>
+          <li>(0, 0, -10)</li>
+          <li>(1, 0, -10)</li>
+          <li>(2, 0, -10)</li>
+          <li>(3, 0, -10)</li>
+          <li>(4, 0, -10)</li>
+          <li>(5, 0, -10)</li>
+          <li>(6, 0, -10)</li>
+          <li>(7, 0, -10)</li>
+          <li>(8, 0, -10)</li>
+          <li>(9, 0, -10)</li>
+          <li>(10, 0, -10)</li>
+          <li>(11, 0, -10)</li>
+          <li>(12, 0, -10)</li>
+          <li>(13, 0, -10)</li>
+          <li>(14, 0, -10)</li>
+          <li>(15, 0, -10)</li>
+          <li>(16, 0, -10)</li>
+          <li>(17, 0, -10)</li>
+          <li>(18, 0, -10)</li>
+          <li>(19, 0, -10)</li>
+          <li>(-20, 0, -9)</li>
+          <li>(-19, 0, -9)</li>
+          <li>(-18, 0, -9)</li>
+          <li>(-17, 0, -9)</li>
+          <li>(-16, 0, -9)</li>
+          <li>(-15, 0, -9)</li>
+          <li>(-14, 0, -9)</li>
+          <li>(-13, 0, -9)</li>
+          <li>(-12, 0, -9)</li>
+          <li>(-11, 0, -9)</li>
+          <li>(-10, 0, -9)</li>
+          <li>(-9, 0, -9)</li>
+          <li>(-8, 0, -9)</li>
+          <li>(-7, 0, -9)</li>
+          <li>(-6, 0, -9)</li>
+          <li>(-5, 0, -9)</li>
+          <li>(-4, 0, -9)</li>
+          <li>(-3, 0, -9)</li>
+          <li>(-2, 0, -9)</li>
+          <li>(-1, 0, -9)</li>
+          <li>(0, 0, -9)</li>
+          <li>(1, 0, -9)</li>
+          <li>(2, 0, -9)</li>
+          <li>(3, 0, -9)</li>
+          <li>(4, 0, -9)</li>
+          <li>(5, 0, -9)</li>
+          <li>(6, 0, -9)</li>
+          <li>(7, 0, -9)</li>
+          <li>(8, 0, -9)</li>
+          <li>(9, 0, -9)</li>
+          <li>(10, 0, -9)</li>
+          <li>(11, 0, -9)</li>
+          <li>(12, 0, -9)</li>
+          <li>(13, 0, -9)</li>
+          <li>(14, 0, -9)</li>
+          <li>(15, 0, -9)</li>
+          <li>(16, 0, -9)</li>
+          <li>(17, 0, -9)</li>
+          <li>(18, 0, -9)</li>
+          <li>(19, 0, -9)</li>
+          <li>(-20, 0, -8)</li>
+          <li>(-19, 0, -8)</li>
+          <li>(-18, 0, -8)</li>
+          <li>(-17, 0, -8)</li>
+          <li>(-16, 0, -8)</li>
+          <li>(-15, 0, -8)</li>
+          <li>(-14, 0, -8)</li>
+          <li>(-13, 0, -8)</li>
+          <li>(-12, 0, -8)</li>
+          <li>(-11, 0, -8)</li>
+          <li>(-10, 0, -8)</li>
+          <li>(-9, 0, -8)</li>
+          <li>(-8, 0, -8)</li>
+          <li>(-7, 0, -8)</li>
+          <li>(-6, 0, -8)</li>
+          <li>(-5, 0, -8)</li>
+          <li>(-4, 0, -8)</li>
+          <li>(-3, 0, -8)</li>
+          <li>(-2, 0, -8)</li>
+          <li>(-1, 0, -8)</li>
+          <li>(0, 0, -8)</li>
+          <li>(1, 0, -8)</li>
+          <li>(2, 0, -8)</li>
+          <li>(3, 0, -8)</li>
+          <li>(4, 0, -8)</li>
+          <li>(5, 0, -8)</li>
+          <li>(6, 0, -8)</li>
+          <li>(7, 0, -8)</li>
+          <li>(8, 0, -8)</li>
+          <li>(9, 0, -8)</li>
+          <li>(10, 0, -8)</li>
+          <li>(11, 0, -8)</li>
+          <li>(12, 0, -8)</li>
+          <li>(13, 0, -8)</li>
+          <li>(14, 0, -8)</li>
+          <li>(15, 0, -8)</li>
+          <li>(16, 0, -8)</li>
+          <li>(17, 0, -8)</li>
+          <li>(18, 0, -8)</li>
+          <li>(19, 0, -8)</li>
+          <li>(-20, 0, -7)</li>
+          <li>(-19, 0, -7)</li>
+          <li>(-18, 0, -7)</li>
+          <li>(-17, 0, -7)</li>
+          <li>(-16, 0, -7)</li>
+          <li>(-15, 0, -7)</li>
+          <li>(-14, 0, -7)</li>
+          <li>(-13, 0, -7)</li>
+          <li>(-12, 0, -7)</li>
+          <li>(-11, 0, -7)</li>
+          <li>(-10, 0, -7)</li>
+          <li>(-9, 0, -7)</li>
+          <li>(-8, 0, -7)</li>
+          <li>(-7, 0, -7)</li>
+          <li>(-6, 0, -7)</li>
+          <li>(-5, 0, -7)</li>
+          <li>(-4, 0, -7)</li>
+          <li>(-3, 0, -7)</li>
+          <li>(-2, 0, -7)</li>
+          <li>(-1, 0, -7)</li>
+          <li>(0, 0, -7)</li>
+          <li>(1, 0, -7)</li>
+          <li>(2, 0, -7)</li>
+          <li>(3, 0, -7)</li>
+          <li>(4, 0, -7)</li>
+          <li>(5, 0, -7)</li>
+          <li>(6, 0, -7)</li>
+          <li>(7, 0, -7)</li>
+          <li>(8, 0, -7)</li>
+          <li>(9, 0, -7)</li>
+          <li>(10, 0, -7)</li>
+          <li>(11, 0, -7)</li>
+          <li>(12, 0, -7)</li>
+          <li>(13, 0, -7)</li>
+          <li>(14, 0, -7)</li>
+          <li>(15, 0, -7)</li>
+          <li>(16, 0, -7)</li>
+          <li>(17, 0, -7)</li>
+          <li>(18, 0, -7)</li>
+          <li>(19, 0, -7)</li>
+          <li>(-20, 0, -6)</li>
+          <li>(-19, 0, -6)</li>
+          <li>(-18, 0, -6)</li>
+          <li>(-17, 0, -6)</li>
+          <li>(-16, 0, -6)</li>
+          <li>(-15, 0, -6)</li>
+          <li>(-14, 0, -6)</li>
+          <li>(-13, 0, -6)</li>
+          <li>(-12, 0, -6)</li>
+          <li>(-11, 0, -6)</li>
+          <li>(-10, 0, -6)</li>
+          <li>(-9, 0, -6)</li>
+          <li>(-8, 0, -6)</li>
+          <li>(-7, 0, -6)</li>
+          <li>(-6, 0, -6)</li>
+          <li>(-5, 0, -6)</li>
+          <li>(-4, 0, -6)</li>
+          <li>(-3, 0, -6)</li>
+          <li>(-2, 0, -6)</li>
+          <li>(-1, 0, -6)</li>
+          <li>(0, 0, -6)</li>
+          <li>(1, 0, -6)</li>
+          <li>(2, 0, -6)</li>
+          <li>(3, 0, -6)</li>
+          <li>(4, 0, -6)</li>
+          <li>(5, 0, -6)</li>
+          <li>(6, 0, -6)</li>
+          <li>(7, 0, -6)</li>
+          <li>(8, 0, -6)</li>
+          <li>(9, 0, -6)</li>
+          <li>(10, 0, -6)</li>
+          <li>(11, 0, -6)</li>
+          <li>(12, 0, -6)</li>
+          <li>(13, 0, -6)</li>
+          <li>(14, 0, -6)</li>
+          <li>(15, 0, -6)</li>
+          <li>(16, 0, -6)</li>
+          <li>(17, 0, -6)</li>
+          <li>(18, 0, -6)</li>
+          <li>(19, 0, -6)</li>
+          <li>(-20, 0, -5)</li>
+          <li>(-19, 0, -5)</li>
+          <li>(-18, 0, -5)</li>
+          <li>(-17, 0, -5)</li>
+          <li>(-16, 0, -5)</li>
+          <li>(-15, 0, -5)</li>
+          <li>(-14, 0, -5)</li>
+          <li>(-13, 0, -5)</li>
+          <li>(-12, 0, -5)</li>
+          <li>(-11, 0, -5)</li>
+          <li>(-10, 0, -5)</li>
+          <li>(-9, 0, -5)</li>
+          <li>(-8, 0, -5)</li>
+          <li>(-7, 0, -5)</li>
+          <li>(-6, 0, -5)</li>
+          <li>(-5, 0, -5)</li>
+          <li>(-4, 0, -5)</li>
+          <li>(-3, 0, -5)</li>
+          <li>(-2, 0, -5)</li>
+          <li>(-1, 0, -5)</li>
+          <li>(0, 0, -5)</li>
+          <li>(1, 0, -5)</li>
+          <li>(2, 0, -5)</li>
+          <li>(3, 0, -5)</li>
+          <li>(4, 0, -5)</li>
+          <li>(5, 0, -5)</li>
+          <li>(6, 0, -5)</li>
+          <li>(7, 0, -5)</li>
+          <li>(8, 0, -5)</li>
+          <li>(9, 0, -5)</li>
+          <li>(10, 0, -5)</li>
+          <li>(11, 0, -5)</li>
+          <li>(12, 0, -5)</li>
+          <li>(13, 0, -5)</li>
+          <li>(14, 0, -5)</li>
+          <li>(15, 0, -5)</li>
+          <li>(16, 0, -5)</li>
+          <li>(17, 0, -5)</li>
+          <li>(18, 0, -5)</li>
+          <li>(19, 0, -5)</li>
+          <li>(-20, 0, -4)</li>
+          <li>(-19, 0, -4)</li>
+          <li>(-18, 0, -4)</li>
+          <li>(-17, 0, -4)</li>
+          <li>(-16, 0, -4)</li>
+          <li>(-15, 0, -4)</li>
+          <li>(-14, 0, -4)</li>
+          <li>(-13, 0, -4)</li>
+          <li>(-12, 0, -4)</li>
+          <li>(-11, 0, -4)</li>
+          <li>(-10, 0, -4)</li>
+          <li>(-9, 0, -4)</li>
+          <li>(-8, 0, -4)</li>
+          <li>(-7, 0, -4)</li>
+          <li>(-6, 0, -4)</li>
+          <li>(-5, 0, -4)</li>
+          <li>(-4, 0, -4)</li>
+          <li>(-3, 0, -4)</li>
+          <li>(-2, 0, -4)</li>
+          <li>(-1, 0, -4)</li>
+          <li>(0, 0, -4)</li>
+          <li>(1, 0, -4)</li>
+          <li>(2, 0, -4)</li>
+          <li>(3, 0, -4)</li>
+          <li>(4, 0, -4)</li>
+          <li>(5, 0, -4)</li>
+          <li>(6, 0, -4)</li>
+          <li>(7, 0, -4)</li>
+          <li>(8, 0, -4)</li>
+          <li>(9, 0, -4)</li>
+          <li>(10, 0, -4)</li>
+          <li>(11, 0, -4)</li>
+          <li>(12, 0, -4)</li>
+          <li>(13, 0, -4)</li>
+          <li>(14, 0, -4)</li>
+          <li>(15, 0, -4)</li>
+          <li>(16, 0, -4)</li>
+          <li>(17, 0, -4)</li>
+          <li>(18, 0, -4)</li>
+          <li>(19, 0, -4)</li>
+          <li>(-20, 0, -3)</li>
+          <li>(-19, 0, -3)</li>
+          <li>(-18, 0, -3)</li>
+          <li>(-17, 0, -3)</li>
+          <li>(-16, 0, -3)</li>
+          <li>(-15, 0, -3)</li>
+          <li>(-14, 0, -3)</li>
+          <li>(-13, 0, -3)</li>
+          <li>(-12, 0, -3)</li>
+          <li>(-11, 0, -3)</li>
+          <li>(-10, 0, -3)</li>
+          <li>(-9, 0, -3)</li>
+          <li>(-8, 0, -3)</li>
+          <li>(-7, 0, -3)</li>
+          <li>(-6, 0, -3)</li>
+          <li>(-5, 0, -3)</li>
+          <li>(-4, 0, -3)</li>
+          <li>(-3, 0, -3)</li>
+          <li>(-2, 0, -3)</li>
+          <li>(-1, 0, -3)</li>
+          <li>(0, 0, -3)</li>
+          <li>(1, 0, -3)</li>
+          <li>(2, 0, -3)</li>
+          <li>(3, 0, -3)</li>
+          <li>(4, 0, -3)</li>
+          <li>(5, 0, -3)</li>
+          <li>(6, 0, -3)</li>
+          <li>(7, 0, -3)</li>
+          <li>(8, 0, -3)</li>
+          <li>(9, 0, -3)</li>
+          <li>(10, 0, -3)</li>
+          <li>(11, 0, -3)</li>
+          <li>(12, 0, -3)</li>
+          <li>(13, 0, -3)</li>
+          <li>(14, 0, -3)</li>
+          <li>(15, 0, -3)</li>
+          <li>(16, 0, -3)</li>
+          <li>(17, 0, -3)</li>
+          <li>(18, 0, -3)</li>
+          <li>(19, 0, -3)</li>
+          <li>(-20, 0, -2)</li>
+          <li>(-19, 0, -2)</li>
+          <li>(-18, 0, -2)</li>
+          <li>(-17, 0, -2)</li>
+          <li>(-16, 0, -2)</li>
+          <li>(-15, 0, -2)</li>
+          <li>(-14, 0, -2)</li>
+          <li>(-13, 0, -2)</li>
+          <li>(-12, 0, -2)</li>
+          <li>(-11, 0, -2)</li>
+          <li>(-10, 0, -2)</li>
+          <li>(-9, 0, -2)</li>
+          <li>(-8, 0, -2)</li>
+          <li>(-7, 0, -2)</li>
+          <li>(-6, 0, -2)</li>
+          <li>(-5, 0, -2)</li>
+          <li>(-4, 0, -2)</li>
+          <li>(-3, 0, -2)</li>
+          <li>(-2, 0, -2)</li>
+          <li>(-1, 0, -2)</li>
+          <li>(0, 0, -2)</li>
+          <li>(1, 0, -2)</li>
+          <li>(2, 0, -2)</li>
+          <li>(3, 0, -2)</li>
+          <li>(4, 0, -2)</li>
+          <li>(5, 0, -2)</li>
+          <li>(6, 0, -2)</li>
+          <li>(7, 0, -2)</li>
+          <li>(8, 0, -2)</li>
+          <li>(9, 0, -2)</li>
+          <li>(10, 0, -2)</li>
+          <li>(11, 0, -2)</li>
+          <li>(12, 0, -2)</li>
+          <li>(13, 0, -2)</li>
+          <li>(14, 0, -2)</li>
+          <li>(15, 0, -2)</li>
+          <li>(16, 0, -2)</li>
+          <li>(17, 0, -2)</li>
+          <li>(18, 0, -2)</li>
+          <li>(19, 0, -2)</li>
+          <li>(-20, 0, -1)</li>
+          <li>(-19, 0, -1)</li>
+          <li>(-18, 0, -1)</li>
+          <li>(-17, 0, -1)</li>
+          <li>(-16, 0, -1)</li>
+          <li>(-15, 0, -1)</li>
+          <li>(-14, 0, -1)</li>
+          <li>(-13, 0, -1)</li>
+          <li>(-12, 0, -1)</li>
+          <li>(-11, 0, -1)</li>
+          <li>(-10, 0, -1)</li>
+          <li>(-9, 0, -1)</li>
+          <li>(-8, 0, -1)</li>
+          <li>(-7, 0, -1)</li>
+          <li>(-6, 0, -1)</li>
+          <li>(-5, 0, -1)</li>
+          <li>(-4, 0, -1)</li>
+          <li>(-3, 0, -1)</li>
+          <li>(-2, 0, -1)</li>
+          <li>(-1, 0, -1)</li>
+          <li>(0, 0, -1)</li>
+          <li>(1, 0, -1)</li>
+          <li>(2, 0, -1)</li>
+          <li>(3, 0, -1)</li>
+          <li>(4, 0, -1)</li>
+          <li>(5, 0, -1)</li>
+          <li>(6, 0, -1)</li>
+          <li>(7, 0, -1)</li>
+          <li>(8, 0, -1)</li>
+          <li>(9, 0, -1)</li>
+          <li>(10, 0, -1)</li>
+          <li>(11, 0, -1)</li>
+          <li>(12, 0, -1)</li>
+          <li>(13, 0, -1)</li>
+          <li>(14, 0, -1)</li>
+          <li>(15, 0, -1)</li>
+          <li>(16, 0, -1)</li>
+          <li>(17, 0, -1)</li>
+          <li>(18, 0, -1)</li>
+          <li>(19, 0, -1)</li>
+          <li>(-20, 0, 0)</li>
+          <li>(-19, 0, 0)</li>
+          <li>(-18, 0, 0)</li>
+          <li>(-17, 0, 0)</li>
+          <li>(-16, 0, 0)</li>
+          <li>(-15, 0, 0)</li>
+          <li>(-14, 0, 0)</li>
+          <li>(-13, 0, 0)</li>
+          <li>(-12, 0, 0)</li>
+          <li>(-11, 0, 0)</li>
+          <li>(-10, 0, 0)</li>
+          <li>(-9, 0, 0)</li>
+          <li>(-8, 0, 0)</li>
+          <li>(-7, 0, 0)</li>
+          <li>(-6, 0, 0)</li>
+          <li>(-5, 0, 0)</li>
+          <li>(-4, 0, 0)</li>
+          <li>(-3, 0, 0)</li>
+          <li>(-2, 0, 0)</li>
+          <li>(-1, 0, 0)</li>
+          <li>(0, 0, 0)</li>
+          <li>(1, 0, 0)</li>
+          <li>(2, 0, 0)</li>
+          <li>(3, 0, 0)</li>
+          <li>(4, 0, 0)</li>
+          <li>(5, 0, 0)</li>
+          <li>(6, 0, 0)</li>
+          <li>(7, 0, 0)</li>
+          <li>(8, 0, 0)</li>
+          <li>(9, 0, 0)</li>
+          <li>(10, 0, 0)</li>
+          <li>(11, 0, 0)</li>
+          <li>(12, 0, 0)</li>
+          <li>(13, 0, 0)</li>
+          <li>(14, 0, 0)</li>
+          <li>(15, 0, 0)</li>
+          <li>(16, 0, 0)</li>
+          <li>(17, 0, 0)</li>
+          <li>(18, 0, 0)</li>
+          <li>(19, 0, 0)</li>
+          <li>(-20, 0, 1)</li>
+          <li>(-19, 0, 1)</li>
+          <li>(-18, 0, 1)</li>
+          <li>(-17, 0, 1)</li>
+          <li>(-16, 0, 1)</li>
+          <li>(-15, 0, 1)</li>
+          <li>(-14, 0, 1)</li>
+          <li>(-13, 0, 1)</li>
+          <li>(-12, 0, 1)</li>
+          <li>(-11, 0, 1)</li>
+          <li>(-10, 0, 1)</li>
+          <li>(-9, 0, 1)</li>
+          <li>(-8, 0, 1)</li>
+          <li>(-7, 0, 1)</li>
+          <li>(-6, 0, 1)</li>
+          <li>(-5, 0, 1)</li>
+          <li>(-4, 0, 1)</li>
+          <li>(-3, 0, 1)</li>
+          <li>(-2, 0, 1)</li>
+          <li>(-1, 0, 1)</li>
+          <li>(0, 0, 1)</li>
+          <li>(1, 0, 1)</li>
+          <li>(2, 0, 1)</li>
+          <li>(3, 0, 1)</li>
+          <li>(4, 0, 1)</li>
+          <li>(5, 0, 1)</li>
+          <li>(6, 0, 1)</li>
+          <li>(7, 0, 1)</li>
+          <li>(8, 0, 1)</li>
+          <li>(9, 0, 1)</li>
+          <li>(10, 0, 1)</li>
+          <li>(11, 0, 1)</li>
+          <li>(12, 0, 1)</li>
+          <li>(13, 0, 1)</li>
+          <li>(14, 0, 1)</li>
+          <li>(15, 0, 1)</li>
+          <li>(16, 0, 1)</li>
+          <li>(17, 0, 1)</li>
+          <li>(18, 0, 1)</li>
+          <li>(19, 0, 1)</li>
+          <li>(-20, 0, 2)</li>
+          <li>(-19, 0, 2)</li>
+          <li>(-18, 0, 2)</li>
+          <li>(-17, 0, 2)</li>
+          <li>(-16, 0, 2)</li>
+          <li>(-15, 0, 2)</li>
+          <li>(-14, 0, 2)</li>
+          <li>(-13, 0, 2)</li>
+          <li>(-12, 0, 2)</li>
+          <li>(-11, 0, 2)</li>
+          <li>(-10, 0, 2)</li>
+          <li>(-9, 0, 2)</li>
+          <li>(-8, 0, 2)</li>
+          <li>(-7, 0, 2)</li>
+          <li>(-6, 0, 2)</li>
+          <li>(-5, 0, 2)</li>
+          <li>(-4, 0, 2)</li>
+          <li>(-3, 0, 2)</li>
+          <li>(-2, 0, 2)</li>
+          <li>(-1, 0, 2)</li>
+          <li>(0, 0, 2)</li>
+          <li>(1, 0, 2)</li>
+          <li>(2, 0, 2)</li>
+          <li>(3, 0, 2)</li>
+          <li>(4, 0, 2)</li>
+          <li>(5, 0, 2)</li>
+          <li>(6, 0, 2)</li>
+          <li>(7, 0, 2)</li>
+          <li>(8, 0, 2)</li>
+          <li>(9, 0, 2)</li>
+          <li>(10, 0, 2)</li>
+          <li>(11, 0, 2)</li>
+          <li>(12, 0, 2)</li>
+          <li>(13, 0, 2)</li>
+          <li>(14, 0, 2)</li>
+          <li>(15, 0, 2)</li>
+          <li>(16, 0, 2)</li>
+          <li>(17, 0, 2)</li>
+          <li>(18, 0, 2)</li>
+          <li>(19, 0, 2)</li>
+          <li>(-20, 0, 3)</li>
+          <li>(-19, 0, 3)</li>
+          <li>(-18, 0, 3)</li>
+          <li>(-17, 0, 3)</li>
+          <li>(-16, 0, 3)</li>
+          <li>(-15, 0, 3)</li>
+          <li>(-14, 0, 3)</li>
+          <li>(-13, 0, 3)</li>
+          <li>(-12, 0, 3)</li>
+          <li>(-11, 0, 3)</li>
+          <li>(-10, 0, 3)</li>
+          <li>(-9, 0, 3)</li>
+          <li>(-8, 0, 3)</li>
+          <li>(-7, 0, 3)</li>
+          <li>(-6, 0, 3)</li>
+          <li>(-5, 0, 3)</li>
+          <li>(-4, 0, 3)</li>
+          <li>(-3, 0, 3)</li>
+          <li>(-2, 0, 3)</li>
+          <li>(-1, 0, 3)</li>
+          <li>(0, 0, 3)</li>
+          <li>(1, 0, 3)</li>
+          <li>(2, 0, 3)</li>
+          <li>(3, 0, 3)</li>
+          <li>(4, 0, 3)</li>
+          <li>(5, 0, 3)</li>
+          <li>(6, 0, 3)</li>
+          <li>(7, 0, 3)</li>
+          <li>(8, 0, 3)</li>
+          <li>(9, 0, 3)</li>
+          <li>(10, 0, 3)</li>
+          <li>(11, 0, 3)</li>
+          <li>(12, 0, 3)</li>
+          <li>(13, 0, 3)</li>
+          <li>(14, 0, 3)</li>
+          <li>(15, 0, 3)</li>
+          <li>(16, 0, 3)</li>
+          <li>(17, 0, 3)</li>
+          <li>(18, 0, 3)</li>
+          <li>(19, 0, 3)</li>
+          <li>(-20, 0, 4)</li>
+          <li>(-19, 0, 4)</li>
+          <li>(-18, 0, 4)</li>
+          <li>(-17, 0, 4)</li>
+          <li>(-16, 0, 4)</li>
+          <li>(-15, 0, 4)</li>
+          <li>(-14, 0, 4)</li>
+          <li>(-13, 0, 4)</li>
+          <li>(-12, 0, 4)</li>
+          <li>(-11, 0, 4)</li>
+          <li>(-10, 0, 4)</li>
+          <li>(-9, 0, 4)</li>
+          <li>(-8, 0, 4)</li>
+          <li>(-7, 0, 4)</li>
+          <li>(-6, 0, 4)</li>
+          <li>(-5, 0, 4)</li>
+          <li>(-4, 0, 4)</li>
+          <li>(-3, 0, 4)</li>
+          <li>(-2, 0, 4)</li>
+          <li>(-1, 0, 4)</li>
+          <li>(0, 0, 4)</li>
+          <li>(1, 0, 4)</li>
+          <li>(2, 0, 4)</li>
+          <li>(3, 0, 4)</li>
+          <li>(4, 0, 4)</li>
+          <li>(5, 0, 4)</li>
+          <li>(6, 0, 4)</li>
+          <li>(7, 0, 4)</li>
+          <li>(8, 0, 4)</li>
+          <li>(9, 0, 4)</li>
+          <li>(10, 0, 4)</li>
+          <li>(11, 0, 4)</li>
+          <li>(12, 0, 4)</li>
+          <li>(13, 0, 4)</li>
+          <li>(14, 0, 4)</li>
+          <li>(15, 0, 4)</li>
+          <li>(16, 0, 4)</li>
+          <li>(17, 0, 4)</li>
+          <li>(18, 0, 4)</li>
+          <li>(19, 0, 4)</li>
+          <li>(-20, 0, 5)</li>
+          <li>(-19, 0, 5)</li>
+          <li>(-18, 0, 5)</li>
+          <li>(-17, 0, 5)</li>
+          <li>(-16, 0, 5)</li>
+          <li>(-15, 0, 5)</li>
+          <li>(-14, 0, 5)</li>
+          <li>(-13, 0, 5)</li>
+          <li>(-12, 0, 5)</li>
+          <li>(-11, 0, 5)</li>
+          <li>(-10, 0, 5)</li>
+          <li>(-9, 0, 5)</li>
+          <li>(-8, 0, 5)</li>
+          <li>(-7, 0, 5)</li>
+          <li>(-6, 0, 5)</li>
+          <li>(-5, 0, 5)</li>
+          <li>(-4, 0, 5)</li>
+          <li>(-3, 0, 5)</li>
+          <li>(-2, 0, 5)</li>
+          <li>(-1, 0, 5)</li>
+          <li>(0, 0, 5)</li>
+          <li>(1, 0, 5)</li>
+          <li>(2, 0, 5)</li>
+          <li>(3, 0, 5)</li>
+          <li>(4, 0, 5)</li>
+          <li>(5, 0, 5)</li>
+          <li>(6, 0, 5)</li>
+          <li>(7, 0, 5)</li>
+          <li>(8, 0, 5)</li>
+          <li>(9, 0, 5)</li>
+          <li>(10, 0, 5)</li>
+          <li>(11, 0, 5)</li>
+          <li>(12, 0, 5)</li>
+          <li>(13, 0, 5)</li>
+          <li>(14, 0, 5)</li>
+          <li>(15, 0, 5)</li>
+          <li>(16, 0, 5)</li>
+          <li>(17, 0, 5)</li>
+          <li>(18, 0, 5)</li>
+          <li>(19, 0, 5)</li>
+          <li>(-20, 0, 6)</li>
+          <li>(-19, 0, 6)</li>
+          <li>(-18, 0, 6)</li>
+          <li>(-17, 0, 6)</li>
+          <li>(-16, 0, 6)</li>
+          <li>(-15, 0, 6)</li>
+          <li>(-14, 0, 6)</li>
+          <li>(-13, 0, 6)</li>
+          <li>(-12, 0, 6)</li>
+          <li>(-11, 0, 6)</li>
+          <li>(-10, 0, 6)</li>
+          <li>(-9, 0, 6)</li>
+          <li>(-8, 0, 6)</li>
+          <li>(-7, 0, 6)</li>
+          <li>(-6, 0, 6)</li>
+          <li>(-5, 0, 6)</li>
+          <li>(-4, 0, 6)</li>
+          <li>(-3, 0, 6)</li>
+          <li>(-2, 0, 6)</li>
+          <li>(-1, 0, 6)</li>
+          <li>(0, 0, 6)</li>
+          <li>(1, 0, 6)</li>
+          <li>(2, 0, 6)</li>
+          <li>(3, 0, 6)</li>
+          <li>(4, 0, 6)</li>
+          <li>(5, 0, 6)</li>
+          <li>(6, 0, 6)</li>
+          <li>(7, 0, 6)</li>
+          <li>(8, 0, 6)</li>
+          <li>(9, 0, 6)</li>
+          <li>(10, 0, 6)</li>
+          <li>(11, 0, 6)</li>
+          <li>(12, 0, 6)</li>
+          <li>(13, 0, 6)</li>
+          <li>(14, 0, 6)</li>
+          <li>(15, 0, 6)</li>
+          <li>(16, 0, 6)</li>
+          <li>(17, 0, 6)</li>
+          <li>(18, 0, 6)</li>
+          <li>(19, 0, 6)</li>
+          <li>(-20, 0, 7)</li>
+          <li>(-19, 0, 7)</li>
+          <li>(-18, 0, 7)</li>
+          <li>(-17, 0, 7)</li>
+          <li>(-16, 0, 7)</li>
+          <li>(-15, 0, 7)</li>
+          <li>(-14, 0, 7)</li>
+          <li>(-13, 0, 7)</li>
+          <li>(-12, 0, 7)</li>
+          <li>(-11, 0, 7)</li>
+          <li>(-10, 0, 7)</li>
+          <li>(-9, 0, 7)</li>
+          <li>(-8, 0, 7)</li>
+          <li>(-7, 0, 7)</li>
+          <li>(-6, 0, 7)</li>
+          <li>(-5, 0, 7)</li>
+          <li>(-4, 0, 7)</li>
+          <li>(-3, 0, 7)</li>
+          <li>(-2, 0, 7)</li>
+          <li>(-1, 0, 7)</li>
+          <li>(0, 0, 7)</li>
+          <li>(1, 0, 7)</li>
+          <li>(2, 0, 7)</li>
+          <li>(3, 0, 7)</li>
+          <li>(4, 0, 7)</li>
+          <li>(5, 0, 7)</li>
+          <li>(6, 0, 7)</li>
+          <li>(7, 0, 7)</li>
+          <li>(8, 0, 7)</li>
+          <li>(9, 0, 7)</li>
+          <li>(10, 0, 7)</li>
+          <li>(11, 0, 7)</li>
+          <li>(12, 0, 7)</li>
+          <li>(13, 0, 7)</li>
+          <li>(14, 0, 7)</li>
+          <li>(15, 0, 7)</li>
+          <li>(16, 0, 7)</li>
+          <li>(17, 0, 7)</li>
+          <li>(18, 0, 7)</li>
+          <li>(19, 0, 7)</li>
+          <li>(-20, 0, 8)</li>
+          <li>(-19, 0, 8)</li>
+          <li>(-18, 0, 8)</li>
+          <li>(-17, 0, 8)</li>
+          <li>(-16, 0, 8)</li>
+          <li>(-15, 0, 8)</li>
+          <li>(-14, 0, 8)</li>
+          <li>(-13, 0, 8)</li>
+          <li>(-12, 0, 8)</li>
+          <li>(-11, 0, 8)</li>
+          <li>(-10, 0, 8)</li>
+          <li>(-9, 0, 8)</li>
+          <li>(-8, 0, 8)</li>
+          <li>(-7, 0, 8)</li>
+          <li>(-6, 0, 8)</li>
+          <li>(-5, 0, 8)</li>
+          <li>(-4, 0, 8)</li>
+          <li>(-3, 0, 8)</li>
+          <li>(-2, 0, 8)</li>
+          <li>(-1, 0, 8)</li>
+          <li>(0, 0, 8)</li>
+          <li>(1, 0, 8)</li>
+          <li>(2, 0, 8)</li>
+          <li>(3, 0, 8)</li>
+          <li>(4, 0, 8)</li>
+          <li>(5, 0, 8)</li>
+          <li>(6, 0, 8)</li>
+          <li>(7, 0, 8)</li>
+          <li>(8, 0, 8)</li>
+          <li>(9, 0, 8)</li>
+          <li>(10, 0, 8)</li>
+          <li>(11, 0, 8)</li>
+          <li>(12, 0, 8)</li>
+          <li>(13, 0, 8)</li>
+          <li>(14, 0, 8)</li>
+          <li>(15, 0, 8)</li>
+          <li>(16, 0, 8)</li>
+          <li>(17, 0, 8)</li>
+          <li>(18, 0, 8)</li>
+          <li>(19, 0, 8)</li>
+          <li>(-20, 0, 9)</li>
+          <li>(-19, 0, 9)</li>
+          <li>(-18, 0, 9)</li>
+          <li>(-17, 0, 9)</li>
+          <li>(-16, 0, 9)</li>
+          <li>(-15, 0, 9)</li>
+          <li>(-14, 0, 9)</li>
+          <li>(-13, 0, 9)</li>
+          <li>(-12, 0, 9)</li>
+          <li>(-11, 0, 9)</li>
+          <li>(-10, 0, 9)</li>
+          <li>(-9, 0, 9)</li>
+          <li>(-8, 0, 9)</li>
+          <li>(-7, 0, 9)</li>
+          <li>(-6, 0, 9)</li>
+          <li>(-5, 0, 9)</li>
+          <li>(-4, 0, 9)</li>
+          <li>(-3, 0, 9)</li>
+          <li>(-2, 0, 9)</li>
+          <li>(-1, 0, 9)</li>
+          <li>(0, 0, 9)</li>
+          <li>(1, 0, 9)</li>
+          <li>(2, 0, 9)</li>
+          <li>(3, 0, 9)</li>
+          <li>(4, 0, 9)</li>
+          <li>(5, 0, 9)</li>
+          <li>(6, 0, 9)</li>
+          <li>(7, 0, 9)</li>
+          <li>(8, 0, 9)</li>
+          <li>(9, 0, 9)</li>
+          <li>(10, 0, 9)</li>
+          <li>(11, 0, 9)</li>
+          <li>(12, 0, 9)</li>
+          <li>(13, 0, 9)</li>
+          <li>(14, 0, 9)</li>
+          <li>(15, 0, 9)</li>
+          <li>(16, 0, 9)</li>
+          <li>(17, 0, 9)</li>
+          <li>(18, 0, 9)</li>
+          <li>(19, 0, 9)</li>
+          <li>(-20, 0, 10)</li>
+          <li>(-19, 0, 10)</li>
+          <li>(-18, 0, 10)</li>
+          <li>(-17, 0, 10)</li>
+          <li>(-16, 0, 10)</li>
+          <li>(-15, 0, 10)</li>
+          <li>(-14, 0, 10)</li>
+          <li>(-13, 0, 10)</li>
+          <li>(-12, 0, 10)</li>
+          <li>(-11, 0, 10)</li>
+          <li>(-10, 0, 10)</li>
+          <li>(-9, 0, 10)</li>
+          <li>(-8, 0, 10)</li>
+          <li>(-7, 0, 10)</li>
+          <li>(-6, 0, 10)</li>
+          <li>(-5, 0, 10)</li>
+          <li>(-4, 0, 10)</li>
+          <li>(-3, 0, 10)</li>
+          <li>(-2, 0, 10)</li>
+          <li>(-1, 0, 10)</li>
+          <li>(0, 0, 10)</li>
+          <li>(1, 0, 10)</li>
+          <li>(2, 0, 10)</li>
+          <li>(3, 0, 10)</li>
+          <li>(4, 0, 10)</li>
+          <li>(5, 0, 10)</li>
+          <li>(6, 0, 10)</li>
+          <li>(7, 0, 10)</li>
+          <li>(8, 0, 10)</li>
+          <li>(9, 0, 10)</li>
+          <li>(10, 0, 10)</li>
+          <li>(11, 0, 10)</li>
+          <li>(12, 0, 10)</li>
+          <li>(13, 0, 10)</li>
+          <li>(14, 0, 10)</li>
+          <li>(15, 0, 10)</li>
+          <li>(16, 0, 10)</li>
+          <li>(17, 0, 10)</li>
+          <li>(18, 0, 10)</li>
+          <li>(19, 0, 10)</li>
+          <li>(-20, 0, 11)</li>
+          <li>(-19, 0, 11)</li>
+          <li>(-18, 0, 11)</li>
+          <li>(-17, 0, 11)</li>
+          <li>(-16, 0, 11)</li>
+          <li>(-15, 0, 11)</li>
+          <li>(-14, 0, 11)</li>
+          <li>(-13, 0, 11)</li>
+          <li>(-12, 0, 11)</li>
+          <li>(-11, 0, 11)</li>
+          <li>(-10, 0, 11)</li>
+          <li>(-9, 0, 11)</li>
+          <li>(-8, 0, 11)</li>
+          <li>(-7, 0, 11)</li>
+          <li>(-6, 0, 11)</li>
+          <li>(-5, 0, 11)</li>
+          <li>(-4, 0, 11)</li>
+          <li>(-3, 0, 11)</li>
+          <li>(-2, 0, 11)</li>
+          <li>(-1, 0, 11)</li>
+          <li>(0, 0, 11)</li>
+          <li>(1, 0, 11)</li>
+          <li>(2, 0, 11)</li>
+          <li>(3, 0, 11)</li>
+          <li>(4, 0, 11)</li>
+          <li>(5, 0, 11)</li>
+          <li>(6, 0, 11)</li>
+          <li>(7, 0, 11)</li>
+          <li>(8, 0, 11)</li>
+          <li>(9, 0, 11)</li>
+          <li>(10, 0, 11)</li>
+          <li>(11, 0, 11)</li>
+          <li>(12, 0, 11)</li>
+          <li>(13, 0, 11)</li>
+          <li>(14, 0, 11)</li>
+          <li>(15, 0, 11)</li>
+          <li>(16, 0, 11)</li>
+          <li>(17, 0, 11)</li>
+          <li>(18, 0, 11)</li>
+          <li>(19, 0, 11)</li>
+          <li>(-20, 0, 12)</li>
+          <li>(-19, 0, 12)</li>
+          <li>(-18, 0, 12)</li>
+          <li>(-17, 0, 12)</li>
+          <li>(-16, 0, 12)</li>
+          <li>(-15, 0, 12)</li>
+          <li>(-14, 0, 12)</li>
+          <li>(-13, 0, 12)</li>
+          <li>(-12, 0, 12)</li>
+          <li>(-11, 0, 12)</li>
+          <li>(-10, 0, 12)</li>
+          <li>(-9, 0, 12)</li>
+          <li>(-8, 0, 12)</li>
+          <li>(-7, 0, 12)</li>
+          <li>(-6, 0, 12)</li>
+          <li>(-5, 0, 12)</li>
+          <li>(-4, 0, 12)</li>
+          <li>(-3, 0, 12)</li>
+          <li>(-2, 0, 12)</li>
+          <li>(-1, 0, 12)</li>
+          <li>(0, 0, 12)</li>
+          <li>(1, 0, 12)</li>
+          <li>(2, 0, 12)</li>
+          <li>(3, 0, 12)</li>
+          <li>(4, 0, 12)</li>
+          <li>(5, 0, 12)</li>
+          <li>(6, 0, 12)</li>
+          <li>(7, 0, 12)</li>
+          <li>(8, 0, 12)</li>
+          <li>(9, 0, 12)</li>
+          <li>(10, 0, 12)</li>
+          <li>(11, 0, 12)</li>
+          <li>(12, 0, 12)</li>
+          <li>(13, 0, 12)</li>
+          <li>(14, 0, 12)</li>
+          <li>(15, 0, 12)</li>
+          <li>(16, 0, 12)</li>
+          <li>(17, 0, 12)</li>
+          <li>(18, 0, 12)</li>
+          <li>(19, 0, 12)</li>
+          <li>(-20, 0, 13)</li>
+          <li>(-19, 0, 13)</li>
+          <li>(-18, 0, 13)</li>
+          <li>(-17, 0, 13)</li>
+          <li>(-16, 0, 13)</li>
+          <li>(-15, 0, 13)</li>
+          <li>(-14, 0, 13)</li>
+          <li>(-13, 0, 13)</li>
+          <li>(-12, 0, 13)</li>
+          <li>(-11, 0, 13)</li>
+          <li>(-10, 0, 13)</li>
+          <li>(-9, 0, 13)</li>
+          <li>(-8, 0, 13)</li>
+          <li>(-7, 0, 13)</li>
+          <li>(-6, 0, 13)</li>
+          <li>(-5, 0, 13)</li>
+          <li>(-4, 0, 13)</li>
+          <li>(-3, 0, 13)</li>
+          <li>(-2, 0, 13)</li>
+          <li>(-1, 0, 13)</li>
+          <li>(0, 0, 13)</li>
+          <li>(1, 0, 13)</li>
+          <li>(2, 0, 13)</li>
+          <li>(3, 0, 13)</li>
+          <li>(4, 0, 13)</li>
+          <li>(5, 0, 13)</li>
+          <li>(6, 0, 13)</li>
+          <li>(7, 0, 13)</li>
+          <li>(8, 0, 13)</li>
+          <li>(9, 0, 13)</li>
+          <li>(10, 0, 13)</li>
+          <li>(11, 0, 13)</li>
+          <li>(12, 0, 13)</li>
+          <li>(13, 0, 13)</li>
+          <li>(14, 0, 13)</li>
+          <li>(15, 0, 13)</li>
+          <li>(16, 0, 13)</li>
+          <li>(17, 0, 13)</li>
+          <li>(18, 0, 13)</li>
+          <li>(19, 0, 13)</li>
+          <li>(-20, 0, 14)</li>
+          <li>(-19, 0, 14)</li>
+          <li>(-18, 0, 14)</li>
+          <li>(-17, 0, 14)</li>
+          <li>(-16, 0, 14)</li>
+          <li>(-15, 0, 14)</li>
+          <li>(-14, 0, 14)</li>
+          <li>(-13, 0, 14)</li>
+          <li>(-12, 0, 14)</li>
+          <li>(-11, 0, 14)</li>
+          <li>(-10, 0, 14)</li>
+          <li>(-9, 0, 14)</li>
+          <li>(-8, 0, 14)</li>
+          <li>(-7, 0, 14)</li>
+          <li>(-6, 0, 14)</li>
+          <li>(-5, 0, 14)</li>
+          <li>(-4, 0, 14)</li>
+          <li>(-3, 0, 14)</li>
+          <li>(-2, 0, 14)</li>
+          <li>(-1, 0, 14)</li>
+          <li>(0, 0, 14)</li>
+          <li>(1, 0, 14)</li>
+          <li>(2, 0, 14)</li>
+          <li>(3, 0, 14)</li>
+          <li>(4, 0, 14)</li>
+          <li>(5, 0, 14)</li>
+          <li>(6, 0, 14)</li>
+          <li>(7, 0, 14)</li>
+          <li>(8, 0, 14)</li>
+          <li>(9, 0, 14)</li>
+          <li>(10, 0, 14)</li>
+          <li>(11, 0, 14)</li>
+          <li>(12, 0, 14)</li>
+          <li>(13, 0, 14)</li>
+          <li>(14, 0, 14)</li>
+          <li>(15, 0, 14)</li>
+          <li>(16, 0, 14)</li>
+          <li>(17, 0, 14)</li>
+          <li>(18, 0, 14)</li>
+          <li>(19, 0, 14)</li>
+          <li>(-20, 0, 15)</li>
+          <li>(-19, 0, 15)</li>
+          <li>(-18, 0, 15)</li>
+          <li>(-17, 0, 15)</li>
+          <li>(-16, 0, 15)</li>
+          <li>(-15, 0, 15)</li>
+          <li>(-14, 0, 15)</li>
+          <li>(-13, 0, 15)</li>
+          <li>(-12, 0, 15)</li>
+          <li>(-11, 0, 15)</li>
+          <li>(-10, 0, 15)</li>
+          <li>(-9, 0, 15)</li>
+          <li>(-8, 0, 15)</li>
+          <li>(-7, 0, 15)</li>
+          <li>(-6, 0, 15)</li>
+          <li>(-5, 0, 15)</li>
+          <li>(-4, 0, 15)</li>
+          <li>(-3, 0, 15)</li>
+          <li>(-2, 0, 15)</li>
+          <li>(-1, 0, 15)</li>
+          <li>(0, 0, 15)</li>
+          <li>(1, 0, 15)</li>
+          <li>(2, 0, 15)</li>
+          <li>(3, 0, 15)</li>
+          <li>(4, 0, 15)</li>
+          <li>(5, 0, 15)</li>
+          <li>(6, 0, 15)</li>
+          <li>(7, 0, 15)</li>
+          <li>(8, 0, 15)</li>
+          <li>(9, 0, 15)</li>
+          <li>(10, 0, 15)</li>
+          <li>(11, 0, 15)</li>
+          <li>(12, 0, 15)</li>
+          <li>(13, 0, 15)</li>
+          <li>(14, 0, 15)</li>
+          <li>(15, 0, 15)</li>
+          <li>(16, 0, 15)</li>
+          <li>(17, 0, 15)</li>
+          <li>(18, 0, 15)</li>
+          <li>(19, 0, 15)</li>
+          <li>(-20, 0, 16)</li>
+          <li>(-19, 0, 16)</li>
+          <li>(-18, 0, 16)</li>
+          <li>(-17, 0, 16)</li>
+          <li>(-16, 0, 16)</li>
+          <li>(-15, 0, 16)</li>
+          <li>(-14, 0, 16)</li>
+          <li>(-13, 0, 16)</li>
+          <li>(-12, 0, 16)</li>
+          <li>(-11, 0, 16)</li>
+          <li>(-10, 0, 16)</li>
+          <li>(-9, 0, 16)</li>
+          <li>(-8, 0, 16)</li>
+          <li>(-7, 0, 16)</li>
+          <li>(-6, 0, 16)</li>
+          <li>(-5, 0, 16)</li>
+          <li>(-4, 0, 16)</li>
+          <li>(-3, 0, 16)</li>
+          <li>(-2, 0, 16)</li>
+          <li>(-1, 0, 16)</li>
+          <li>(0, 0, 16)</li>
+          <li>(1, 0, 16)</li>
+          <li>(2, 0, 16)</li>
+          <li>(3, 0, 16)</li>
+          <li>(4, 0, 16)</li>
+          <li>(5, 0, 16)</li>
+          <li>(6, 0, 16)</li>
+          <li>(7, 0, 16)</li>
+          <li>(8, 0, 16)</li>
+          <li>(9, 0, 16)</li>
+          <li>(10, 0, 16)</li>
+          <li>(11, 0, 16)</li>
+          <li>(12, 0, 16)</li>
+          <li>(13, 0, 16)</li>
+          <li>(14, 0, 16)</li>
+          <li>(15, 0, 16)</li>
+          <li>(16, 0, 16)</li>
+          <li>(17, 0, 16)</li>
+          <li>(18, 0, 16)</li>
+          <li>(19, 0, 16)</li>
+          <li>(-20, 0, 17)</li>
+          <li>(-19, 0, 17)</li>
+          <li>(-18, 0, 17)</li>
+          <li>(-17, 0, 17)</li>
+          <li>(-16, 0, 17)</li>
+          <li>(-15, 0, 17)</li>
+          <li>(-14, 0, 17)</li>
+          <li>(-13, 0, 17)</li>
+          <li>(-12, 0, 17)</li>
+          <li>(-11, 0, 17)</li>
+          <li>(-10, 0, 17)</li>
+          <li>(-9, 0, 17)</li>
+          <li>(-8, 0, 17)</li>
+          <li>(-7, 0, 17)</li>
+          <li>(-6, 0, 17)</li>
+          <li>(-5, 0, 17)</li>
+          <li>(-4, 0, 17)</li>
+          <li>(-3, 0, 17)</li>
+          <li>(-2, 0, 17)</li>
+          <li>(-1, 0, 17)</li>
+          <li>(0, 0, 17)</li>
+          <li>(1, 0, 17)</li>
+          <li>(2, 0, 17)</li>
+          <li>(3, 0, 17)</li>
+          <li>(4, 0, 17)</li>
+          <li>(5, 0, 17)</li>
+          <li>(6, 0, 17)</li>
+          <li>(7, 0, 17)</li>
+          <li>(8, 0, 17)</li>
+          <li>(9, 0, 17)</li>
+          <li>(10, 0, 17)</li>
+          <li>(11, 0, 17)</li>
+          <li>(12, 0, 17)</li>
+          <li>(13, 0, 17)</li>
+          <li>(14, 0, 17)</li>
+          <li>(15, 0, 17)</li>
+          <li>(16, 0, 17)</li>
+          <li>(17, 0, 17)</li>
+          <li>(18, 0, 17)</li>
+          <li>(19, 0, 17)</li>
+          <li>(-20, 0, 18)</li>
+          <li>(-19, 0, 18)</li>
+          <li>(-18, 0, 18)</li>
+          <li>(-17, 0, 18)</li>
+          <li>(-16, 0, 18)</li>
+          <li>(-15, 0, 18)</li>
+          <li>(-14, 0, 18)</li>
+          <li>(-13, 0, 18)</li>
+          <li>(-12, 0, 18)</li>
+          <li>(-11, 0, 18)</li>
+          <li>(-10, 0, 18)</li>
+          <li>(-9, 0, 18)</li>
+          <li>(-8, 0, 18)</li>
+          <li>(-7, 0, 18)</li>
+          <li>(-6, 0, 18)</li>
+          <li>(-5, 0, 18)</li>
+          <li>(-4, 0, 18)</li>
+          <li>(-3, 0, 18)</li>
+          <li>(-2, 0, 18)</li>
+          <li>(-1, 0, 18)</li>
+          <li>(0, 0, 18)</li>
+          <li>(1, 0, 18)</li>
+          <li>(2, 0, 18)</li>
+          <li>(3, 0, 18)</li>
+          <li>(4, 0, 18)</li>
+          <li>(5, 0, 18)</li>
+          <li>(6, 0, 18)</li>
+          <li>(7, 0, 18)</li>
+          <li>(8, 0, 18)</li>
+          <li>(9, 0, 18)</li>
+          <li>(10, 0, 18)</li>
+          <li>(11, 0, 18)</li>
+          <li>(12, 0, 18)</li>
+          <li>(13, 0, 18)</li>
+          <li>(14, 0, 18)</li>
+          <li>(15, 0, 18)</li>
+          <li>(16, 0, 18)</li>
+          <li>(17, 0, 18)</li>
+          <li>(18, 0, 18)</li>
+          <li>(19, 0, 18)</li>
+          <li>(-20, 0, 19)</li>
+          <li>(-19, 0, 19)</li>
+          <li>(-18, 0, 19)</li>
+          <li>(-17, 0, 19)</li>
+          <li>(-16, 0, 19)</li>
+          <li>(-15, 0, 19)</li>
+          <li>(-14, 0, 19)</li>
+          <li>(-13, 0, 19)</li>
+          <li>(-12, 0, 19)</li>
+          <li>(-11, 0, 19)</li>
+          <li>(-10, 0, 19)</li>
+          <li>(-9, 0, 19)</li>
+          <li>(-8, 0, 19)</li>
+          <li>(-7, 0, 19)</li>
+          <li>(-6, 0, 19)</li>
+          <li>(-5, 0, 19)</li>
+          <li>(-4, 0, 19)</li>
+          <li>(-3, 0, 19)</li>
+          <li>(-2, 0, 19)</li>
+          <li>(-1, 0, 19)</li>
+          <li>(0, 0, 19)</li>
+          <li>(1, 0, 19)</li>
+          <li>(2, 0, 19)</li>
+          <li>(3, 0, 19)</li>
+          <li>(4, 0, 19)</li>
+          <li>(5, 0, 19)</li>
+          <li>(6, 0, 19)</li>
+          <li>(7, 0, 19)</li>
+          <li>(8, 0, 19)</li>
+          <li>(9, 0, 19)</li>
+          <li>(10, 0, 19)</li>
+          <li>(11, 0, 19)</li>
+          <li>(12, 0, 19)</li>
+          <li>(13, 0, 19)</li>
+          <li>(14, 0, 19)</li>
+          <li>(15, 0, 19)</li>
+          <li>(16, 0, 19)</li>
+          <li>(17, 0, 19)</li>
+          <li>(18, 0, 19)</li>
+          <li>(19, 0, 19)</li>
+        </value>
+      </li>
+    </terrains>
+    <thingDatas>
+      <li>
+        <def>Techprint_CataphractArmor</def>
+        <hitPoint>100</hitPoint>
+        <position>(14,0,-2)</position>
+      </li>
+      <li>
+        <def>Techprint_JumpPack</def>
+        <hitPoint>100</hitPoint>
+        <position>(-10,0,-6)</position>
+      </li>
+      <li>
+        <def>Wall</def>
+        <stuff>BlocksGranite</stuff>
+        <faction>AncientsHostile</faction>
+        <hitPoint>510</hitPoint>
+        <allPositions>
+          <li>(-19, 0, -20)</li>
+          <li>(-18, 0, -20)</li>
+          <li>(-17, 0, -20)</li>
+          <li>(-16, 0, -20)</li>
+          <li>(-15, 0, -20)</li>
+          <li>(-14, 0, -20)</li>
+          <li>(-13, 0, -20)</li>
+          <li>(-12, 0, -20)</li>
+          <li>(-11, 0, -20)</li>
+          <li>(-10, 0, -20)</li>
+          <li>(-9, 0, -20)</li>
+          <li>(-8, 0, -20)</li>
+          <li>(-7, 0, -20)</li>
+          <li>(-6, 0, -20)</li>
+          <li>(-5, 0, -20)</li>
+          <li>(-4, 0, -20)</li>
+          <li>(-3, 0, -20)</li>
+          <li>(-2, 0, -20)</li>
+          <li>(-1, 0, -20)</li>
+          <li>(0, 0, -20)</li>
+          <li>(1, 0, -20)</li>
+          <li>(2, 0, -20)</li>
+          <li>(3, 0, -20)</li>
+          <li>(4, 0, -20)</li>
+          <li>(5, 0, -20)</li>
+          <li>(6, 0, -20)</li>
+          <li>(7, 0, -20)</li>
+          <li>(8, 0, -20)</li>
+          <li>(9, 0, -20)</li>
+          <li>(10, 0, -20)</li>
+          <li>(11, 0, -20)</li>
+          <li>(12, 0, -20)</li>
+          <li>(13, 0, -20)</li>
+          <li>(14, 0, -20)</li>
+          <li>(15, 0, -20)</li>
+          <li>(16, 0, -20)</li>
+          <li>(17, 0, -20)</li>
+          <li>(18, 0, -20)</li>
+          <li>(19, 0, -20)</li>
+          <li>(-20, 0, 19)</li>
+          <li>(-19, 0, 19)</li>
+          <li>(-18, 0, 19)</li>
+          <li>(-17, 0, 19)</li>
+          <li>(-16, 0, 19)</li>
+          <li>(-15, 0, 19)</li>
+          <li>(-14, 0, 19)</li>
+          <li>(-13, 0, 19)</li>
+          <li>(-12, 0, 19)</li>
+          <li>(-11, 0, 19)</li>
+          <li>(-10, 0, 19)</li>
+          <li>(-9, 0, 19)</li>
+          <li>(-8, 0, 19)</li>
+          <li>(-7, 0, 19)</li>
+          <li>(-6, 0, 19)</li>
+          <li>(-5, 0, 19)</li>
+          <li>(-4, 0, 19)</li>
+          <li>(-3, 0, 19)</li>
+          <li>(-2, 0, 19)</li>
+          <li>(-1, 0, 19)</li>
+          <li>(0, 0, 19)</li>
+          <li>(1, 0, 19)</li>
+          <li>(2, 0, 19)</li>
+          <li>(3, 0, 19)</li>
+          <li>(4, 0, 19)</li>
+          <li>(5, 0, 19)</li>
+          <li>(6, 0, 19)</li>
+          <li>(7, 0, 19)</li>
+          <li>(8, 0, 19)</li>
+          <li>(9, 0, 19)</li>
+          <li>(10, 0, 19)</li>
+          <li>(11, 0, 19)</li>
+          <li>(12, 0, 19)</li>
+          <li>(13, 0, 19)</li>
+          <li>(14, 0, 19)</li>
+          <li>(15, 0, 19)</li>
+          <li>(16, 0, 19)</li>
+          <li>(17, 0, 19)</li>
+          <li>(18, 0, 19)</li>
+          <li>(19, 0, 19)</li>
+          <li>(-20, 0, -19)</li>
+          <li>(-20, 0, -18)</li>
+          <li>(-20, 0, -17)</li>
+          <li>(-20, 0, -16)</li>
+          <li>(-20, 0, -15)</li>
+          <li>(-20, 0, -14)</li>
+          <li>(-20, 0, -13)</li>
+          <li>(-20, 0, -12)</li>
+          <li>(-20, 0, -11)</li>
+          <li>(-20, 0, -10)</li>
+          <li>(-20, 0, -9)</li>
+          <li>(-20, 0, -8)</li>
+          <li>(-20, 0, -7)</li>
+          <li>(-20, 0, -6)</li>
+          <li>(-20, 0, -5)</li>
+          <li>(-20, 0, -4)</li>
+          <li>(-20, 0, -3)</li>
+          <li>(-20, 0, -2)</li>
+          <li>(-20, 0, -1)</li>
+          <li>(-20, 0, 0)</li>
+          <li>(-20, 0, 1)</li>
+          <li>(-20, 0, 2)</li>
+          <li>(-20, 0, 3)</li>
+          <li>(-20, 0, 4)</li>
+          <li>(-20, 0, 5)</li>
+          <li>(-20, 0, 6)</li>
+          <li>(-20, 0, 7)</li>
+          <li>(-20, 0, 8)</li>
+          <li>(-20, 0, 9)</li>
+          <li>(-20, 0, 10)</li>
+          <li>(-20, 0, 11)</li>
+          <li>(-20, 0, 12)</li>
+          <li>(-20, 0, 13)</li>
+          <li>(-20, 0, 14)</li>
+          <li>(-20, 0, 15)</li>
+          <li>(-20, 0, 16)</li>
+          <li>(-20, 0, 17)</li>
+          <li>(-20, 0, 18)</li>
+          <li>(19, 0, -19)</li>
+          <li>(19, 0, -18)</li>
+          <li>(19, 0, -17)</li>
+          <li>(19, 0, -16)</li>
+          <li>(19, 0, -15)</li>
+          <li>(19, 0, -14)</li>
+          <li>(19, 0, -13)</li>
+          <li>(19, 0, -12)</li>
+          <li>(19, 0, -11)</li>
+          <li>(19, 0, -10)</li>
+          <li>(19, 0, -9)</li>
+          <li>(19, 0, -8)</li>
+          <li>(19, 0, -7)</li>
+          <li>(19, 0, -6)</li>
+          <li>(19, 0, -5)</li>
+          <li>(19, 0, -4)</li>
+          <li>(19, 0, -3)</li>
+          <li>(19, 0, -2)</li>
+          <li>(19, 0, -1)</li>
+          <li>(19, 0, 0)</li>
+          <li>(19, 0, 1)</li>
+          <li>(19, 0, 2)</li>
+          <li>(19, 0, 3)</li>
+          <li>(19, 0, 4)</li>
+          <li>(19, 0, 5)</li>
+          <li>(19, 0, 6)</li>
+          <li>(19, 0, 7)</li>
+          <li>(19, 0, 8)</li>
+          <li>(19, 0, 9)</li>
+          <li>(19, 0, 10)</li>
+          <li>(19, 0, 11)</li>
+          <li>(19, 0, 12)</li>
+          <li>(19, 0, 13)</li>
+          <li>(19, 0, 14)</li>
+          <li>(19, 0, 15)</li>
+          <li>(19, 0, 16)</li>
+          <li>(19, 0, 17)</li>
+          <li>(19, 0, 18)</li>
+          <li>(-19, 0, -19)</li>
+          <li>(-18, 0, -19)</li>
+          <li>(-17, 0, -19)</li>
+          <li>(-16, 0, -19)</li>
+          <li>(-15, 0, -19)</li>
+          <li>(-14, 0, -19)</li>
+          <li>(-13, 0, -19)</li>
+          <li>(-12, 0, -19)</li>
+          <li>(-11, 0, -19)</li>
+          <li>(-10, 0, -19)</li>
+          <li>(-9, 0, -19)</li>
+          <li>(-8, 0, -19)</li>
+          <li>(-7, 0, -19)</li>
+          <li>(-6, 0, -19)</li>
+          <li>(-5, 0, -19)</li>
+          <li>(-4, 0, -19)</li>
+          <li>(-3, 0, -19)</li>
+          <li>(-2, 0, -19)</li>
+          <li>(-1, 0, -19)</li>
+          <li>(0, 0, -19)</li>
+          <li>(1, 0, -19)</li>
+          <li>(2, 0, -19)</li>
+          <li>(3, 0, -19)</li>
+          <li>(4, 0, -19)</li>
+          <li>(5, 0, -19)</li>
+          <li>(6, 0, -19)</li>
+          <li>(7, 0, -19)</li>
+          <li>(8, 0, -19)</li>
+          <li>(9, 0, -19)</li>
+          <li>(10, 0, -19)</li>
+          <li>(11, 0, -19)</li>
+          <li>(12, 0, -19)</li>
+          <li>(13, 0, -19)</li>
+          <li>(-19, 0, 18)</li>
+          <li>(-18, 0, 18)</li>
+          <li>(-17, 0, 18)</li>
+          <li>(-16, 0, 18)</li>
+          <li>(-15, 0, 18)</li>
+          <li>(-14, 0, 18)</li>
+          <li>(-13, 0, 18)</li>
+          <li>(-12, 0, 18)</li>
+          <li>(-11, 0, 18)</li>
+          <li>(-10, 0, 18)</li>
+          <li>(-9, 0, 18)</li>
+          <li>(-8, 0, 18)</li>
+          <li>(-7, 0, 18)</li>
+          <li>(-6, 0, 18)</li>
+          <li>(-5, 0, 18)</li>
+          <li>(-4, 0, 18)</li>
+          <li>(-3, 0, 18)</li>
+          <li>(-2, 0, 18)</li>
+          <li>(-1, 0, 18)</li>
+          <li>(0, 0, 18)</li>
+          <li>(1, 0, 18)</li>
+          <li>(2, 0, 18)</li>
+          <li>(3, 0, 18)</li>
+          <li>(4, 0, 18)</li>
+          <li>(5, 0, 18)</li>
+          <li>(6, 0, 18)</li>
+          <li>(7, 0, 18)</li>
+          <li>(8, 0, 18)</li>
+          <li>(9, 0, 18)</li>
+          <li>(10, 0, 18)</li>
+          <li>(11, 0, 18)</li>
+          <li>(12, 0, 18)</li>
+          <li>(13, 0, 18)</li>
+          <li>(14, 0, 18)</li>
+          <li>(15, 0, 18)</li>
+          <li>(16, 0, 18)</li>
+          <li>(17, 0, 18)</li>
+          <li>(18, 0, 18)</li>
+          <li>(-19, 0, -18)</li>
+          <li>(-19, 0, -17)</li>
+          <li>(-19, 0, -16)</li>
+          <li>(-19, 0, -15)</li>
+          <li>(-19, 0, -14)</li>
+          <li>(-19, 0, -13)</li>
+          <li>(-19, 0, -12)</li>
+          <li>(-19, 0, -11)</li>
+          <li>(-19, 0, -10)</li>
+          <li>(-19, 0, -9)</li>
+          <li>(-19, 0, -8)</li>
+          <li>(-19, 0, -7)</li>
+          <li>(-19, 0, -6)</li>
+          <li>(-19, 0, -5)</li>
+          <li>(-19, 0, -4)</li>
+          <li>(-19, 0, -3)</li>
+          <li>(-19, 0, -2)</li>
+          <li>(-19, 0, -1)</li>
+          <li>(-19, 0, 0)</li>
+          <li>(-19, 0, 1)</li>
+          <li>(-19, 0, 2)</li>
+          <li>(-19, 0, 3)</li>
+          <li>(-19, 0, 4)</li>
+          <li>(-19, 0, 5)</li>
+          <li>(-19, 0, 6)</li>
+          <li>(-19, 0, 7)</li>
+          <li>(-19, 0, 8)</li>
+          <li>(-19, 0, 9)</li>
+          <li>(-19, 0, 10)</li>
+          <li>(-19, 0, 11)</li>
+          <li>(-19, 0, 12)</li>
+          <li>(-19, 0, 13)</li>
+          <li>(-19, 0, 14)</li>
+          <li>(-19, 0, 15)</li>
+          <li>(-19, 0, 16)</li>
+          <li>(-19, 0, 17)</li>
+          <li>(18, 0, -15)</li>
+          <li>(18, 0, -14)</li>
+          <li>(18, 0, -13)</li>
+          <li>(18, 0, -12)</li>
+          <li>(18, 0, -11)</li>
+          <li>(18, 0, -10)</li>
+          <li>(18, 0, -9)</li>
+          <li>(18, 0, -8)</li>
+          <li>(18, 0, -7)</li>
+          <li>(18, 0, -6)</li>
+          <li>(18, 0, -5)</li>
+          <li>(18, 0, -4)</li>
+          <li>(18, 0, -3)</li>
+          <li>(18, 0, -2)</li>
+          <li>(18, 0, -1)</li>
+          <li>(18, 0, 0)</li>
+          <li>(18, 0, 1)</li>
+          <li>(18, 0, 2)</li>
+          <li>(18, 0, 3)</li>
+          <li>(18, 0, 4)</li>
+          <li>(18, 0, 5)</li>
+          <li>(18, 0, 6)</li>
+          <li>(18, 0, 7)</li>
+          <li>(18, 0, 8)</li>
+          <li>(18, 0, 9)</li>
+          <li>(18, 0, 10)</li>
+          <li>(18, 0, 11)</li>
+          <li>(18, 0, 12)</li>
+          <li>(18, 0, 13)</li>
+          <li>(18, 0, 14)</li>
+          <li>(18, 0, 15)</li>
+          <li>(18, 0, 16)</li>
+          <li>(18, 0, 17)</li>
+          <li>(12, 0, -15)</li>
+          <li>(14, 0, -15)</li>
+          <li>(14, 0, -14)</li>
+          <li>(15, 0, -14)</li>
+          <li>(15, 0, -13)</li>
+          <li>(15, 0, -12)</li>
+          <li>(15, 0, -8)</li>
+          <li>(15, 0, -7)</li>
+          <li>(15, 0, -6)</li>
+          <li>(14, 0, -6)</li>
+          <li>(12, 0, -5)</li>
+          <li>(13, 0, -5)</li>
+          <li>(14, 0, -5)</li>
+          <li>(12, 0, -4)</li>
+          <li>(12, 0, -3)</li>
+          <li>(12, 0, -2)</li>
+          <li>(12, 0, -1)</li>
+          <li>(12, 0, 0)</li>
+          <li>(12, 0, 1)</li>
+          <li>(12, 0, 2)</li>
+          <li>(12, 0, 3)</li>
+          <li>(3, 0, -15)</li>
+          <li>(4, 0, -15)</li>
+          <li>(5, 0, -15)</li>
+          <li>(7, 0, -15)</li>
+          <li>(8, 0, -15)</li>
+          <li>(3, 0, -5)</li>
+          <li>(4, 0, -5)</li>
+          <li>(5, 0, -5)</li>
+          <li>(6, 0, -5)</li>
+          <li>(7, 0, -5)</li>
+          <li>(8, 0, -5)</li>
+          <li>(8, 0, -3)</li>
+          <li>(8, 0, -2)</li>
+          <li>(8, 0, -1)</li>
+          <li>(8, 0, 0)</li>
+          <li>(8, 0, 1)</li>
+          <li>(8, 0, 2)</li>
+          <li>(7, 0, 3)</li>
+          <li>(6, 0, 3)</li>
+          <li>(4, 0, 3)</li>
+          <li>(8, 0, -4)</li>
+          <li>(3, 0, -4)</li>
+          <li>(3, 0, -3)</li>
+          <li>(3, 0, -2)</li>
+          <li>(3, 0, -1)</li>
+          <li>(3, 0, 0)</li>
+          <li>(3, 0, 1)</li>
+          <li>(3, 0, 2)</li>
+          <li>(-15, 0, -15)</li>
+          <li>(-14, 0, -15)</li>
+          <li>(-13, 0, -15)</li>
+          <li>(-12, 0, -15)</li>
+          <li>(-11, 0, -15)</li>
+          <li>(-10, 0, -15)</li>
+          <li>(-9, 0, -15)</li>
+          <li>(-8, 0, -15)</li>
+          <li>(-6, 0, -15)</li>
+          <li>(-5, 0, -15)</li>
+          <li>(-3, 0, -15)</li>
+          <li>(-2, 0, -15)</li>
+          <li>(-1, 0, -15)</li>
+          <li>(0, 0, -15)</li>
+          <li>(1, 0, -15)</li>
+          <li>(2, 0, -15)</li>
+          <li>(-15, 0, -13)</li>
+          <li>(-15, 0, -12)</li>
+          <li>(-15, 0, -11)</li>
+          <li>(-15, 0, -10)</li>
+          <li>(-15, 0, -9)</li>
+          <li>(-15, 0, -8)</li>
+          <li>(-15, 0, -7)</li>
+          <li>(-15, 0, -6)</li>
+          <li>(-15, 0, -5)</li>
+          <li>(-15, 0, -4)</li>
+          <li>(-15, 0, -3)</li>
+          <li>(-15, 0, -2)</li>
+          <li>(-15, 0, -1)</li>
+          <li>(-15, 0, 0)</li>
+          <li>(-15, 0, 1)</li>
+          <li>(-15, 0, 2)</li>
+          <li>(-15, 0, 3)</li>
+          <li>(-15, 0, 4)</li>
+          <li>(-15, 0, 5)</li>
+          <li>(-15, 0, 6)</li>
+          <li>(-5, 0, -5)</li>
+          <li>(-4, 0, -5)</li>
+          <li>(-2, 0, -5)</li>
+          <li>(-1, 0, -5)</li>
+          <li>(-5, 0, 3)</li>
+          <li>(-3, 0, 3)</li>
+          <li>(-2, 0, 3)</li>
+          <li>(-1, 0, 3)</li>
+          <li>(-1, 0, -4)</li>
+          <li>(-1, 0, -3)</li>
+          <li>(-1, 0, -2)</li>
+          <li>(-1, 0, -1)</li>
+          <li>(-1, 0, 0)</li>
+          <li>(-1, 0, 1)</li>
+          <li>(-1, 0, 2)</li>
+          <li>(-6, 0, -4)</li>
+          <li>(-6, 0, -5)</li>
+          <li>(-6, 0, -3)</li>
+          <li>(-6, 0, -2)</li>
+          <li>(-6, 0, -1)</li>
+          <li>(-6, 0, 0)</li>
+          <li>(-6, 0, 1)</li>
+          <li>(-6, 0, 2)</li>
+          <li>(-6, 0, 3)</li>
+          <li>(3, 0, 3)</li>
+          <li>(8, 0, 3)</li>
+          <li>(15, 0, -9)</li>
+          <li>(15, 0, -11)</li>
+          <li>(11, 0, -15)</li>
+          <li>(9, 0, -15)</li>
+          <li>(10, 0, -15)</li>
+          <li>(0, 0, -5)</li>
+          <li>(1, 0, -5)</li>
+          <li>(2, 0, -5)</li>
+          <li>(9, 0, -5)</li>
+          <li>(10, 0, -5)</li>
+          <li>(11, 0, -5)</li>
+          <li>(-5, 0, -14)</li>
+          <li>(-5, 0, -13)</li>
+          <li>(-5, 0, -8)</li>
+          <li>(-5, 0, -7)</li>
+          <li>(-5, 0, -6)</li>
+          <li>(15, 0, -10)</li>
+          <li>(14, 0, -13)</li>
+          <li>(14, 0, -12)</li>
+          <li>(14, 0, -11)</li>
+          <li>(14, 0, -10)</li>
+          <li>(14, 0, -9)</li>
+          <li>(14, 0, -8)</li>
+          <li>(14, 0, -7)</li>
+          <li>(13, 0, -6)</li>
+          <li>(12, 0, -6)</li>
+          <li>(12, 0, -14)</li>
+          <li>(13, 0, -14)</li>
+          <li>(17, 0, -14)</li>
+          <li>(17, 0, -13)</li>
+          <li>(17, 0, -12)</li>
+          <li>(17, 0, -11)</li>
+          <li>(17, 0, -10)</li>
+          <li>(17, 0, -9)</li>
+          <li>(17, 0, -8)</li>
+          <li>(17, 0, -7)</li>
+          <li>(17, 0, -6)</li>
+          <li>(13, 0, -17)</li>
+          <li>(13, 0, -16)</li>
+          <li>(13, 0, -15)</li>
+          <li>(-3, 0, -5)</li>
+          <li>(14, 0, -4)</li>
+          <li>(15, 0, -4)</li>
+          <li>(16, 0, -4)</li>
+          <li>(16, 0, -3)</li>
+          <li>(16, 0, -2)</li>
+          <li>(16, 0, 0)</li>
+          <li>(14, 0, 0)</li>
+          <li>(15, 0, 0)</li>
+          <li>(13, 0, -4)</li>
+          <li>(15, 0, -5)</li>
+          <li>(14, 0, 2)</li>
+          <li>(15, 0, 2)</li>
+          <li>(16, 0, 2)</li>
+          <li>(17, 0, 2)</li>
+          <li>(14, 0, 3)</li>
+          <li>(14, 0, 4)</li>
+          <li>(14, 0, 5)</li>
+          <li>(6, 0, 5)</li>
+          <li>(7, 0, 5)</li>
+          <li>(8, 0, 5)</li>
+          <li>(10, 0, 5)</li>
+          <li>(11, 0, 5)</li>
+          <li>(12, 0, 5)</li>
+          <li>(13, 0, 5)</li>
+          <li>(10, 0, 1)</li>
+          <li>(10, 0, 2)</li>
+          <li>(10, 0, 3)</li>
+          <li>(10, 0, 4)</li>
+          <li>(10, 0, -2)</li>
+          <li>(10, 0, -1)</li>
+          <li>(10, 0, -4)</li>
+          <li>(1, 0, 5)</li>
+          <li>(2, 0, 5)</li>
+          <li>(3, 0, 5)</li>
+          <li>(4, 0, 5)</li>
+          <li>(5, 0, 5)</li>
+          <li>(1, 0, -2)</li>
+          <li>(1, 0, -1)</li>
+          <li>(1, 0, 0)</li>
+          <li>(1, 0, 1)</li>
+          <li>(1, 0, 2)</li>
+          <li>(1, 0, 3)</li>
+          <li>(-12, 0, 5)</li>
+          <li>(-11, 0, 5)</li>
+          <li>(-10, 0, 5)</li>
+          <li>(-9, 0, 5)</li>
+          <li>(-8, 0, 5)</li>
+          <li>(-7, 0, 5)</li>
+          <li>(-6, 0, 5)</li>
+          <li>(-5, 0, 5)</li>
+          <li>(-4, 0, 5)</li>
+          <li>(-3, 0, 5)</li>
+          <li>(-2, 0, 5)</li>
+          <li>(-1, 0, 5)</li>
+          <li>(0, 0, 5)</li>
+          <li>(-6, 0, -14)</li>
+          <li>(-6, 0, -13)</li>
+          <li>(-6, 0, -12)</li>
+          <li>(-16, 0, -16)</li>
+          <li>(-15, 0, -16)</li>
+          <li>(-14, 0, -16)</li>
+          <li>(-13, 0, -16)</li>
+          <li>(-12, 0, -16)</li>
+          <li>(-11, 0, -16)</li>
+          <li>(-10, 0, -16)</li>
+          <li>(-9, 0, -16)</li>
+          <li>(-8, 0, -16)</li>
+          <li>(-6, 0, -16)</li>
+          <li>(-5, 0, -16)</li>
+          <li>(-4, 0, -16)</li>
+          <li>(-3, 0, -16)</li>
+          <li>(-2, 0, -16)</li>
+          <li>(-1, 0, -16)</li>
+          <li>(0, 0, -16)</li>
+          <li>(1, 0, -16)</li>
+          <li>(2, 0, -16)</li>
+          <li>(3, 0, -16)</li>
+          <li>(4, 0, -16)</li>
+          <li>(5, 0, -16)</li>
+          <li>(6, 0, -16)</li>
+          <li>(7, 0, -16)</li>
+          <li>(8, 0, -16)</li>
+          <li>(9, 0, -16)</li>
+          <li>(10, 0, -16)</li>
+          <li>(11, 0, -16)</li>
+          <li>(12, 0, -16)</li>
+          <li>(-16, 0, -15)</li>
+          <li>(-16, 0, -13)</li>
+          <li>(-16, 0, -12)</li>
+          <li>(-16, 0, -11)</li>
+          <li>(-16, 0, -10)</li>
+          <li>(-16, 0, -9)</li>
+          <li>(-16, 0, -8)</li>
+          <li>(-16, 0, -7)</li>
+          <li>(-16, 0, -6)</li>
+          <li>(-16, 0, -5)</li>
+          <li>(-16, 0, -4)</li>
+          <li>(-16, 0, -3)</li>
+          <li>(-16, 0, -2)</li>
+          <li>(-16, 0, -1)</li>
+          <li>(-16, 0, 0)</li>
+          <li>(-16, 0, 1)</li>
+          <li>(-16, 0, 2)</li>
+          <li>(-16, 0, 3)</li>
+          <li>(-16, 0, 4)</li>
+          <li>(-16, 0, 5)</li>
+          <li>(-16, 0, 6)</li>
+          <li>(-16, 0, 7)</li>
+          <li>(-5, 0, -4)</li>
+          <li>(-4, 0, -4)</li>
+          <li>(-3, 0, -4)</li>
+          <li>(-2, 0, -4)</li>
+          <li>(0, 0, -4)</li>
+          <li>(1, 0, -4)</li>
+          <li>(2, 0, -4)</li>
+          <li>(4, 0, -4)</li>
+          <li>(5, 0, -4)</li>
+          <li>(6, 0, -4)</li>
+          <li>(7, 0, -4)</li>
+          <li>(9, 0, -4)</li>
+          <li>(11, 0, -4)</li>
+          <li>(-6, 0, -8)</li>
+          <li>(-6, 0, -7)</li>
+          <li>(-6, 0, -6)</li>
+          <li>(9, 0, -2)</li>
+          <li>(10, 0, 6)</li>
+          <li>(10, 0, 7)</li>
+          <li>(10, 0, 8)</li>
+          <li>(10, 0, 9)</li>
+          <li>(6, 0, 10)</li>
+          <li>(7, 0, 10)</li>
+          <li>(8, 0, 10)</li>
+          <li>(9, 0, 10)</li>
+          <li>(10, 0, 10)</li>
+          <li>(6, 0, 7)</li>
+          <li>(6, 0, 8)</li>
+          <li>(6, 0, 9)</li>
+          <li>(11, 0, 7)</li>
+          <li>(12, 0, 7)</li>
+          <li>(13, 0, 7)</li>
+          <li>(14, 0, 7)</li>
+          <li>(15, 0, 7)</li>
+          <li>(16, 0, 7)</li>
+          <li>(16, 0, 4)</li>
+          <li>(16, 0, 5)</li>
+          <li>(16, 0, 6)</li>
+          <li>(12, 0, 9)</li>
+          <li>(13, 0, 9)</li>
+          <li>(14, 0, 9)</li>
+          <li>(15, 0, 9)</li>
+          <li>(16, 0, 9)</li>
+          <li>(12, 0, 11)</li>
+          <li>(13, 0, 11)</li>
+          <li>(14, 0, 11)</li>
+          <li>(15, 0, 11)</li>
+          <li>(16, 0, 11)</li>
+          <li>(17, 0, 11)</li>
+          <li>(10, 0, 13)</li>
+          <li>(11, 0, 13)</li>
+          <li>(12, 0, 13)</li>
+          <li>(10, 0, 12)</li>
+          <li>(4, 0, 12)</li>
+          <li>(5, 0, 12)</li>
+          <li>(6, 0, 12)</li>
+          <li>(7, 0, 12)</li>
+          <li>(8, 0, 12)</li>
+          <li>(9, 0, 12)</li>
+          <li>(4, 0, 7)</li>
+          <li>(4, 0, 8)</li>
+          <li>(4, 0, 9)</li>
+          <li>(4, 0, 10)</li>
+          <li>(4, 0, 11)</li>
+          <li>(-15, 0, 7)</li>
+          <li>(-14, 0, 7)</li>
+          <li>(-13, 0, 7)</li>
+          <li>(-12, 0, 7)</li>
+          <li>(-11, 0, 7)</li>
+          <li>(-10, 0, 7)</li>
+          <li>(-9, 0, 7)</li>
+          <li>(-8, 0, 7)</li>
+          <li>(-2, 0, 7)</li>
+          <li>(-1, 0, 7)</li>
+          <li>(0, 0, 7)</li>
+          <li>(1, 0, 7)</li>
+          <li>(2, 0, 7)</li>
+          <li>(3, 0, 7)</li>
+          <li>(8, 0, 6)</li>
+          <li>(8, 0, 7)</li>
+          <li>(8, 0, 8)</li>
+          <li>(10, 0, 15)</li>
+          <li>(10, 0, 16)</li>
+          <li>(10, 0, 17)</li>
+          <li>(4, 0, 14)</li>
+          <li>(4, 0, 15)</li>
+          <li>(4, 0, 16)</li>
+          <li>(4, 0, 17)</li>
+          <li>(2, 0, 11)</li>
+          <li>(2, 0, 12)</li>
+          <li>(2, 0, 13)</li>
+          <li>(2, 0, 14)</li>
+          <li>(2, 0, 15)</li>
+          <li>(2, 0, 16)</li>
+          <li>(2, 0, 17)</li>
+          <li>(-5, 0, 12)</li>
+          <li>(-5, 0, 13)</li>
+          <li>(-5, 0, 14)</li>
+          <li>(-5, 0, 15)</li>
+          <li>(-5, 0, 16)</li>
+          <li>(-5, 0, 17)</li>
+          <li>(-4, 0, 12)</li>
+          <li>(-3, 0, 12)</li>
+          <li>(-2, 0, 12)</li>
+          <li>(-1, 0, 12)</li>
+          <li>(0, 0, 12)</li>
+          <li>(-7, 0, 12)</li>
+          <li>(-7, 0, 13)</li>
+          <li>(-7, 0, 14)</li>
+          <li>(-7, 0, 15)</li>
+          <li>(-7, 0, 16)</li>
+          <li>(-7, 0, 17)</li>
+          <li>(-12, 0, 12)</li>
+          <li>(-11, 0, 12)</li>
+          <li>(-10, 0, 12)</li>
+          <li>(-9, 0, 12)</li>
+          <li>(-8, 0, 12)</li>
+          <li>(-14, 0, 12)</li>
+          <li>(-14, 0, 13)</li>
+          <li>(-14, 0, 14)</li>
+          <li>(-14, 0, 15)</li>
+          <li>(-14, 0, 16)</li>
+          <li>(-14, 0, 17)</li>
+          <li>(-14, 0, 9)</li>
+          <li>(-14, 0, 11)</li>
+          <li>(-9, 0, 11)</li>
+          <li>(-3, 0, 11)</li>
+          <li>(-13, 0, 3)</li>
+          <li>(-13, 0, 4)</li>
+          <li>(-13, 0, 5)</li>
+          <li>(-12, 0, 3)</li>
+          <li>(-11, 0, 3)</li>
+          <li>(-10, 0, 3)</li>
+          <li>(-9, 0, 3)</li>
+          <li>(-8, 0, 3)</li>
+          <li>(-8, 0, -13)</li>
+          <li>(-8, 0, -12)</li>
+          <li>(-8, 0, -11)</li>
+          <li>(-8, 0, -8)</li>
+          <li>(-8, 0, -7)</li>
+          <li>(-8, 0, -6)</li>
+          <li>(-8, 0, -5)</li>
+          <li>(-8, 0, -4)</li>
+          <li>(-8, 0, -3)</li>
+          <li>(-8, 0, -2)</li>
+          <li>(-8, 0, 0)</li>
+          <li>(-8, 0, 1)</li>
+          <li>(-8, 0, 2)</li>
+          <li>(-13, 0, -13)</li>
+          <li>(-12, 0, -13)</li>
+          <li>(-11, 0, -13)</li>
+          <li>(-10, 0, -13)</li>
+          <li>(-13, 0, -12)</li>
+          <li>(-13, 0, -11)</li>
+          <li>(-13, 0, -10)</li>
+          <li>(-13, 0, -9)</li>
+          <li>(-13, 0, -8)</li>
+          <li>(-13, 0, -7)</li>
+          <li>(-13, 0, -6)</li>
+          <li>(-13, 0, -5)</li>
+          <li>(-13, 0, -4)</li>
+          <li>(-13, 0, -2)</li>
+          <li>(-13, 0, -1)</li>
+          <li>(-12, 0, 1)</li>
+          <li>(-11, 0, 1)</li>
+          <li>(-10, 0, 1)</li>
+          <li>(-14, 0, 1)</li>
+          <li>(-7, 0, -9)</li>
+          <li>(-12, 0, -4)</li>
+          <li>(-11, 0, -4)</li>
+          <li>(-10, 0, -4)</li>
+          <li>(-9, 0, -2)</li>
+          <li>(-11, 0, -8)</li>
+          <li>(-10, 0, -8)</li>
+          <li>(-9, 0, -8)</li>
+          <li>(-11, 0, -10)</li>
+          <li>(-11, 0, -9)</li>
+          <li>(-7, 0, -11)</li>
+          <li>(-7, 0, -13)</li>
+          <li>(-7, 0, -12)</li>
+          <li>(15, 0, -15)</li>
+          <li>(14, 0, -16)</li>
+          <li>(17, 0, -15)</li>
+          <li>(18, 0, -16)</li>
+          <li>(14, 0, -17)</li>
+          <li>(12, 0, -17)</li>
+          <li>(11, 0, -17)</li>
+          <li>(14, 0, -19)</li>
+          <li>(18, 0, -17)</li>
+          <li>(18, 0, -18)</li>
+          <li>(18, 0, -19)</li>
+          <li>(-8, 0, -18)</li>
+          <li>(-8, 0, -17)</li>
+          <li>(-18, 0, -17)</li>
+          <li>(-17, 0, -17)</li>
+          <li>(-16, 0, -17)</li>
+          <li>(-15, 0, -17)</li>
+          <li>(-14, 0, -17)</li>
+          <li>(-13, 0, -17)</li>
+          <li>(-12, 0, -17)</li>
+          <li>(-11, 0, -17)</li>
+          <li>(-10, 0, -17)</li>
+          <li>(-9, 0, -17)</li>
+          <li>(-18, 0, -18)</li>
+          <li>(-17, 0, -18)</li>
+          <li>(-16, 0, -18)</li>
+          <li>(-15, 0, -18)</li>
+          <li>(-14, 0, -18)</li>
+          <li>(-13, 0, -18)</li>
+          <li>(-12, 0, -18)</li>
+          <li>(-11, 0, -18)</li>
+          <li>(-10, 0, -18)</li>
+          <li>(-9, 0, -18)</li>
+          <li>(-18, 0, -16)</li>
+          <li>(-18, 0, -15)</li>
+          <li>(-18, 0, -14)</li>
+          <li>(-18, 0, -13)</li>
+          <li>(-18, 0, -12)</li>
+          <li>(-18, 0, -11)</li>
+          <li>(-18, 0, -10)</li>
+          <li>(-18, 0, -9)</li>
+          <li>(-18, 0, -8)</li>
+          <li>(-18, 0, -7)</li>
+          <li>(-18, 0, -6)</li>
+          <li>(-18, 0, -5)</li>
+          <li>(-18, 0, -4)</li>
+          <li>(-18, 0, -3)</li>
+          <li>(-18, 0, -2)</li>
+          <li>(-18, 0, -1)</li>
+          <li>(-18, 0, 0)</li>
+          <li>(-18, 0, 1)</li>
+          <li>(-18, 0, 2)</li>
+          <li>(-18, 0, 3)</li>
+          <li>(-18, 0, 4)</li>
+          <li>(-18, 0, 5)</li>
+          <li>(-18, 0, 6)</li>
+          <li>(-18, 0, 7)</li>
+          <li>(-18, 0, 8)</li>
+          <li>(-18, 0, 9)</li>
+          <li>(-18, 0, 10)</li>
+          <li>(-18, 0, 11)</li>
+          <li>(-18, 0, 12)</li>
+          <li>(-18, 0, 17)</li>
+          <li>(-17, 0, -16)</li>
+          <li>(-17, 0, -15)</li>
+          <li>(-17, 0, -14)</li>
+          <li>(-17, 0, -13)</li>
+          <li>(-17, 0, -12)</li>
+          <li>(-17, 0, -11)</li>
+          <li>(-17, 0, -10)</li>
+          <li>(-17, 0, -9)</li>
+          <li>(-17, 0, -8)</li>
+          <li>(-17, 0, -7)</li>
+          <li>(-17, 0, -6)</li>
+          <li>(-17, 0, -5)</li>
+          <li>(-17, 0, -4)</li>
+          <li>(-17, 0, -3)</li>
+          <li>(-17, 0, -2)</li>
+          <li>(-17, 0, -1)</li>
+          <li>(-17, 0, 0)</li>
+          <li>(-17, 0, 1)</li>
+          <li>(-17, 0, 2)</li>
+          <li>(-17, 0, 3)</li>
+          <li>(-17, 0, 4)</li>
+          <li>(-17, 0, 5)</li>
+          <li>(-17, 0, 6)</li>
+          <li>(-17, 0, 7)</li>
+          <li>(-17, 0, 17)</li>
+          <li>(-16, 0, 9)</li>
+          <li>(-16, 0, 11)</li>
+          <li>(-16, 0, 12)</li>
+          <li>(-16, 0, 17)</li>
+          <li>(-15, 0, 9)</li>
+          <li>(-15, 0, 11)</li>
+          <li>(-15, 0, 12)</li>
+          <li>(-15, 0, 13)</li>
+          <li>(-15, 0, 14)</li>
+          <li>(-15, 0, 15)</li>
+          <li>(-15, 0, 16)</li>
+          <li>(-15, 0, 17)</li>
+          <li>(-13, 0, 9)</li>
+          <li>(-12, 0, 9)</li>
+          <li>(-11, 0, 9)</li>
+          <li>(-10, 0, 9)</li>
+          <li>(-9, 0, 9)</li>
+          <li>(-8, 0, 9)</li>
+          <li>(-7, 0, 9)</li>
+          <li>(-6, 0, 9)</li>
+          <li>(-5, 0, 9)</li>
+          <li>(-4, 0, 9)</li>
+          <li>(-3, 0, 9)</li>
+          <li>(-2, 0, 9)</li>
+          <li>(-1, 0, 9)</li>
+          <li>(0, 0, 9)</li>
+          <li>(1, 0, 9)</li>
+          <li>(2, 0, 9)</li>
+          <li>(3, 0, 9)</li>
+          <li>(6, 0, -15)</li>
+          <li>(-5, 0, -12)</li>
+          <li>(-5, 0, -9)</li>
+          <li>(-5, 0, -11)</li>
+          <li>(-4, 0, -15)</li>
+          <li>(-6, 0, -9)</li>
+          <li>(-6, 0, -11)</li>
+          <li>(-8, 0, -9)</li>
+          <li>(-16, 0, -14)</li>
+          <li>(-15, 0, -14)</li>
+          <li>(-12, 0, 11)</li>
+          <li>(-11, 0, 11)</li>
+          <li>(-10, 0, 11)</li>
+          <li>(-8, 0, 11)</li>
+          <li>(-7, 0, 11)</li>
+          <li>(-5, 0, 11)</li>
+          <li>(-4, 0, 11)</li>
+          <li>(-2, 0, 11)</li>
+          <li>(-1, 0, 11)</li>
+          <li>(0, 0, 11)</li>
+          <li>(-7, 0, 7)</li>
+          <li>(-20, 0, -20)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Door</def>
+        <stuff>BlocksSlate</stuff>
+        <faction>AncientsHostile</faction>
+        <hitPoint>210</hitPoint>
+        <allPositions>
+          <li>(16, 0, -13)</li>
+          <li>(16, 0, -11)</li>
+          <li>(16, 0, -9)</li>
+          <li>(16, 0, -8)</li>
+          <li>(16, 0, -6)</li>
+          <li>(-4, 0, 3)</li>
+          <li>(17, 0, 9)</li>
+          <li>(5, 0, 3)</li>
+          <li>(0, 0, 3)</li>
+          <li>(2, 0, 3)</li>
+          <li>(-12, 0, -10)</li>
+          <li>(-9, 0, -13)</li>
+          <li>(1, 0, 12)</li>
+          <li>(-13, 0, 12)</li>
+          <li>(-6, 0, 12)</li>
+          <li>(5, 0, 7)</li>
+          <li>(-13, 0, 11)</li>
+          <li>(-6, 0, 11)</li>
+          <li>(1, 0, 11)</li>
+          <li>(16, 0, -14)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>TrapIED_HighExplosive</def>
+        <faction>AncientsHostile</faction>
+        <hitPoint>40</hitPoint>
+        <allPositions>
+          <li>(16, 0, -10)</li>
+          <li>(16, 0, -7)</li>
+          <li>(16, 0, -12)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Door</def>
+        <stuff>BlocksSlate</stuff>
+        <rotation>1</rotation>
+        <faction>AncientsHostile</faction>
+        <hitPoint>210</hitPoint>
+        <allPositions>
+          <li>(14, 0, 1)</li>
+          <li>(10, 0, 0)</li>
+          <li>(1, 0, 4)</li>
+          <li>(1, 0, -3)</li>
+          <li>(12, 0, 8)</li>
+          <li>(12, 0, 10)</li>
+          <li>(12, 0, 12)</li>
+          <li>(-13, 0, 0)</li>
+          <li>(-8, 0, -14)</li>
+          <li>(4, 0, 13)</li>
+          <li>(10, 0, 14)</li>
+          <li>(4, 0, 6)</li>
+          <li>(3, 0, 6)</li>
+          <li>(1, 0, 6)</li>
+          <li>(2, 0, 6)</li>
+          <li>(0, 0, 6)</li>
+          <li>(-1, 0, 6)</li>
+          <li>(-2, 0, 6)</li>
+          <li>(-7, 0, 6)</li>
+          <li>(-8, 0, 6)</li>
+          <li>(-10, 0, 6)</li>
+          <li>(-11, 0, 6)</li>
+          <li>(-12, 0, 6)</li>
+          <li>(-9, 0, 6)</li>
+          <li>(-13, 0, 6)</li>
+          <li>(-14, 0, 10)</li>
+          <li>(-15, 0, 10)</li>
+          <li>(-16, 0, 10)</li>
+          <li>(16, 0, -1)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>TrapSpike</def>
+        <stuff>Steel</stuff>
+        <faction>AncientsHostile</faction>
+        <hitPoint>40</hitPoint>
+        <allPositions>
+          <li>(15, 0, -3)</li>
+          <li>(13, 0, -3)</li>
+          <li>(13, 0, -1)</li>
+          <li>(15, 0, -1)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Sandbags</def>
+        <stuff>Leather_Heavy</stuff>
+        <faction>AncientsHostile</faction>
+        <hitPoint>450</hitPoint>
+        <allPositions>
+          <li>(15, 0, -2)</li>
+          <li>(14, 0, -3)</li>
+          <li>(13, 0, -2)</li>
+          <li>(-9, 0, -7)</li>
+          <li>(-9, 0, -6)</li>
+          <li>(-9, 0, -5)</li>
+          <li>(-9, 0, -4)</li>
+          <li>(-9, 0, -3)</li>
+          <li>(-12, 0, -9)</li>
+          <li>(-12, 0, -8)</li>
+          <li>(-12, 0, -7)</li>
+          <li>(-12, 0, -6)</li>
+          <li>(-12, 0, -5)</li>
+          <li>(-11, 0, -7)</li>
+          <li>(-10, 0, -5)</li>
+          <li>(-7, 0, -5)</li>
+          <li>(11, 0, -2)</li>
+          <li>(-14, 0, -13)</li>
+          <li>(-13, 0, -14)</li>
+          <li>(14, 0, -1)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Turret_MiniTurret</def>
+        <stuff>Steel</stuff>
+        <faction>AncientsHostile</faction>
+        <hitPoint>100</hitPoint>
+        <allPositions>
+          <li>(-7, 0, -6)</li>
+          <li>(-14, 0, -14)</li>
+          <li>(11, 0, -3)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Armchair</def>
+        <stuff>Cloth</stuff>
+        <rotation>1</rotation>
+        <faction>AncientsHostile</faction>
+        <hitPoint>120</hitPoint>
+        <allPositions>
+          <li>(-5, 0, 0)</li>
+          <li>(-5, 0, -1)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Armchair</def>
+        <stuff>Cloth</stuff>
+        <faction>AncientsHostile</faction>
+        <hitPoint>120</hitPoint>
+        <allPositions>
+          <li>(-3, 0, -2)</li>
+          <li>(-4, 0, -2)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Armchair</def>
+        <stuff>Cloth</stuff>
+        <rotation>3</rotation>
+        <faction>AncientsHostile</faction>
+        <hitPoint>120</hitPoint>
+        <allPositions>
+          <li>(-2, 0, 0)</li>
+          <li>(-2, 0, -1)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Armchair</def>
+        <stuff>Cloth</stuff>
+        <rotation>2</rotation>
+        <faction>AncientsHostile</faction>
+        <hitPoint>120</hitPoint>
+        <allPositions>
+          <li>(-4, 0, 1)</li>
+          <li>(-3, 0, 1)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Wall</def>
+        <stuff>BlocksGranite</stuff>
+        <faction>AncientsHostile</faction>
+        <hitPoint>498</hitPoint>
+        <position>(-13,0,-3)</position>
+      </li>
+      <li>
+        <def>Wall</def>
+        <stuff>BlocksGranite</stuff>
+        <faction>AncientsHostile</faction>
+        <hitPoint>503</hitPoint>
+        <position>(-13,0,1)</position>
+      </li>
+      <li>
+        <def>Door</def>
+        <stuff>BlocksSlate</stuff>
+        <faction>AncientsHostile</faction>
+        <hitPoint>181</hitPoint>
+        <position>(-9,0,1)</position>
+      </li>
+      <li>
+        <def>Wall</def>
+        <stuff>BlocksGranite</stuff>
+        <faction>AncientsHostile</faction>
+        <hitPoint>230</hitPoint>
+        <position>(-10,0,-3)</position>
+      </li>
+      <li>
+        <def>Wall</def>
+        <stuff>BlocksGranite</stuff>
+        <faction>AncientsHostile</faction>
+        <hitPoint>497</hitPoint>
+        <position>(-10,0,-2)</position>
+      </li>
+      <li>
+        <def>Cooler</def>
+        <rotation>2</rotation>
+        <faction>AncientsHostile</faction>
+        <hitPoint>100</hitPoint>
+        <allPositions>
+          <li>(-5, 0, 7)</li>
+          <li>(-4, 0, 7)</li>
+          <li>(-3, 0, 7)</li>
+          <li>(-6, 0, 7)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Wall</def>
+        <stuff>BlocksGranite</stuff>
+        <faction>AncientsHostile</faction>
+        <hitPoint>472</hitPoint>
+        <position>(-8,0,-1)</position>
+      </li>
+      <li>
+        <def>DarklightBrazier</def>
+        <stuff>Steel</stuff>
+        <faction>AncientsHostile</faction>
+        <hitPoint>80</hitPoint>
+        <allPositions>
+          <li>(12, 0, -7)</li>
+          <li>(11, 0, -6)</li>
+          <li>(11, 0, -14)</li>
+          <li>(12, 0, -13)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Column</def>
+        <stuff>Jade</stuff>
+        <faction>AncientsHostile</faction>
+        <hitPoint>80</hitPoint>
+        <allPositions>
+          <li>(-2, 0, -12)</li>
+          <li>(3, 0, -8)</li>
+          <li>(3, 0, -12)</li>
+          <li>(8, 0, -8)</li>
+          <li>(8, 0, -12)</li>
+          <li>(-2, 0, -8)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Door</def>
+        <stuff>BlocksGranite</stuff>
+        <rotation>1</rotation>
+        <faction>AncientsHostile</faction>
+        <hitPoint>270</hitPoint>
+        <allPositions>
+          <li>(-7, 0, -10)</li>
+          <li>(-6, 0, -10)</li>
+          <li>(-5, 0, -10)</li>
+          <li>(-8, 0, -10)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>PowerConduit</def>
+        <faction>AncientsHostile</faction>
+        <hitPoint>80</hitPoint>
+        <allPositions>
+          <li>(-13, 0, -14)</li>
+          <li>(-9, 0, -13)</li>
+          <li>(-9, 0, -12)</li>
+          <li>(-9, 0, -11)</li>
+          <li>(-9, 0, -10)</li>
+          <li>(-9, 0, -9)</li>
+          <li>(-9, 0, -8)</li>
+          <li>(-8, 0, -8)</li>
+          <li>(-9, 0, -14)</li>
+          <li>(-12, 0, -14)</li>
+          <li>(-11, 0, -14)</li>
+          <li>(-10, 0, -14)</li>
+          <li>(-14, 0, -14)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>DarktorchFungus</def>
+        <faction>PlayerColony</faction>
+        <hitPoint>75</hitPoint>
+        <allPositions>
+          <li>(1, 0, 17)</li>
+          <li>(9, 0, 17)</li>
+          <li>(17, 0, 17)</li>
+          <li>(0, 0, -18)</li>
+          <li>(-9, 0, 0)</li>
+          <li>(7, 0, -3)</li>
+          <li>(4, 0, -3)</li>
+          <li>(-2, 0, -3)</li>
+          <li>(-4, 0, -6)</li>
+          <li>(-4, 0, -14)</li>
+          <li>(-8, 0, 17)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>FlatscreenTelevision</def>
+        <faction>AncientsHostile</faction>
+        <hitPoint>80</hitPoint>
+        <position>(5,0,-3)</position>
+      </li>
+      <li>
+        <def>VanometricPowerCell</def>
+        <rotation>3</rotation>
+        <faction>AncientsHostile</faction>
+        <hitPoint>200</hitPoint>
+        <allPositions>
+          <li>(-5, 0, 8)</li>
+          <li>(10, 0, -3)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>VanometricPowerCell</def>
+        <faction>AncientsHostile</faction>
+        <hitPoint>200</hitPoint>
+        <position>(-7,0,-8)</position>
+      </li>
+      <li>
+        <def>Drape</def>
+        <stuff>Cloth</stuff>
+        <rotation>1</rotation>
+        <faction>AncientsHostile</faction>
+        <hitPoint>100</hitPoint>
+        <allPositions>
+          <li>(11, 0, -7)</li>
+          <li>(11, 0, -12)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>PokerTable</def>
+        <stuff>Jade</stuff>
+        <faction>AncientsHostile</faction>
+        <hitPoint>125</hitPoint>
+        <position>(-4,0,-1)</position>
+      </li>
+      <li>
+        <def>SteleLarge</def>
+        <stuff>Jade</stuff>
+        <faction>AncientsHostile</faction>
+        <hitPoint>100</hitPoint>
+        <allPositions>
+          <li>(3, 0, -7)</li>
+          <li>(8, 0, -7)</li>
+          <li>(-2, 0, -14)</li>
+          <li>(3, 0, -14)</li>
+          <li>(8, 0, -14)</li>
+          <li>(-2, 0, -7)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>GrandThrone</def>
+        <stuff>Silver</stuff>
+        <rotation>3</rotation>
+        <faction>AncientsHostile</faction>
+        <hitPoint>245</hitPoint>
+        <position>(12,0,-10)</position>
+      </li>
+      <li>
+        <def>SteleGrand</def>
+        <stuff>BlocksGranite</stuff>
+        <faction>AncientsHostile</faction>
+        <hitPoint>680</hitPoint>
+        <position>(7,0,15)</position>
+      </li>
+    </thingDatas>
+    <tags>
+      <li>Dungeon</li>
+    </tags>
+  </QuestEditor_Library.CustomMapDataDef>
+</Defs>

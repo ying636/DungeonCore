@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Dungeon entrance -->
+  <DC_DungeonEntrance.label>地牢入口</DC_DungeonEntrance.label>
+  <!-- EN: An entrance to the dungeon. -->
+  <DC_DungeonEntrance.description>一个通向地牢的入口。</DC_DungeonEntrance.description>
+  
+  <!-- EN: Exit staircase -->
+  <DC_DungeonExit.label>出口阶梯</DC_DungeonExit.label>
+  <!-- EN: A staircase leading to the ground. -->
+  <DC_DungeonExit.description>一个通往地面的出口。</DC_DungeonExit.description>
+  
+</LanguageData>
