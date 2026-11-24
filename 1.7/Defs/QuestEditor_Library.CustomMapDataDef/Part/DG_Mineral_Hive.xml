@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.CustomMapDataDef>
+    <defName>DG_Mineral_Hive</defName>
+    <label>hive</label>
+    <size>(6, 1, 5)</size>
+    <isPart>true</isPart>
+    <commonality>0.8</commonality>
+    <roofs>
+      <li>
+        <key>RoofRockThick</key>
+        <value>
+          <li>(0, 0, 0)</li>
+          <li>(0, 0, 1)</li>
+          <li>(0, 0, 2)</li>
+          <li>(0, 0, 3)</li>
+          <li>(0, 0, 4)</li>
+          <li>(1, 0, 0)</li>
+          <li>(1, 0, 1)</li>
+          <li>(1, 0, 2)</li>
+          <li>(1, 0, 3)</li>
+          <li>(1, 0, 4)</li>
+          <li>(2, 0, 0)</li>
+          <li>(2, 0, 1)</li>
+          <li>(2, 0, 2)</li>
+          <li>(2, 0, 3)</li>
+          <li>(2, 0, 4)</li>
+          <li>(3, 0, 0)</li>
+          <li>(3, 0, 1)</li>
+          <li>(3, 0, 2)</li>
+          <li>(3, 0, 3)</li>
+          <li>(3, 0, 4)</li>
+          <li>(4, 0, 0)</li>
+          <li>(4, 0, 1)</li>
+          <li>(4, 0, 2)</li>
+          <li>(4, 0, 3)</li>
+          <li>(4, 0, 4)</li>
+          <li>(5, 0, 0)</li>
+          <li>(5, 0, 1)</li>
+          <li>(5, 0, 2)</li>
+          <li>(5, 0, 3)</li>
+          <li>(5, 0, 4)</li>
+        </value>
+      </li>
+    </roofs>
+    <terrains>
+      <li>
+        <key>Marble_Rough</key>
+        <value>
+          <li>(0, 0, 0)</li>
+          <li>(0, 0, 1)</li>
+          <li>(0, 0, 2)</li>
+          <li>(0, 0, 3)</li>
+          <li>(0, 0, 4)</li>
+          <li>(1, 0, 0)</li>
+          <li>(1, 0, 1)</li>
+          <li>(1, 0, 2)</li>
+          <li>(1, 0, 3)</li>
+          <li>(1, 0, 4)</li>
+          <li>(2, 0, 0)</li>
+          <li>(2, 0, 1)</li>
+          <li>(2, 0, 2)</li>
+          <li>(2, 0, 3)</li>
+          <li>(2, 0, 4)</li>
+          <li>(3, 0, 0)</li>
+          <li>(3, 0, 1)</li>
+          <li>(3, 0, 2)</li>
+          <li>(3, 0, 3)</li>
+          <li>(3, 0, 4)</li>
+          <li>(4, 0, 0)</li>
+          <li>(4, 0, 1)</li>
+          <li>(4, 0, 2)</li>
+          <li>(4, 0, 3)</li>
+          <li>(4, 0, 4)</li>
+          <li>(5, 0, 0)</li>
+          <li>(5, 0, 1)</li>
+          <li>(5, 0, 2)</li>
+          <li>(5, 0, 3)</li>
+          <li>(5, 0, 4)</li>
+        </value>
+      </li>
+    </terrains>
+    <thingDatas>
+      <li>
+        <def>MineableComponentsIndustrial</def>
+        <faction>PlayerColony</faction>
+        <hitPoint>2000</hitPoint>
+        <allPositions>
+          <li>(0, 0, 1)</li>
+          <li>(0, 0, 2)</li>
+          <li>(0, 0, 3)</li>
+          <li>(0, 0, 4)</li>
+          <li>(1, 0, 0)</li>
+          <li>(1, 0, 1)</li>
+          <li>(1, 0, 3)</li>
+          <li>(1, 0, 4)</li>
+          <li>(2, 0, 0)</li>
+          <li>(2, 0, 3)</li>
+          <li>(2, 0, 4)</li>
+          <li>(3, 0, 0)</li>
+          <li>(3, 0, 4)</li>
+          <li>(4, 0, 0)</li>
+          <li>(4, 0, 1)</li>
+          <li>(4, 0, 3)</li>
+          <li>(4, 0, 4)</li>
+          <li>(5, 0, 0)</li>
+          <li>(5, 0, 1)</li>
+          <li>(5, 0, 2)</li>
+          <li>(5, 0, 3)</li>
+          <li>(5, 0, 4)</li>
+          <li>(0, 0, 0)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Filth_Slime</def>
+        <allPositions>
+          <li>(2, 0, 1)</li>
+          <li>(3, 0, 3)</li>
+          <li>(1, 0, 2)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Hive</def>
+        <faction>Insect</faction>
+        <hitPoint>130</hitPoint>
+        <position>(3,0,2)</position>
+      </li>
+    </thingDatas>
+    <tags>
+      <li>DungeonMineral</li>
+    </tags>
+  </QuestEditor_Library.CustomMapDataDef>
+</Defs>

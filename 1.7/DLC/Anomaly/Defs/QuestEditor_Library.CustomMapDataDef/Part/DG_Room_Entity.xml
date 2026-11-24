@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.CustomMapDataDef>
+    <defName>DG_Room_Entity</defName>
+    <label>Entity</label>
+    <fogged>true</fogged>
+    <size>(7, 1, 7)</size>
+    <isPart>true</isPart>
+    <commonality>0.6</commonality>
+    <customThings>
+      <li Class="QuestEditor_Library.CustomThingData_ZoneCore">
+        <def>QE_ZoneCore</def>
+        <position>(0,0,3)</position>
+        <coreRotation>3</coreRotation>
+        <isCenter>false</isCenter>
+        <size>0,3,6,3</size>
+        <reserveThing>
+          <def>Wall</def>
+          <stuff>BlocksMarble</stuff>
+          <hitPoint>360</hitPoint>
+          <position>(0,0,0)</position>
+        </reserveThing>
+      </li>
+    </customThings>
+    <roofs>
+      <li>
+        <key>VoidmetalRoof</key>
+        <value>
+          <li>(0, 0, 0)</li>
+          <li>(0, 0, 1)</li>
+          <li>(0, 0, 2)</li>
+          <li>(0, 0, 3)</li>
+          <li>(0, 0, 4)</li>
+          <li>(0, 0, 5)</li>
+          <li>(0, 0, 6)</li>
+          <li>(1, 0, 0)</li>
+          <li>(1, 0, 1)</li>
+          <li>(1, 0, 2)</li>
+          <li>(1, 0, 3)</li>
+          <li>(1, 0, 4)</li>
+          <li>(1, 0, 5)</li>
+          <li>(1, 0, 6)</li>
+          <li>(2, 0, 0)</li>
+          <li>(2, 0, 1)</li>
+          <li>(2, 0, 2)</li>
+          <li>(2, 0, 3)</li>
+          <li>(2, 0, 4)</li>
+          <li>(2, 0, 5)</li>
+          <li>(2, 0, 6)</li>
+          <li>(3, 0, 0)</li>
+          <li>(3, 0, 1)</li>
+          <li>(3, 0, 2)</li>
+          <li>(3, 0, 3)</li>
+          <li>(3, 0, 4)</li>
+          <li>(3, 0, 5)</li>
+          <li>(3, 0, 6)</li>
+          <li>(4, 0, 0)</li>
+          <li>(4, 0, 1)</li>
+          <li>(4, 0, 2)</li>
+          <li>(4, 0, 3)</li>
+          <li>(4, 0, 4)</li>
+          <li>(4, 0, 5)</li>
+          <li>(4, 0, 6)</li>
+          <li>(5, 0, 0)</li>
+          <li>(5, 0, 1)</li>
+          <li>(5, 0, 2)</li>
+          <li>(5, 0, 3)</li>
+          <li>(5, 0, 4)</li>
+          <li>(5, 0, 5)</li>
+          <li>(5, 0, 6)</li>
+          <li>(6, 0, 0)</li>
+          <li>(6, 0, 1)</li>
+          <li>(6, 0, 2)</li>
+          <li>(6, 0, 3)</li>
+          <li>(6, 0, 4)</li>
+          <li>(6, 0, 5)</li>
+          <li>(6, 0, 6)</li>
+        </value>
+      </li>
+    </roofs>
+    <terrains>
+      <li>
+        <key>BioferritePlate</key>
+        <value>
+          <li>(0, 0, 0)</li>
+          <li>(0, 0, 1)</li>
+          <li>(0, 0, 2)</li>
+          <li>(0, 0, 3)</li>
+          <li>(0, 0, 4)</li>
+          <li>(0, 0, 5)</li>
+          <li>(0, 0, 6)</li>
+          <li>(1, 0, 0)</li>
+          <li>(1, 0, 1)</li>
+          <li>(1, 0, 2)</li>
+          <li>(1, 0, 3)</li>
+          <li>(1, 0, 4)</li>
+          <li>(1, 0, 5)</li>
+          <li>(1, 0, 6)</li>
+          <li>(2, 0, 0)</li>
+          <li>(2, 0, 1)</li>
+          <li>(2, 0, 2)</li>
+          <li>(2, 0, 3)</li>
+          <li>(2, 0, 4)</li>
+          <li>(2, 0, 5)</li>
+          <li>(2, 0, 6)</li>
+          <li>(3, 0, 0)</li>
+          <li>(3, 0, 1)</li>
+          <li>(3, 0, 2)</li>
+          <li>(3, 0, 3)</li>
+          <li>(3, 0, 4)</li>
+          <li>(3, 0, 5)</li>
+          <li>(3, 0, 6)</li>
+          <li>(4, 0, 0)</li>
+          <li>(4, 0, 1)</li>
+          <li>(4, 0, 2)</li>
+          <li>(4, 0, 3)</li>
+          <li>(4, 0, 4)</li>
+          <li>(4, 0, 5)</li>
+          <li>(4, 0, 6)</li>
+          <li>(5, 0, 0)</li>
+          <li>(5, 0, 1)</li>
+          <li>(5, 0, 2)</li>
+          <li>(5, 0, 3)</li>
+          <li>(5, 0, 4)</li>
+          <li>(5, 0, 5)</li>
+          <li>(5, 0, 6)</li>
+          <li>(6, 0, 0)</li>
+          <li>(6, 0, 1)</li>
+          <li>(6, 0, 2)</li>
+          <li>(6, 0, 3)</li>
+          <li>(6, 0, 4)</li>
+          <li>(6, 0, 5)</li>
+          <li>(6, 0, 6)</li>
+        </value>
+      </li>
+    </terrains>
+    <thingDatas>
+      <li>
+        <def>Wall</def>
+        <stuff>Bioferrite</stuff>
+        <faction>PlayerColony</faction>
+        <hitPoint>600</hitPoint>
+        <allPositions>
+          <li>(0, 0, 1)</li>
+          <li>(0, 0, 2)</li>
+          <li>(0, 0, 4)</li>
+          <li>(0, 0, 5)</li>
+          <li>(0, 0, 6)</li>
+          <li>(1, 0, 0)</li>
+          <li>(1, 0, 6)</li>
+          <li>(2, 0, 0)</li>
+          <li>(2, 0, 6)</li>
+          <li>(3, 0, 0)</li>
+          <li>(3, 0, 6)</li>
+          <li>(4, 0, 0)</li>
+          <li>(4, 0, 6)</li>
+          <li>(5, 0, 0)</li>
+          <li>(5, 0, 6)</li>
+          <li>(6, 0, 0)</li>
+          <li>(6, 0, 1)</li>
+          <li>(6, 0, 2)</li>
+          <li>(6, 0, 3)</li>
+          <li>(6, 0, 4)</li>
+          <li>(6, 0, 5)</li>
+          <li>(6, 0, 6)</li>
+          <li>(0, 0, 0)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Door</def>
+        <stuff>Bioferrite</stuff>
+        <rotation>1</rotation>
+        <faction>PlayerColony</faction>
+        <hitPoint>320</hitPoint>
+        <position>(0,0,3)</position>
+      </li>
+      <li>
+        <def>AncientLamp</def>
+        <hitPoint>50</hitPoint>
+        <allPositions>
+          <li>(1, 0, 5)</li>
+          <li>(1, 0, 1)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>HoldingPlatform</def>
+        <faction>PlayerColony</faction>
+        <hitPoint>500</hitPoint>
+        <position>(4,0,3)</position>
+      </li>
+    </thingDatas>
+    <tags>
+      <li>DungeonRoom</li>
+    </tags>
+    <disgenerate>
+      <li>(7, 0, 10)</li>
+      <li>(7, 0, 11)</li>
+      <li>(7, 0, 12)</li>
+      <li>(7, 0, 13)</li>
+      <li>(7, 0, 14)</li>
+      <li>(7, 0, 15)</li>
+      <li>(7, 0, 16)</li>
+      <li>(8, 0, 10)</li>
+      <li>(8, 0, 11)</li>
+      <li>(8, 0, 12)</li>
+      <li>(8, 0, 13)</li>
+      <li>(8, 0, 14)</li>
+      <li>(8, 0, 15)</li>
+      <li>(8, 0, 16)</li>
+      <li>(9, 0, 10)</li>
+      <li>(9, 0, 11)</li>
+      <li>(9, 0, 12)</li>
+      <li>(9, 0, 13)</li>
+      <li>(9, 0, 14)</li>
+      <li>(9, 0, 15)</li>
+      <li>(9, 0, 16)</li>
+      <li>(10, 0, 10)</li>
+      <li>(10, 0, 11)</li>
+      <li>(10, 0, 12)</li>
+      <li>(10, 0, 13)</li>
+      <li>(10, 0, 14)</li>
+      <li>(10, 0, 15)</li>
+      <li>(10, 0, 16)</li>
+      <li>(11, 0, 10)</li>
+      <li>(11, 0, 11)</li>
+      <li>(11, 0, 12)</li>
+      <li>(11, 0, 13)</li>
+      <li>(11, 0, 14)</li>
+      <li>(11, 0, 15)</li>
+      <li>(11, 0, 16)</li>
+      <li>(12, 0, 10)</li>
+      <li>(12, 0, 11)</li>
+      <li>(12, 0, 12)</li>
+      <li>(12, 0, 13)</li>
+      <li>(12, 0, 14)</li>
+      <li>(12, 0, 15)</li>
+      <li>(12, 0, 16)</li>
+      <li>(13, 0, 10)</li>
+      <li>(13, 0, 11)</li>
+      <li>(13, 0, 12)</li>
+      <li>(13, 0, 13)</li>
+      <li>(13, 0, 14)</li>
+      <li>(13, 0, 15)</li>
+      <li>(13, 0, 16)</li>
+    </disgenerate>
+    <generationActions>
+      <li>
+        <pos>(4, 0, 3)</pos>
+        <actions>
+          <li Class="QuestEditor_Library.CQFAction_GetThingToRecord">
+            <targetsText>
+              <li>Position</li>
+            </targetsText>
+            <recordKey>AAA</recordKey>
+            <recordToTemporaryBase>true</recordToTemporaryBase>
+          </li>
+          <li Class="QuestEditor_Library.CQFAction_SpawnAndAddToContainer">
+            <targetsText>
+              <li>AAA</li>
+            </targetsText>
+            <datas>
+              <li>
+                <dataName>Unnamed</dataName>
+                <chance>1</chance>
+                <pawnDatas>
+                  <li Class="QuestEditor_Library.PawnSpawnData_Random">
+                    <count>1~1</count>
+                    <spawnType>MapGeneration</spawnType>
+                    <datas>
+                      <li>
+                        <kind>ShamblerGorehulk</kind>
+                        <count>1~1</count>
+                        <faction>Entities</faction>
+                        <spawnType>MapGeneration</spawnType>
+                      </li>
+                      <li>
+                        <kind>Devourer</kind>
+                        <count>1~1</count>
+                        <faction>Entities</faction>
+                        <spawnType>MapGeneration</spawnType>
+                      </li>
+                      <li>
+                        <kind>Trispike</kind>
+                        <count>1~1</count>
+                        <faction>Entities</faction>
+                        <spawnType>MapGeneration</spawnType>
+                      </li>
+                    </datas>
+                  </li>
+                </pawnDatas>
+              </li>
+            </datas>
+          </li>
+        </actions>
+      </li>
+    </generationActions>
+  </QuestEditor_Library.CustomMapDataDef>
+</Defs>

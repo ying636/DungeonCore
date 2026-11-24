@@ -18,16 +18,16 @@
   <DG_WallDestory>当那只强大的机械族死去的时候，远处的黄金墙出现了个缺口。</DG_WallDestory>
 
     <!-- EN: There is an ancient lying in the casket. After we opened it, {Interviewee_pronoun} woke up from a long sleep and promised to give us some rewards as a reward for awakening {Interviewee_objective}. -->
-  <DG_TalkWithAncient_Node_I>休眠舱内躺着一位古代人，在我们打开后{Interviewee_pronoun}从漫长的沉睡中苏醒过来了，并承诺给予我们一些报酬作为唤醒{Interviewee_pronoun}的奖励。</DG_TalkWithAncient_Node_I>
+  <DG_TalkWithAncient_Node_I>休眠舱内躺着一位古代人，在我们打开后{Interviewer_pronoun}从漫长的沉睡中苏醒过来了，并承诺给予我们一些报酬作为唤醒{Interviewer_pronoun}的奖励。</DG_TalkWithAncient_Node_I>
     <!-- EN: Convince {Interviewee_pronoun} to join the colony -->
   <DG_TalkWithAncient_Node_I_Option_I>说服其加入殖民地</DG_TalkWithAncient_Node_I_Option_I>
     <!-- EN: We need some treasure -->
   <DG_TalkWithAncient_Node_I_Option_II>我们需要一些财宝</DG_TalkWithAncient_Node_I_Option_II>
 
     <!-- EN: {Interviewee_nameDef} has become a member of us -->
-  <DG_TalkWithAncient_JoinToColony>{Interviewee_nameDef}已经成为了我们的一员</DG_TalkWithAncient_JoinToColony>
+  <DG_TalkWithAncient_JoinToColony>{Interviewer_nameDef}已经成为了我们的一员</DG_TalkWithAncient_JoinToColony>
     <!-- EN: {Interviewee_nameDef} gave us some treasures to carry with {Interviewee_objective} -->
-  <DG_TalkWithAncient_GiveTreasure>{Interviewee_nameDef}给予了我们一些随身携带的宝物</DG_TalkWithAncient_GiveTreasure>
+  <DG_TalkWithAncient_GiveTreasure>{Interviewer_nameDef}给予了我们一些随身携带的宝物</DG_TalkWithAncient_GiveTreasure>
 
     <!-- EN: A dungeon news -->
   <DG_Dialog_DungonNews>一份地牢消息</DG_Dialog_DungonNews>
@@ -41,10 +41,10 @@
   <DG_Dialog_DungonNews_Node_I_Option_III>离开</DG_Dialog_DungonNews_Node_I_Option_III>
 
     <!-- EN: After thinking about it for a while, {Interviewee_nameDef} accepted the proposal and said, 'Two thousand five,it can't lower it any further.' -->
-  <DG_Dialog_DungonNews_Node_II>{Interviewee_nameDef}思考一番后，接受了这个提议，“两千五，不能再低了”</DG_Dialog_DungonNews_Node_II>
+  <DG_Dialog_DungonNews_Node_II>{Interviewer_nameDef}思考一番后，接受了这个提议，“两千五，不能再低了”</DG_Dialog_DungonNews_Node_II>
 
   <!-- UNUSED -->
-  <DG_TalkWithSanguophage_Node_I>休眠舱内躺着一位赫血种，在我们打开后{Interviewee_pronoun}从漫长的沉睡中苏醒过来了。</DG_TalkWithSanguophage_Node_I>
+  <DG_TalkWithSanguophage_Node_I>休眠舱内躺着一位赫血种，在我们打开后{Interviewer_pronoun}从漫长的沉睡中苏醒过来了。</DG_TalkWithSanguophage_Node_I>
   <DG_TalkWithSanguophage_Node_I_Option_I>威胁</DG_TalkWithSanguophage_Node_I_Option_I>
   <DG_TalkWithSanguophage_Node_I_Option_II>交谈</DG_TalkWithSanguophage_Node_I_Option_II>
   <DG_TalkWithSanguophage_Node_Threaten>"听着，如果不想死的话，就给我们点好处，或者我们把你变成好处"</DG_TalkWithSanguophage_Node_Threaten>

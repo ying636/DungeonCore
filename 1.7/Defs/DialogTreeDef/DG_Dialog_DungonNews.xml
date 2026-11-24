@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.DialogTreeDef>
+    <defName>DG_Dialog_DungonNews</defName>
+    <title>DG_Dialog_DungonNews</title>
+    <requireNonHostile>true</requireNonHostile>
+    <dialogReportKey>DefaultDialogKey</dialogReportKey>
+    <curIndex>2</curIndex>
+    <nodeMoulds>
+      <li>
+        <key>0</key>
+        <value>
+          <text>DG_Dialog_DungonNews_Node_I</text>
+          <index>0</index>
+          <subNodeIndexs>
+            <li>1</li>
+          </subNodeIndexs>
+          <options>
+            <li>
+              <text>DG_Dialog_DungonNews_Node_I_Option_I</text>
+              <hideWhenDisabled>false</hideWhenDisabled>
+              <results>
+                <li>
+                  <resultName>获取任务</resultName>
+                  <actions>
+                    <li Class="QuestEditor_Library.CQFAction_Quest">
+                      <quest>DG_Quest_Dungeon</quest>
+                    </li>
+                    <li Class="QuestEditor_Library.CQFAction_RemoveDialogManager">
+                      <targetsText>
+                        <li>Interviewer</li>
+                      </targetsText>
+                    </li>
+                  </actions>
+                </li>
+              </results>
+              <requiredThings>
+                <li Class="QuestEditor_Library.CQFThingDefCount">
+                  <count>5000~5000</count>
+                  <thing>Silver</thing>
+                </li>
+              </requiredThings>
+            </li>
+            <li>
+              <text>DG_Dialog_DungonNews_Node_I_Option_II</text>
+              <hideWhenDisabled>false</hideWhenDisabled>
+              <conditions>
+                <li Class="QuestEditor_Library.DialogCondition_Skill">
+                  <targetText>Interviewee</targetText>
+                  <skill>Social</skill>
+                  <level>12</level>
+                  <needToBeGreater>true</needToBeGreater>
+                </li>
+              </conditions>
+              <results>
+                <li>
+                  <resultName>Undefined</resultName>
+                  <nextIndex>1</nextIndex>
+                </li>
+              </results>
+            </li>
+            <li>
+              <text>DG_Dialog_DungonNews_Node_I_Option_III</text>
+              <hideWhenDisabled>false</hideWhenDisabled>
+              <results>
+                <li>
+                  <resultName>Undefined</resultName>
+                </li>
+              </results>
+            </li>
+          </options>
+        </value>
+      </li>
+      <li>
+        <key>1</key>
+        <value>
+          <text>DG_Dialog_DungonNews_Node_II</text>
+          <index>1</index>
+          <parentIndex>0</parentIndex>
+          <subNodeIndexs />
+          <options>
+            <li>
+              <text>DG_Dialog_DungonNews_Node_I_Option_I</text>
+              <hideWhenDisabled>false</hideWhenDisabled>
+              <results>
+                <li>
+                  <resultName>Undefined</resultName>
+                  <actions>
+                    <li Class="QuestEditor_Library.CQFAction_Quest">
+                      <quest>DG_Quest_Dungeon</quest>
+                    </li>
+                    <li Class="QuestEditor_Library.CQFAction_RemoveDialogManager">
+                      <targetsText>
+                        <li>Interviewer</li>
+                      </targetsText>
+                    </li>
+                  </actions>
+                </li>
+              </results>
+              <requiredThings>
+                <li Class="QuestEditor_Library.CQFThingDefCount">
+                  <count>2500~2500</count>
+                  <thing>Silver</thing>
+                </li>
+              </requiredThings>
+            </li>
+            <li>
+              <text>DG_Dialog_DungonNews_Node_I_Option_III</text>
+              <hideWhenDisabled>false</hideWhenDisabled>
+              <results>
+                <li>
+                  <resultName>Undefined</resultName>
+                </li>
+              </results>
+            </li>
+          </options>
+        </value>
+      </li>
+    </nodeMoulds>
+  </QuestEditor_Library.DialogTreeDef>
+</Defs>

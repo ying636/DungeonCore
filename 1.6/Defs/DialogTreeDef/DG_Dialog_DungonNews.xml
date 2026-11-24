@@ -28,7 +28,7 @@
                     </li>
                     <li Class="QuestEditor_Library.CQFAction_RemoveDialogManager">
                       <targetsText>
-                        <li>Interviewee</li>
+                        <li>Interviewer</li>
                       </targetsText>
                     </li>
                   </actions>
@@ -46,7 +46,7 @@
               <hideWhenDisabled>false</hideWhenDisabled>
               <conditions>
                 <li Class="QuestEditor_Library.DialogCondition_Skill">
-                  <targetText>Interviewer</targetText>
+                  <targetText>Interviewee</targetText>
                   <skill>Social</skill>
                   <level>12</level>
                   <needToBeGreater>true</needToBeGreater>
@@ -91,7 +91,7 @@
                     </li>
                     <li Class="QuestEditor_Library.CQFAction_RemoveDialogManager">
                       <targetsText>
-                        <li>Interviewee</li>
+                        <li>Interviewer</li>
                       </targetsText>
                     </li>
                   </actions>

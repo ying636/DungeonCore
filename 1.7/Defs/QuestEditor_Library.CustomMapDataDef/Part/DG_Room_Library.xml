@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.CustomMapDataDef>
+    <defName>DG_Room_Library</defName>
+    <label>Library</label>
+    <fogged>true</fogged>
+    <size>(13, 1, 13)</size>
+    <isPart>true</isPart>
+    <commonality>0.3</commonality>
+    <generationLimit>0</generationLimit>
+    <customThings>
+      <li Class="QuestEditor_Library.CustomThingData_ZoneCore">
+        <def>QE_ZoneCore</def>
+        <position>(0,0,6)</position>
+        <coreRotation>3</coreRotation>
+        <isCenter>false</isCenter>
+        <size>0,6,12,6</size>
+        <reserveThing>
+          <def>Wall</def>
+          <stuff>BlocksMarble</stuff>
+          <hitPoint>1</hitPoint>
+          <position>(0,0,0)</position>
+        </reserveThing>
+        <conditions>
+          <li Class="QuestEditor_Library.ZoneCondition_Tag">
+            <tags>
+              <li>DungeonRoom</li>
+            </tags>
+          </li>
+        </conditions>
+        <coreTags>
+          <li>DungeonCorrider</li>
+        </coreTags>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>QE_Bookshelf</def>
+        <rotation>2</rotation>
+        <stuff>BlocksMarble</stuff>
+        <faction>Ancients</faction>
+        <position>(4,0,3)</position>
+        <operationDefs>
+          <li>DG_ReadBooks</li>
+        </operationDefs>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>QE_Bookshelf</def>
+        <rotation>2</rotation>
+        <stuff>BlocksMarble</stuff>
+        <faction>Ancients</faction>
+        <position>(4,0,5)</position>
+        <operationDefs>
+          <li>DG_ReadBooks</li>
+        </operationDefs>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>QE_Bookshelf</def>
+        <rotation>2</rotation>
+        <stuff>BlocksMarble</stuff>
+        <faction>Ancients</faction>
+        <position>(4,0,7)</position>
+        <operationDefs>
+          <li>DG_ReadBooks</li>
+        </operationDefs>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_ZoneCore">
+        <def>QE_ZoneCore</def>
+        <position>(6,0,0)</position>
+        <coreRotation>2</coreRotation>
+        <isCenter>false</isCenter>
+        <size>6,0,6,12</size>
+        <reserveThing>
+          <def>Wall</def>
+          <stuff>BlocksMarble</stuff>
+          <hitPoint>1</hitPoint>
+          <position>(0,0,0)</position>
+        </reserveThing>
+        <conditions>
+          <li Class="QuestEditor_Library.ZoneCondition_Tag">
+            <tags>
+              <li>DungeonRoom</li>
+            </tags>
+          </li>
+        </conditions>
+        <coreTags>
+          <li>DungeonCorrider</li>
+        </coreTags>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_ZoneCore">
+        <def>QE_ZoneCore</def>
+        <position>(6,0,12)</position>
+        <coreRotation>0</coreRotation>
+        <isCenter>false</isCenter>
+        <size>6,12,6,0</size>
+        <reserveThing>
+          <def>Wall</def>
+          <stuff>BlocksMarble</stuff>
+          <hitPoint>1</hitPoint>
+          <position>(0,0,0)</position>
+        </reserveThing>
+        <conditions>
+          <li Class="QuestEditor_Library.ZoneCondition_Tag">
+            <tags>
+              <li>DungeonRoom</li>
+            </tags>
+          </li>
+        </conditions>
+        <coreTags>
+          <li>DungeonCorrider</li>
+        </coreTags>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>QE_Bookshelf</def>
+        <rotation>2</rotation>
+        <stuff>BlocksMarble</stuff>
+        <faction>Ancients</faction>
+        <position>(9,0,3)</position>
+        <operationDefs>
+          <li>DG_ReadBooks</li>
+        </operationDefs>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>QE_Bookshelf</def>
+        <rotation>2</rotation>
+        <stuff>BlocksMarble</stuff>
+        <faction>Ancients</faction>
+        <position>(9,0,5)</position>
+        <operationDefs>
+          <li>DG_ReadBooks</li>
+        </operationDefs>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>QE_Bookshelf</def>
+        <rotation>2</rotation>
+        <stuff>BlocksMarble</stuff>
+        <faction>Ancients</faction>
+        <position>(9,0,7)</position>
+        <operationDefs>
+          <li>DG_ReadBooks</li>
+        </operationDefs>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_ZoneCore">
+        <def>QE_ZoneCore</def>
+        <position>(12,0,6)</position>
+        <coreRotation>1</coreRotation>
+        <isCenter>false</isCenter>
+        <size>12,6,0,6</size>
+        <reserveThing>
+          <def>Wall</def>
+          <stuff>BlocksMarble</stuff>
+          <hitPoint>1</hitPoint>
+          <position>(0,0,0)</position>
+        </reserveThing>
+        <conditions>
+          <li Class="QuestEditor_Library.ZoneCondition_Tag">
+            <tags>
+              <li>DungeonRoom</li>
+            </tags>
+          </li>
+        </conditions>
+        <coreTags>
+          <li>DungeonCorrider</li>
+        </coreTags>
+      </li>
+    </customThings>
+    <roofs>
+      <li>
+        <key>RoofRockThick</key>
+        <value>
+          <li>(0, 0, 0)</li>
+          <li>(0, 0, 1)</li>
+          <li>(0, 0, 2)</li>
+          <li>(0, 0, 3)</li>
+          <li>(0, 0, 4)</li>
+          <li>(0, 0, 5)</li>
+          <li>(0, 0, 6)</li>
+          <li>(0, 0, 7)</li>
+          <li>(0, 0, 8)</li>
+          <li>(0, 0, 9)</li>
+          <li>(0, 0, 10)</li>
+          <li>(0, 0, 11)</li>
+          <li>(0, 0, 12)</li>
+          <li>(1, 0, 0)</li>
+          <li>(1, 0, 1)</li>
+          <li>(1, 0, 2)</li>
+          <li>(1, 0, 3)</li>
+          <li>(1, 0, 4)</li>
+          <li>(1, 0, 5)</li>
+          <li>(1, 0, 6)</li>
+          <li>(1, 0, 7)</li>
+          <li>(1, 0, 8)</li>
+          <li>(1, 0, 9)</li>
+          <li>(1, 0, 10)</li>
+          <li>(1, 0, 11)</li>
+          <li>(1, 0, 12)</li>
+          <li>(2, 0, 0)</li>
+          <li>(2, 0, 1)</li>
+          <li>(2, 0, 2)</li>
+          <li>(2, 0, 3)</li>
+          <li>(2, 0, 4)</li>
+          <li>(2, 0, 5)</li>
+          <li>(2, 0, 6)</li>
+          <li>(2, 0, 7)</li>
+          <li>(2, 0, 8)</li>
+          <li>(2, 0, 9)</li>
+          <li>(2, 0, 10)</li>
+          <li>(2, 0, 11)</li>
+          <li>(2, 0, 12)</li>
+          <li>(3, 0, 0)</li>
+          <li>(3, 0, 1)</li>
+          <li>(3, 0, 2)</li>
+          <li>(3, 0, 3)</li>
+          <li>(3, 0, 4)</li>
+          <li>(3, 0, 5)</li>
+          <li>(3, 0, 6)</li>
+          <li>(3, 0, 7)</li>
+          <li>(3, 0, 8)</li>
+          <li>(3, 0, 9)</li>
+          <li>(3, 0, 10)</li>
+          <li>(3, 0, 11)</li>
+          <li>(3, 0, 12)</li>
+          <li>(4, 0, 0)</li>
+          <li>(4, 0, 1)</li>
+          <li>(4, 0, 2)</li>
+          <li>(4, 0, 3)</li>
+          <li>(4, 0, 4)</li>
+          <li>(4, 0, 5)</li>
+          <li>(4, 0, 6)</li>
+          <li>(4, 0, 7)</li>
+          <li>(4, 0, 8)</li>
+          <li>(4, 0, 9)</li>
+          <li>(4, 0, 10)</li>
+          <li>(4, 0, 11)</li>
+          <li>(4, 0, 12)</li>
+          <li>(5, 0, 0)</li>
+          <li>(5, 0, 1)</li>
+          <li>(5, 0, 2)</li>
+          <li>(5, 0, 3)</li>
+          <li>(5, 0, 4)</li>
+          <li>(5, 0, 5)</li>
+          <li>(5, 0, 6)</li>
+          <li>(5, 0, 7)</li>
+          <li>(5, 0, 8)</li>
+          <li>(5, 0, 9)</li>
+          <li>(5, 0, 10)</li>
+          <li>(5, 0, 11)</li>
+          <li>(5, 0, 12)</li>
+          <li>(6, 0, 0)</li>
+          <li>(6, 0, 1)</li>
+          <li>(6, 0, 2)</li>
+          <li>(6, 0, 3)</li>
+          <li>(6, 0, 4)</li>
+          <li>(6, 0, 5)</li>
+          <li>(6, 0, 6)</li>
+          <li>(6, 0, 7)</li>
+          <li>(6, 0, 8)</li>
+          <li>(6, 0, 9)</li>
+          <li>(6, 0, 10)</li>
+          <li>(6, 0, 11)</li>
+          <li>(6, 0, 12)</li>
+          <li>(7, 0, 0)</li>
+          <li>(7, 0, 1)</li>
+          <li>(7, 0, 2)</li>
+          <li>(7, 0, 3)</li>
+          <li>(7, 0, 4)</li>
+          <li>(7, 0, 5)</li>
+          <li>(7, 0, 6)</li>
+          <li>(7, 0, 7)</li>
+          <li>(7, 0, 8)</li>
+          <li>(7, 0, 9)</li>
+          <li>(7, 0, 10)</li>
+          <li>(7, 0, 11)</li>
+          <li>(7, 0, 12)</li>
+          <li>(8, 0, 0)</li>
+          <li>(8, 0, 1)</li>
+          <li>(8, 0, 2)</li>
+          <li>(8, 0, 3)</li>
+          <li>(8, 0, 4)</li>
+          <li>(8, 0, 5)</li>
+          <li>(8, 0, 6)</li>
+          <li>(8, 0, 7)</li>
+          <li>(8, 0, 8)</li>
+          <li>(8, 0, 9)</li>
+          <li>(8, 0, 10)</li>
+          <li>(8, 0, 11)</li>
+          <li>(8, 0, 12)</li>
+          <li>(9, 0, 0)</li>
+          <li>(9, 0, 1)</li>
+          <li>(9, 0, 2)</li>
+          <li>(9, 0, 3)</li>
+          <li>(9, 0, 4)</li>
+          <li>(9, 0, 5)</li>
+          <li>(9, 0, 6)</li>
+          <li>(9, 0, 7)</li>
+          <li>(9, 0, 8)</li>
+          <li>(9, 0, 9)</li>
+          <li>(9, 0, 10)</li>
+          <li>(9, 0, 11)</li>
+          <li>(9, 0, 12)</li>
+          <li>(10, 0, 0)</li>
+          <li>(10, 0, 1)</li>
+          <li>(10, 0, 2)</li>
+          <li>(10, 0, 3)</li>
+          <li>(10, 0, 4)</li>
+          <li>(10, 0, 5)</li>
+          <li>(10, 0, 6)</li>
+          <li>(10, 0, 7)</li>
+          <li>(10, 0, 8)</li>
+          <li>(10, 0, 9)</li>
+          <li>(10, 0, 10)</li>
+          <li>(10, 0, 11)</li>
+          <li>(10, 0, 12)</li>
+          <li>(11, 0, 0)</li>
+          <li>(11, 0, 1)</li>
+          <li>(11, 0, 2)</li>
+          <li>(11, 0, 3)</li>
+          <li>(11, 0, 4)</li>
+          <li>(11, 0, 5)</li>
+          <li>(11, 0, 6)</li>
+          <li>(11, 0, 7)</li>
+          <li>(11, 0, 8)</li>
+          <li>(11, 0, 9)</li>
+          <li>(11, 0, 10)</li>
+          <li>(11, 0, 11)</li>
+          <li>(11, 0, 12)</li>
+          <li>(12, 0, 0)</li>
+          <li>(12, 0, 1)</li>
+          <li>(12, 0, 2)</li>
+          <li>(12, 0, 3)</li>
+          <li>(12, 0, 4)</li>
+          <li>(12, 0, 5)</li>
+          <li>(12, 0, 6)</li>
+          <li>(12, 0, 7)</li>
+          <li>(12, 0, 8)</li>
+          <li>(12, 0, 9)</li>
+          <li>(12, 0, 10)</li>
+          <li>(12, 0, 11)</li>
+          <li>(12, 0, 12)</li>
+        </value>
+      </li>
+    </roofs>
+    <terrains>
+      <li>
+        <key>TileMarble</key>
+        <value>
+          <li>(0, 0, 0)</li>
+          <li>(0, 0, 1)</li>
+          <li>(0, 0, 2)</li>
+          <li>(0, 0, 3)</li>
+          <li>(0, 0, 4)</li>
+          <li>(0, 0, 5)</li>
+          <li>(0, 0, 6)</li>
+          <li>(0, 0, 7)</li>
+          <li>(0, 0, 8)</li>
+          <li>(0, 0, 9)</li>
+          <li>(0, 0, 10)</li>
+          <li>(0, 0, 11)</li>
+          <li>(0, 0, 12)</li>
+          <li>(1, 0, 0)</li>
+          <li>(1, 0, 1)</li>
+          <li>(1, 0, 2)</li>
+          <li>(1, 0, 3)</li>
+          <li>(1, 0, 4)</li>
+          <li>(1, 0, 5)</li>
+          <li>(1, 0, 6)</li>
+          <li>(1, 0, 7)</li>
+          <li>(1, 0, 8)</li>
+          <li>(1, 0, 9)</li>
+          <li>(1, 0, 10)</li>
+          <li>(1, 0, 11)</li>
+          <li>(1, 0, 12)</li>
+          <li>(2, 0, 0)</li>
+          <li>(2, 0, 1)</li>
+          <li>(2, 0, 2)</li>
+          <li>(2, 0, 3)</li>
+          <li>(2, 0, 4)</li>
+          <li>(2, 0, 5)</li>
+          <li>(2, 0, 6)</li>
+          <li>(2, 0, 7)</li>
+          <li>(2, 0, 8)</li>
+          <li>(2, 0, 9)</li>
+          <li>(2, 0, 10)</li>
+          <li>(2, 0, 11)</li>
+          <li>(2, 0, 12)</li>
+          <li>(3, 0, 0)</li>
+          <li>(3, 0, 1)</li>
+          <li>(3, 0, 2)</li>
+          <li>(3, 0, 3)</li>
+          <li>(3, 0, 4)</li>
+          <li>(3, 0, 5)</li>
+          <li>(3, 0, 6)</li>
+          <li>(3, 0, 7)</li>
+          <li>(3, 0, 8)</li>
+          <li>(3, 0, 9)</li>
+          <li>(3, 0, 10)</li>
+          <li>(3, 0, 11)</li>
+          <li>(3, 0, 12)</li>
+          <li>(4, 0, 0)</li>
+          <li>(4, 0, 1)</li>
+          <li>(4, 0, 2)</li>
+          <li>(4, 0, 3)</li>
+          <li>(4, 0, 4)</li>
+          <li>(4, 0, 5)</li>
+          <li>(4, 0, 6)</li>
+          <li>(4, 0, 7)</li>
+          <li>(4, 0, 8)</li>
+          <li>(4, 0, 9)</li>
+          <li>(4, 0, 10)</li>
+          <li>(4, 0, 11)</li>
+          <li>(4, 0, 12)</li>
+          <li>(5, 0, 0)</li>
+          <li>(5, 0, 1)</li>
+          <li>(5, 0, 2)</li>
+          <li>(5, 0, 3)</li>
+          <li>(5, 0, 4)</li>
+          <li>(5, 0, 5)</li>
+          <li>(5, 0, 6)</li>
+          <li>(5, 0, 7)</li>
+          <li>(5, 0, 8)</li>
+          <li>(5, 0, 9)</li>
+          <li>(5, 0, 10)</li>
+          <li>(5, 0, 11)</li>
+          <li>(5, 0, 12)</li>
+          <li>(6, 0, 0)</li>
+          <li>(6, 0, 1)</li>
+          <li>(6, 0, 2)</li>
+          <li>(6, 0, 3)</li>
+          <li>(6, 0, 4)</li>
+          <li>(6, 0, 5)</li>
+          <li>(6, 0, 6)</li>
+          <li>(6, 0, 7)</li>
+          <li>(6, 0, 8)</li>
+          <li>(6, 0, 9)</li>
+          <li>(6, 0, 10)</li>
+          <li>(6, 0, 11)</li>
+          <li>(6, 0, 12)</li>
+          <li>(7, 0, 0)</li>
+          <li>(7, 0, 1)</li>
+          <li>(7, 0, 2)</li>
+          <li>(7, 0, 3)</li>
+          <li>(7, 0, 4)</li>
+          <li>(7, 0, 5)</li>
+          <li>(7, 0, 6)</li>
+          <li>(7, 0, 7)</li>
+          <li>(7, 0, 8)</li>
+          <li>(7, 0, 9)</li>
+          <li>(7, 0, 10)</li>
+          <li>(7, 0, 11)</li>
+          <li>(7, 0, 12)</li>
+          <li>(8, 0, 0)</li>
+          <li>(8, 0, 1)</li>
+          <li>(8, 0, 2)</li>
+          <li>(8, 0, 3)</li>
+          <li>(8, 0, 4)</li>
+          <li>(8, 0, 5)</li>
+          <li>(8, 0, 6)</li>
+          <li>(8, 0, 7)</li>
+          <li>(8, 0, 8)</li>
+          <li>(8, 0, 9)</li>
+          <li>(8, 0, 10)</li>
+          <li>(8, 0, 11)</li>
+          <li>(8, 0, 12)</li>
+          <li>(9, 0, 0)</li>
+          <li>(9, 0, 1)</li>
+          <li>(9, 0, 2)</li>
+          <li>(9, 0, 3)</li>
+          <li>(9, 0, 4)</li>
+          <li>(9, 0, 5)</li>
+          <li>(9, 0, 6)</li>
+          <li>(9, 0, 7)</li>
+          <li>(9, 0, 8)</li>
+          <li>(9, 0, 9)</li>
+          <li>(9, 0, 10)</li>
+          <li>(9, 0, 11)</li>
+          <li>(9, 0, 12)</li>
+          <li>(10, 0, 0)</li>
+          <li>(10, 0, 1)</li>
+          <li>(10, 0, 2)</li>
+          <li>(10, 0, 3)</li>
+          <li>(10, 0, 4)</li>
+          <li>(10, 0, 5)</li>
+          <li>(10, 0, 6)</li>
+          <li>(10, 0, 7)</li>
+          <li>(10, 0, 8)</li>
+          <li>(10, 0, 9)</li>
+          <li>(10, 0, 10)</li>
+          <li>(10, 0, 11)</li>
+          <li>(10, 0, 12)</li>
+          <li>(11, 0, 0)</li>
+          <li>(11, 0, 1)</li>
+          <li>(11, 0, 2)</li>
+          <li>(11, 0, 3)</li>
+          <li>(11, 0, 4)</li>
+          <li>(11, 0, 5)</li>
+          <li>(11, 0, 6)</li>
+          <li>(11, 0, 7)</li>
+          <li>(11, 0, 8)</li>
+          <li>(11, 0, 9)</li>
+          <li>(11, 0, 10)</li>
+          <li>(11, 0, 11)</li>
+          <li>(11, 0, 12)</li>
+          <li>(12, 0, 0)</li>
+          <li>(12, 0, 1)</li>
+          <li>(12, 0, 2)</li>
+          <li>(12, 0, 3)</li>
+          <li>(12, 0, 4)</li>
+          <li>(12, 0, 5)</li>
+          <li>(12, 0, 6)</li>
+          <li>(12, 0, 7)</li>
+          <li>(12, 0, 8)</li>
+          <li>(12, 0, 9)</li>
+          <li>(12, 0, 10)</li>
+          <li>(12, 0, 11)</li>
+          <li>(12, 0, 12)</li>
+        </value>
+      </li>
+    </terrains>
+    <thingDatas>
+      <li>
+        <def>Wall</def>
+        <stuff>BlocksMarble</stuff>
+        <faction>Ancients</faction>
+        <hitPoint>360</hitPoint>
+        <allPositions>
+          <li>(0, 0, 1)</li>
+          <li>(0, 0, 2)</li>
+          <li>(0, 0, 3)</li>
+          <li>(0, 0, 4)</li>
+          <li>(0, 0, 5)</li>
+          <li>(0, 0, 7)</li>
+          <li>(0, 0, 8)</li>
+          <li>(0, 0, 9)</li>
+          <li>(0, 0, 10)</li>
+          <li>(0, 0, 11)</li>
+          <li>(0, 0, 12)</li>
+          <li>(1, 0, 0)</li>
+          <li>(1, 0, 12)</li>
+          <li>(2, 0, 0)</li>
+          <li>(2, 0, 12)</li>
+          <li>(3, 0, 0)</li>
+          <li>(3, 0, 12)</li>
+          <li>(4, 0, 0)</li>
+          <li>(4, 0, 12)</li>
+          <li>(5, 0, 0)</li>
+          <li>(5, 0, 12)</li>
+          <li>(7, 0, 0)</li>
+          <li>(7, 0, 12)</li>
+          <li>(8, 0, 0)</li>
+          <li>(8, 0, 12)</li>
+          <li>(9, 0, 0)</li>
+          <li>(9, 0, 12)</li>
+          <li>(10, 0, 0)</li>
+          <li>(10, 0, 12)</li>
+          <li>(11, 0, 0)</li>
+          <li>(11, 0, 12)</li>
+          <li>(12, 0, 0)</li>
+          <li>(12, 0, 1)</li>
+          <li>(12, 0, 2)</li>
+          <li>(12, 0, 3)</li>
+          <li>(12, 0, 4)</li>
+          <li>(12, 0, 5)</li>
+          <li>(12, 0, 7)</li>
+          <li>(12, 0, 8)</li>
+          <li>(12, 0, 9)</li>
+          <li>(12, 0, 10)</li>
+          <li>(12, 0, 11)</li>
+          <li>(12, 0, 12)</li>
+          <li>(0, 0, 0)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Door</def>
+        <stuff>BlocksMarble</stuff>
+        <rotation>1</rotation>
+        <faction>Ancients</faction>
+        <hitPoint>192</hitPoint>
+        <allPositions>
+          <li>(12, 0, 6)</li>
+          <li>(0, 0, 6)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>HiTechResearchBench</def>
+        <stuff>Steel</stuff>
+        <faction>Ancients</faction>
+        <hitPoint>250</hitPoint>
+        <position>(6,0,9)</position>
+      </li>
+      <li>
+        <def>TorchLamp</def>
+        <faction>Ancients</faction>
+        <hitPoint>75</hitPoint>
+        <allPositions>
+          <li>(7, 0, 8)</li>
+          <li>(5, 0, 8)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Door</def>
+        <stuff>BlocksMarble</stuff>
+        <faction>Ancients</faction>
+        <hitPoint>192</hitPoint>
+        <allPositions>
+          <li>(6, 0, 12)</li>
+          <li>(6, 0, 0)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Armchair</def>
+        <stuff>Leather_Thrumbo</stuff>
+        <faction>Ancients</faction>
+        <hitPoint>240</hitPoint>
+        <position>(6,0,8)</position>
+      </li>
+    </thingDatas>
+    <tags>
+      <li>DungeonRoom</li>
+    </tags>
+  </QuestEditor_Library.CustomMapDataDef>
+</Defs>

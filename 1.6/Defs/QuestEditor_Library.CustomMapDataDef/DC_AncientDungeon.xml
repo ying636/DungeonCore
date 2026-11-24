@@ -3,6 +3,7 @@
   <QuestEditor_Library.CustomMapDataDef>
     <defName>DC_AncientDungeon</defName>
     <label>Ancient Dungeon</label>
+    <description>A dungeon</description>
     <size>(25, 1, 25)</size>
     <isPart>false</isPart>
     <commonality>0.8</commonality>

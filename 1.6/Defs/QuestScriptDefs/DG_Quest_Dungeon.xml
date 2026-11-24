@@ -25,13 +25,13 @@
           <inSignal>Dungeon.Destroyed</inSignal>
           <node Class="RimWorld.QuestGen.QuestNode_Sequence">
             <nodes>
-              <li Class="RimWorld.QuestGen.QuestNode_End">
-                <outcome>Success</outcome>
-              </li>
               <li Class="RimWorld.QuestGen.QuestNode_Letter">
                 <letterDef>PositiveEvent</letterDef>
                 <label>Dungeon disappeared</label>
                 <text>The ancient dungeon has been completely searched and wiped out, and it will disappear into the tide of history.</text>
+              </li>
+              <li Class="RimWorld.QuestGen.QuestNode_End">
+                <outcome>Success</outcome>
               </li>
             </nodes>
           </node>

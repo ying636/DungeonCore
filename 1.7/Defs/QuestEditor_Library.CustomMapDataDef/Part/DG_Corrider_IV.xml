@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.CustomMapDataDef>
+    <defName>DG_Corrider_IV</defName>
+    <label>IVCorrider</label>
+    <fogged>false</fogged>
+    <size>(6, 1, 5)</size>
+    <isPart>true</isPart>
+    <commonality>0.3</commonality>
+    <generationLimit>0</generationLimit>
+    <customThings>
+      <li Class="QuestEditor_Library.CustomThingData_ZoneCore">
+        <def>QE_ZoneCore</def>
+        <position>(0,0,2)</position>
+        <coreRotation>3</coreRotation>
+        <isCenter>false</isCenter>
+        <size>0,2,5,2</size>
+        <reserveThing>
+          <def>Wall</def>
+          <stuff>BlocksMarble</stuff>
+          <hitPoint>1</hitPoint>
+          <position>(0,0,0)</position>
+        </reserveThing>
+        <conditions>
+          <li Class="QuestEditor_Library.ZoneCondition_Tag">
+            <tags>
+              <li>DungeonRoom</li>
+            </tags>
+          </li>
+        </conditions>
+        <coreTags>
+          <li>DungeonCorrider</li>
+        </coreTags>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_CustomTrap">
+        <def>QE_CaptureNet</def>
+        <stuff>Leather_Wolf</stuff>
+        <position>(3,0,2)</position>
+        <trapComps />
+        <trapName>undefined</trapName>
+        <tickToDisarm>240</tickToDisarm>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_ZoneCore">
+        <def>QE_ZoneCore</def>
+        <position>(5,0,2)</position>
+        <coreRotation>1</coreRotation>
+        <isCenter>false</isCenter>
+        <size>5,2,0,2</size>
+        <reserveThing>
+          <def>Wall</def>
+          <stuff>BlocksMarble</stuff>
+          <hitPoint>1</hitPoint>
+          <position>(0,0,0)</position>
+        </reserveThing>
+        <conditions>
+          <li Class="QuestEditor_Library.ZoneCondition_Tag">
+            <tags>
+              <li>DungeonRoom</li>
+            </tags>
+          </li>
+        </conditions>
+        <coreTags>
+          <li>DungeonCorrider</li>
+        </coreTags>
+      </li>
+    </customThings>
+    <roofs>
+      <li>
+        <key>RoofRockThick</key>
+        <value>
+          <li>(0, 0, 0)</li>
+          <li>(0, 0, 1)</li>
+          <li>(0, 0, 2)</li>
+          <li>(0, 0, 3)</li>
+          <li>(0, 0, 4)</li>
+          <li>(1, 0, 0)</li>
+          <li>(1, 0, 1)</li>
+          <li>(1, 0, 2)</li>
+          <li>(1, 0, 3)</li>
+          <li>(1, 0, 4)</li>
+          <li>(2, 0, 0)</li>
+          <li>(2, 0, 1)</li>
+          <li>(2, 0, 2)</li>
+          <li>(2, 0, 3)</li>
+          <li>(2, 0, 4)</li>
+          <li>(3, 0, 0)</li>
+          <li>(3, 0, 1)</li>
+          <li>(3, 0, 2)</li>
+          <li>(3, 0, 3)</li>
+          <li>(3, 0, 4)</li>
+          <li>(4, 0, 0)</li>
+          <li>(4, 0, 1)</li>
+          <li>(4, 0, 2)</li>
+          <li>(4, 0, 3)</li>
+          <li>(4, 0, 4)</li>
+          <li>(5, 0, 0)</li>
+          <li>(5, 0, 1)</li>
+          <li>(5, 0, 2)</li>
+          <li>(5, 0, 3)</li>
+          <li>(5, 0, 4)</li>
+        </value>
+      </li>
+    </roofs>
+    <terrains>
+      <li>
+        <key>FlagstoneMarble</key>
+        <value>
+          <li>(0, 0, 0)</li>
+          <li>(0, 0, 1)</li>
+          <li>(0, 0, 2)</li>
+          <li>(0, 0, 3)</li>
+          <li>(0, 0, 4)</li>
+          <li>(1, 0, 0)</li>
+          <li>(1, 0, 1)</li>
+          <li>(1, 0, 2)</li>
+          <li>(1, 0, 3)</li>
+          <li>(1, 0, 4)</li>
+          <li>(2, 0, 0)</li>
+          <li>(2, 0, 1)</li>
+          <li>(2, 0, 2)</li>
+          <li>(2, 0, 3)</li>
+          <li>(2, 0, 4)</li>
+          <li>(3, 0, 0)</li>
+          <li>(3, 0, 1)</li>
+          <li>(3, 0, 2)</li>
+          <li>(3, 0, 3)</li>
+          <li>(3, 0, 4)</li>
+          <li>(4, 0, 0)</li>
+          <li>(4, 0, 1)</li>
+          <li>(4, 0, 2)</li>
+          <li>(4, 0, 3)</li>
+          <li>(4, 0, 4)</li>
+          <li>(5, 0, 0)</li>
+          <li>(5, 0, 1)</li>
+          <li>(5, 0, 2)</li>
+          <li>(5, 0, 3)</li>
+          <li>(5, 0, 4)</li>
+        </value>
+      </li>
+    </terrains>
+    <thingDatas>
+      <li>
+        <def>Wall</def>
+        <stuff>BlocksMarble</stuff>
+        <faction>PlayerColony</faction>
+        <hitPoint>360</hitPoint>
+        <allPositions>
+          <li>(0, 0, 1)</li>
+          <li>(0, 0, 3)</li>
+          <li>(0, 0, 4)</li>
+          <li>(1, 0, 0)</li>
+          <li>(1, 0, 4)</li>
+          <li>(2, 0, 0)</li>
+          <li>(2, 0, 4)</li>
+          <li>(3, 0, 0)</li>
+          <li>(3, 0, 4)</li>
+          <li>(4, 0, 0)</li>
+          <li>(4, 0, 4)</li>
+          <li>(5, 0, 0)</li>
+          <li>(5, 0, 1)</li>
+          <li>(5, 0, 3)</li>
+          <li>(5, 0, 4)</li>
+          <li>(0, 0, 0)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Door</def>
+        <stuff>BlocksMarble</stuff>
+        <rotation>1</rotation>
+        <faction>PlayerColony</faction>
+        <hitPoint>192</hitPoint>
+        <allPositions>
+          <li>(5, 0, 2)</li>
+          <li>(0, 0, 2)</li>
+        </allPositions>
+      </li>
+    </thingDatas>
+    <tags>
+      <li>DungeonCorrider</li>
+    </tags>
+  </QuestEditor_Library.CustomMapDataDef>
+</Defs>

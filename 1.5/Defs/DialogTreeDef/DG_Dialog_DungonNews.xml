@@ -19,6 +19,7 @@
             <li>
               <text>DG_Dialog_DungonNews_Node_I_Option_I</text>
               <hideWhenDisabled>false</hideWhenDisabled>
+              <removeDialogAfterSelect>true</removeDialogAfterSelect>
               <results>
                 <li>
                   <resultName>获取任务</resultName>
@@ -82,6 +83,7 @@
             <li>
               <text>DG_Dialog_DungonNews_Node_I_Option_I</text>
               <hideWhenDisabled>false</hideWhenDisabled>
+              <removeDialogAfterSelect>true</removeDialogAfterSelect>
               <results>
                 <li>
                   <resultName>Undefined</resultName>

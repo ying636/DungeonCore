@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>DG_Thought_ReadBook_Good</defName>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <durationDays>3</durationDays>
+        <stages>
+            <li>
+                <label>I read some interesting stories</label>
+                <description>I have read a book full of hope and light, which is truly enjoyable.</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>DG_Thought_ReadBook_Bad</defName>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <durationDays>3</durationDays>
+        <stages>
+            <li>
+                <label>I read some desperate stories</label>
+                <description>I have read a book full of despair and darkness, and I cannot see any hope in the future.</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

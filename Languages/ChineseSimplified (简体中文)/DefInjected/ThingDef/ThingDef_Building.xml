@@ -5,6 +5,8 @@
   <DC_DungeonEntrance.label>地牢入口</DC_DungeonEntrance.label>
   <!-- EN: An entrance to the dungeon. -->
   <DC_DungeonEntrance.description>一个通向地牢的入口。</DC_DungeonEntrance.description>
+  <DC_DungeonEntrance_Composite.label>地牢入口</DC_DungeonEntrance_Composite.label>
+  <DC_DungeonEntrance_Composite.description>一个通向地牢的入口。</DC_DungeonEntrance_Composite.description>
   
   <!-- EN: Exit staircase -->
   <DC_DungeonExit.label>出口阶梯</DC_DungeonExit.label>

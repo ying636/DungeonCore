@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.DialogTreeDef>
+    <defName>DG_Dialog_Ancient</defName>
+    <title>CQF_Dialog_Talk</title>
+    <requireNonHostile>true</requireNonHostile>
+    <dialogReportKey>DefaultDialogKey</dialogReportKey>
+    <curIndex>1</curIndex>
+    <nodeMoulds>
+      <li>
+        <key>0</key>
+        <value>
+          <text>DG_TalkWithAncient_Node_I</text>
+          <index>0</index>
+          <subNodeIndexs />
+          <options>
+            <li>
+              <text>DG_TalkWithAncient_Node_I_Option_I</text>
+              <hideWhenDisabled>false</hideWhenDisabled>
+              <results>
+                <li>
+                  <resultName>Undefined</resultName>
+                  <actions>
+                    <li Class="QuestEditor_Library.CQFAction_Faction">
+                      <targetsText>
+                        <li>Interviewer</li>
+                      </targetsText>
+                      <faction>PlayerColony</faction>
+                    </li>
+                    <li Class="QuestEditor_Library.CQFAction_Message">
+                      <message>DG_TalkWithAncient_JoinToColony</message>
+                      <type>PositiveEvent</type>
+                    </li>
+                    <li Class="QuestEditor_Library.CQFAction_RemoveDialogManager">
+                      <targetsText>
+                        <li>Interviewer</li>
+                      </targetsText>
+                    </li>
+                  </actions>
+                </li>
+              </results>
+            </li>
+            <li>
+              <text>DG_TalkWithAncient_Node_I_Option_II</text>
+              <hideWhenDisabled>false</hideWhenDisabled>
+              <results>
+                <li>
+                  <resultName>Undefined</resultName>
+                  <actions>
+                    <li Class="QuestEditor_Library.CQFAction_Spawn">
+                      <targetsText>
+                        <li>Interviewer</li>
+                      </targetsText>
+                      <datas>
+                        <li>
+                          <dataName>Unnamed</dataName>
+                          <chance>1</chance>
+                          <categorys>
+                            <li Class="QuestEditor_Library.CQFThingCategoryCount">
+                              <count>5~25</count>
+                              <category>Medicine</category>
+                            </li>
+                            <li Class="QuestEditor_Library.CQFThingCategoryCount">
+                              <count>1~3</count>
+                              <category>Weapons</category>
+                            </li>
+                          </categorys>
+                        </li>
+                      </datas>
+                    </li>
+                    <li Class="QuestEditor_Library.CQFAction_SetDuty">
+                      <targetsText>
+                        <li>Interviewer</li>
+                      </targetsText>
+                      <duty>QE_Duty_Exiter</duty>
+                    </li>
+                    <li Class="QuestEditor_Library.CQFAction_Message">
+                      <message>DG_TalkWithAncient_GiveTreasure</message>
+                      <type>PositiveEvent</type>
+                    </li>
+                    <li Class="QuestEditor_Library.CQFAction_RemoveDialogManager">
+                      <targetsText>
+                        <li>Interviewer</li>
+                      </targetsText>
+                    </li>
+                  </actions>
+                </li>
+              </results>
+            </li>
+          </options>
+        </value>
+      </li>
+    </nodeMoulds>
+  </QuestEditor_Library.DialogTreeDef>
+</Defs>
